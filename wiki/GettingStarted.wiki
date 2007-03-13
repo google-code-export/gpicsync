@@ -6,7 +6,7 @@
 4) Come back home and sync
 5) Use your localized pictures
 
-===1) Set your GPSr===
+1) Set your GPSr
 If its not already the case set the local time in your GPSr settings.
 
 

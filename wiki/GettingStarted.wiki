@@ -43,10 +43,10 @@ You can now use your pictures with any software or website which can read the la
 
 ====a) Flickr====
 
-In the setting of your account you must first authorize the use of this information.
+In the setting of your account you must first authorize the use of this information ("Your Account">"Privacy & Permissions">"Import EXIF location data: Yes")
 When you upload your pictures you will see a "map" link near each picture to open Yahoo Maps which will point to the location.
 
-If you prefer google maps you can use the bookmarklet which will point to the location with localius which uses google maps.
+If you prefer google maps you can use this neat [http://www.flickr.com/groups/geotagging/discuss/72157594165549916/ geocoding bookmarklet] which will point to the location in [http://loc.alize.us/ loc.alize.us webiste] which uses google maps.
 
 ====b) Picassa / Google Earth====
 

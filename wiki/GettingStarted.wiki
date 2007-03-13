@@ -5,7 +5,7 @@
   * 2) Set your camera
   * 3) Go outside and shoot
   * 4) Come back home and sync
-  * 5) Use your localized pictures
+  * 5) Enjoy your geolocalized pictures
 
 ===1) Set your GPSr===
 If its not already the case set the local time in your GPSr settings.

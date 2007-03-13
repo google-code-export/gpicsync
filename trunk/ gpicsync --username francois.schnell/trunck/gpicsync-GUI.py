@@ -1,3 +1,17 @@
+#!/usr/bin/python
+# -*- coding: iso-8859-15 -*-
+
+###############################################################################
+#
+# (c) francois.schnell  francois.schnell@gmail.com
+#                       http://francois.schnell.free.fr  
+#
+# This script is released under the GPL license v2
+#
+# More informations and help can be found here: http://code.google.com/p/gpicsync/
+#
+###############################################################################
+
 import wx,time
 import os,sys,fnmatch
 from geoexif import *

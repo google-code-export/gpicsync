@@ -1,0 +1,98 @@
+#Getting started page
+
+= Getting started with GPicSync =
+
+How to use it
+-------------
+
+1) Set your GPS receiver (GPSr)
+2) Set your camera
+3) Go outside and shoot
+4) Come back home and sync
+5) Use your localized pictures
+
+1) Set your GPSr
+If its not already the case set the local time in your GPSr settings.
+
+
+2)  Set your camera
+Set the local time precisely to the same local time indicated by the GPS. Also check the date if necessary.
+
+3) Go outside and shoot
+Take your GPSr with you and make sure that it is recording a traklog. Keep your GPSr ON during all the time you take pictures.
+Few tips to attach your GPSr (link)
+
+4) Come back home and sync
+
+Put the  pictures you want to geolocalize in a folder.
+With the software of your choice (for example EasyGPS) retrieve the traklog as a .gpx file. Put the .gpx file in the folder containing the pictures (for example).
+
+Launch GPicSyncGUI.exe:
+-select the pictures folder
+-select the .gpx file
+-indicate the UTC Offest (examples)
+-hit the  synchronize !" button
+
+If all goes well you should see a line per picture with the file name found and the localization that has been written in the EXIF part of the picture.
+
+There's also an indication of the time difference between the nearest time in the tracklog and the time of the picture. Depending on your traklog settings in your GPS you shoud see a few seconds difference. If this difference is above a hundred seconds  there's probably something wrong in your time setting. In particular check that you've indicated the right UTC offset. For latter reference it could be usefull to check the "create a log file" to have a summarize of all this operation in your pictures folder. Note that the original picture has been kept intact with the "original" suffix.
+
+If there's no location at all showing : check your .gpx file and how GPicSync reads it.
+
+If you forgot to set the local time for your camera you can take this into account in the Option menu.
+
+5) Use your localized pictures
+
+You can now use your pictures with any software or website which can reads the latitude/longitude informations. For example:
+
+a) Flickr
+
+In the setting of your account you must first authorise the use of this information.
+When you upload your pictures you will see a "map" link near it to open the Yahoo Maps which will point to the location.
+
+If you prefer google maps you can use the bookmarklet which will point on the location with localizeus which use google maps.
+
+b) Picassa / Google Earth
+
+If you select your pictures with picassa you can ask to show them on Google Earth.
+
+FAQ ?
+
+check your .gpx file and how GPicSync reads it.
+
+A .gpx file is a "XML" file. You can open it and modify it easily in a text editor:it has plenty of tags (<tag> .... </tag>)
+
+GPicSync search for the  <trkseg> ... </trkseg> tag which contain plenty of trackpoints <trkpt>...</trkpt> which says at which location you were at a precise time.
+
+If there is more than one <trkseg> ... </trkseg> GPicSync will use the first one which has the time information for the trakpoints (some trakseg could contain trkpt tags without time and are just data to ignore).
+
+A good trkseg should look like this and often have a line like this before "<name>ACTIVE LOG</name>"
+
+<trkseg>
+<trkpt lat=" 48.50722173" lon="7.14736559">
+<ele>171.25</ele>
+</trkpt>
+<trkpt lat="48.50722173" lon="7.14736559">
+<ele>687.48</ele>
+</trkpt>
+...
+...
+</trkseg>
+
+For now GPicSync reads the time only (not the date). If you have multiple dates in your gpx file just find the good trkseg and copy it to a new file and save it as a .gpx that you can now use with GPicSync .
+
+Issues:
+-------
+
+GPicSync is not quick (1 to 5 seconds per picture). This is due to the start-time of an external command-line tool that I use (exiftool) to read and write EXIF data in pictures. I will probably try to use a pure Python solution for the next releases to speed-up the result.
+
+GPicSync is alpha/beta software. Please report any bug or problem and remember there's no guarantee : don't use it for critical missions and always check on maps if the results are corrects.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
+

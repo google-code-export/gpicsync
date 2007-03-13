@@ -41,14 +41,14 @@ If you forgot to set the local time for your camera you can take this into accou
 
 You can now use your pictures with any software or website which can read the latitude/longitude information. For example:
 
-a) Flickr
+====a) Flickr====
 
 In the setting of your account you must first authorize the use of this information.
 When you upload your pictures you will see a "map" link near each picture to open Yahoo Maps which will point to the location.
 
 If you prefer google maps you can use the bookmarklet which will point to the location with localius which uses google maps.
 
-b) Picassa / Google Earth
+====b) Picassa / Google Earth====
 
 If you select your pictures with picassa you can ask to show them on Google Earth.
 

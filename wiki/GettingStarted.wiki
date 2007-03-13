@@ -51,7 +51,7 @@ If you prefer google maps you can use this neat [http://www.flickr.com/groups/ge
 
 ====b) Picassa / Google Earth====
 
-If you select your pictures with picassa you can ask to show them on Google Earth.
+If you select your pictures with picassa you can ask to show them on Google Earth (in Picassa : something like "Tools">"Geolocalize">"Display in Google Earth".
 
 WARNING:
 GPicSync is beta software. Please report any bug or problem and remember there's no guarantee : don't use it for critical missions and always check on maps if the results are correct.

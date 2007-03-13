@@ -21,7 +21,7 @@ A few tips to attach your GPSr (to come)
 ===4) Come back home and sync===
 
 Put the  pictures you want to geolocalize in a folder.
-With the software of your choice (for example EasyGPS) retrieve the track log as a .gpx file. Put the .gpx file preferably in the folder containing the pictures.
+With the software of your choice (for example [http://www.easygps.com/ EasyGPS]) retrieve the track log as a .gpx file. Put the .gpx file preferably in the folder containing the pictures.
 
 Launch GPicSyncGUI.exe (in the zip folder):
   * select the pictures folder
@@ -43,7 +43,8 @@ You can now use your pictures with any software or website which can read the la
 
 ====a) Flickr====
 
-In the setting of your account you must first authorize the use of this information ("Your Account">"Privacy & Permissions">"Import EXIF location data: Yes")
+In the setting of your account you must first authorize the use of this information ("Your Account">"Privacy & Permissions">"Import EXIF location data: Yes").
+
 When you upload your pictures you will see a "map" link near each picture to open Yahoo Maps which will point to the location.
 
 If you prefer google maps you can use this neat [http://www.flickr.com/groups/geotagging/discuss/72157594165549916/ geocoding bookmarklet] which will point to the location in [http://loc.alize.us/ loc.alize.us webiste] which uses google maps.

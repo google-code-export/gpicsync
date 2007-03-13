@@ -8,26 +8,26 @@
   * 5) Enjoy your geolocalized pictures
 
 ===1) Set your GPSr===
-If its not already the case set the local time in your GPSr settings.
+If it's not already the case set the local time in your GPSr settings.
 
 
 ===2)  Set your camera===
-Set the local time precisely to the same local time indicated by the GPS. Also check the date if necessary.
+Set the local time precisely to the same local time indicated by the GPSr. Also check the date if necessary.
 
 ===3) Go outside and shoot===
-Take your GPSr with you and make sure that it is recording a traklog. Keep your GPSr ON during all the time you take pictures.
-Few tips to attach your GPSr (link)
+Take your GPSr with you and make sure that it is recording a track log. Keep your GPSr ON during all the time you take pictures.
+A few tips to attach your GPSr (to come)
 
 ===4) Come back home and sync===
 
 Put the  pictures you want to geolocalize in a folder.
-With the software of your choice (for example EasyGPS) retrieve the traklog as a .gpx file. Put the .gpx file in the folder containing the pictures (for example).
+With the software of your choice (for example EasyGPS) retrieve the track log as a .gpx file. Put the .gpx file preferably in the folder containing the pictures.
 
 Launch GPicSyncGUI.exe:
   * select the pictures folder
   * select the .gpx file
-  * indicate the UTC Offest (examples)
-  * hit the  synchronize !" button
+  * indicate the UTC Offset (+1 in France, 0 in the UK, -8 for PST, -5 for EST,etc.)
+  * hit the  "synchronize !" button
 
 If all goes well you should see a line per picture with the file name found and the localization that has been written in the EXIF part of the picture.
 

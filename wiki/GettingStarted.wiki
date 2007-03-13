@@ -1,23 +1,23 @@
 = Getting started with GPicSync =
 
-1) Set your GPS receiver (GPSr)
-2) Set your camera
-3) Go outside and shoot
-4) Come back home and sync
-5) Use your localized pictures
+  * 1) Set your GPS receiver (GPSr)
+  * 2) Set your camera
+  * 3) Go outside and shoot
+  * 4) Come back home and sync
+  * 5) Use your localized pictures
 
-1) Set your GPSr
+===1) Set your GPSr===
 If its not already the case set the local time in your GPSr settings.
 
 
-2)  Set your camera
+===2)  Set your camera===
 Set the local time precisely to the same local time indicated by the GPS. Also check the date if necessary.
 
-3) Go outside and shoot
+===3) Go outside and shoot===
 Take your GPSr with you and make sure that it is recording a traklog. Keep your GPSr ON during all the time you take pictures.
 Few tips to attach your GPSr (link)
 
-4) Come back home and sync
+===4) Come back home and sync===
 
 Put the  pictures you want to geolocalize in a folder.
 With the software of your choice (for example EasyGPS) retrieve the traklog as a .gpx file. Put the .gpx file in the folder containing the pictures (for example).
@@ -36,7 +36,7 @@ If there's no location at all showing : check your .gpx file and how GPicSync re
 
 If you forgot to set the local time for your camera you can take this into account in the Option menu.
 
-5) Use your localized pictures
+===5) Use your localized pictures===
 
 You can now use your pictures with any software or website which can reads the latitude/longitude informations. For example:
 
@@ -90,3 +90,4 @@ Add your content here.  Format your content with:
   * Text in *bold* or _italic_
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
+

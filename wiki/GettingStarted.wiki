@@ -23,10 +23,10 @@ Put the  pictures you want to geolocalize in a folder.
 With the software of your choice (for example EasyGPS) retrieve the traklog as a .gpx file. Put the .gpx file in the folder containing the pictures (for example).
 
 Launch GPicSyncGUI.exe:
--select the pictures folder
--select the .gpx file
--indicate the UTC Offest (examples)
--hit the  synchronize !" button
+  * select the pictures folder
+  * select the .gpx file
+  * indicate the UTC Offest (examples)
+  * hit the  synchronize !" button
 
 If all goes well you should see a line per picture with the file name found and the localization that has been written in the EXIF part of the picture.
 
@@ -90,4 +90,3 @@ Add your content here.  Format your content with:
   * Text in *bold* or _italic_
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
-

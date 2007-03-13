@@ -33,7 +33,7 @@ If all goes well you should see a line per picture with the file name found and 
 
 There's also an indication of the time difference between the nearest time in the track log and the time of the picture. Depending on the track log settings in your GPS you should see a few seconds difference. If this difference is important (above a hundred seconds) there's probably something wrong in your time setting. In particular check that you've indicated the right UTC offset. For later reference it could be useful to check the "create a log file" option to have a summary of all the operations in your pictures folder. Note that the original picture has been kept intact with the "original" suffix.
 
-If there's no location showing check your .gpx file and how GPicSync reads it.
+If there's no location showing check your .gpx file and how GPicSync reads it : TroubleShooting
 
 If you forgot to set the local time for your camera you can take this into account in the Option menu.
 

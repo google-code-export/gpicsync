@@ -80,14 +80,6 @@ For now GPicSync reads the time only (not the date). If you have multiple dates 
 Issues:
 -------
 
-GPicSync is not quick (1 to 5 seconds per picture). This is due to the start-time of an external command-line tool that I use (exiftool) to read and write EXIF data in pictures. I will probably try to use a pure Python solution for the next releases to speed-up the result.
+GPicSync is not quick (1 to 3 seconds per picture). This is due to the start-time of an external command-line tool that I use (exiftool) to read and write EXIF data in pictures. I will probably try to use a pure Python solution for the next releases to speed-up the result.
 
 GPicSync is alpha/beta software. Please report any bug or problem and remember there's no guarantee : don't use it for critical missions and always check on maps if the results are corrects.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages

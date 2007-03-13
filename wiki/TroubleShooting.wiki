@@ -1,0 +1,23 @@
+*If no indications of localization appears in GpicSync-GUI.exe check first your .gpx file:* 
+
+A .gpx file is a "XML" file. You can open it and modify it easily in a text editor:it has plenty of tags (<tag> .... </tag>)
+
+GPicSync search for the <trkseg> ... </trkseg> tag which contain plenty of trackpoints <trkpt>...</trkpt> which says at which location you were at a precise time.
+
+If there is more than one <trkseg> ... </trkseg> GPicSync will use the first one which has the time information for the trakpoints (some trakseg could contain trkpt tags without time and are just data to ignore).
+
+A good trkseg should look like this and often have a line like this before "<name>ACTIVE LOG</name>"
+
+{{{
+<trkseg> 
+<trkpt lat=" 48.50722173" lon="7.14736559">
+ <ele>171.25</ele>
+</trkpt>
+ <trkpt lat="48.50722173" lon="7.14736559"> 
+<ele>687.48</ele>
+</trkpt>
+ ... ... 
+</trkseg>
+}}}
+
+For now GPicSync reads the time only (not the date). If you have multiple dates in your gpx file just find the good trkseg and copy it to a new file and save it as a .gpx that you can now use with GPicSync . 

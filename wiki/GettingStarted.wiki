@@ -1,9 +1,4 @@
-#Getting started page
-
 = Getting started with GPicSync =
-
-How to use it
--------------
 
 1) Set your GPS receiver (GPSr)
 2) Set your camera
@@ -11,7 +6,7 @@ How to use it
 4) Come back home and sync
 5) Use your localized pictures
 
-1) Set your GPSr
+===1) Set your GPSr===
 If its not already the case set the local time in your GPSr settings.
 
 
@@ -95,4 +90,3 @@ Add your content here.  Format your content with:
   * Text in *bold* or _italic_
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
-

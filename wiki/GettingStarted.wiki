@@ -23,7 +23,7 @@ A few tips to attach your GPSr (to come)
 Put the  pictures you want to geolocalize in a folder.
 With the software of your choice (for example [http://www.easygps.com/ EasyGPS]) retrieve the track log as a .gpx file. Put the .gpx file preferably in the folder containing the pictures.
 
-Launch GPicSyncGUI.exe (in the zip folder):
+Install and launch GPicSync:
   * select the pictures folder
   * select the .gpx file
   * indicate the UTC Offset (+1 in France, 0 in the UK, -8 for PST, -5 for EST,etc.)

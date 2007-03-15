@@ -47,10 +47,12 @@ class GpicSync(object):
         #print self.track
     def compareTime(self,t1,t2):
         "Compute and return the duration (int) in seconds  between two times"
-        #print t1,t2
+        print "t1=",t1
+        print "t2=",t2
         t1sec=int(t1[0:2])*3600+int(t1[3:5])*60+int(t1[6:8])
         t2sec=int(t2[0:2])*3600+int(t2[3:5])*60+int(t2[6:8])
         delta_t=(t2sec-t1sec)-self.localOffset
+        print "delta_t =",delta_t
         return delta_t
     def syncPicture(self,picture):
         """ 
@@ -60,7 +62,7 @@ class GpicSync(object):
         pic=GeoExif(picture)
         self.shotTime=pic.readDateTime()[1]
         print "Picture shotTime was", self.shotTime
-        tpic_tgps_l=15520 # maximum seconds interval in a day
+        tpic_tgps_l=86400 # <bug> 15520 </bug> maximum seconds interval in a day
         for rec in self.track:
             rec["tpic_tgps_l"]= self.compareTime(self.shotTime,rec["time"])
             if abs(rec["tpic_tgps_l"])<tpic_tgps_l:
@@ -74,7 +76,7 @@ class GpicSync(object):
                 else: latRef="S"
                 if float(longitude)>0:
                     longRef="E"
-                else: latRef="W"
+                else: longRef="W"
         print "Writting best lat./long. match to pic. EXIF -->",latitude,longitude,"with tpic-tgps=",tpic_tgps_l,"seconds\n"
         pic.writeLatLong(latitude,longitude,latRef,longRef)
         #return tpic_tgps_l

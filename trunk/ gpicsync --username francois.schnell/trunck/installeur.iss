@@ -40,6 +40,8 @@ Source: dist\wxbase28h_vc.dll; DestDir:{app}
 Source: dist\wxmsw28h_adv_vc.dll; DestDir:{app}
 Source: dist\wxmsw28h_core_vc.dll; DestDir:{app}
 Source: dist\wxmsw28h_html_vc.dll; DestDir:{app}
+Source: dist\test.ico; DestDir:{app}
+;Source: dist\Website; DestDir:{app}
 
 [Run]
 
@@ -49,8 +51,9 @@ Name: Francais; MessagesFile: compiler:Languages\French.isl
 Name: Allemand; MessagesFile: compiler:Languages\German.isl
 
 [Icons]
-Name: {group}\GPicSync.exe; Filename: {app}\gpicsync-GUI.exe; IconIndex: 0; WorkingDir: {app};IconFilename: {app}\test.ico; Flags: runminimized
-Name: {commondesktop}\GPicSync; Filename: {app}\Gpicsync-GUI.exe; IconIndex: 0; WorkingDir: {app};
+Name: {group}\GPicSync.exe; Filename: {app}\gpicsync-GUI.exe; IconIndex: 0; WorkingDir: {app};IconFilename: {app}\test.ico
+;Name: {group}\Website; Filename: {app}\Website; IconIndex: 0; WorkingDir: {app}
+Name: {commondesktop}\GPicSync; Filename: {app}\Gpicsync-GUI.exe; IconIndex: 0; WorkingDir: {app};IconFilename: {app}\test.ico
 
 [Registry]
 

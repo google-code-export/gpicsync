@@ -1,3 +1,4 @@
+#labels Featured
 *If no indications of localization appears check first your .gpx file:* 
 
 A .gpx file is a "XML" file. You can open it and modify it easily in a text editor: it has plenty of tags (<tag> .... </tag>)

@@ -77,11 +77,14 @@ class GpicSync(object):
                 if float(longitude)>0:
                     longRef="E"
                 else: longRef="W"
-        print "Writting best lat./long. match to pic. EXIF -->",latitude,longitude,"with tpic-tgps=",tpic_tgps_l,"seconds\n"
+        if float(longitude)<0:longitude=str(abs(float(longitude)))
+        if float(latitude)<0:latitude=str(abs(float(latitude)))
+        print "Writting best lat./long. match to pic. EXIF -->",latitude,latRef,
+        longitude,longRef,"with tpic-tgps=",tpic_tgps_l,"seconds\n"
         pic.writeLatLong(latitude,longitude,latRef,longRef)
         #return tpic_tgps_l
-        return "Writting best latitude/longitude match to EXIF picture: "+str(latitude)+" ,"\
-        +str(longitude)+" with time difference (s)= "+str(tpic_tgps_l)
+        return "Writting best latitude/longitude match to EXIF picture: "+latRef+\
+        " "+latitude+" ,"+longRef+" "+longitude+" with time difference (s)= "+str(tpic_tgps_l)
         
 if __name__=="__main__":
     

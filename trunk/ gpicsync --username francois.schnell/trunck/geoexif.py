@@ -31,7 +31,8 @@ class GeoExif(object):
         and return a list containing two strings [date,time]
         like  ['2007:02:12', '16:09:10']
         """
-        result=os.popen('exiftool.exe -CreateDate "%s"' % self.picPath).read()
+        #result=os.popen('exiftool.exe -CreateDate "%s"' % self.picPath).read()
+        result=os.popen('exiftool.exe -DateTimeOriginal "%s"' % self.picPath).read()
         timeDate= [result[34:44],result[45:53]]
         return timeDate
     def readLatitude(self):

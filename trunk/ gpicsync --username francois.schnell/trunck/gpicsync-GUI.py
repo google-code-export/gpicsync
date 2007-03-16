@@ -22,7 +22,7 @@ from thread import start_new_thread
 class GUI(wx.Frame):
     """Main Frame of GPicSync"""
     def __init__(self,parent, title):
-        wx.Frame.__init__(self, parent, -1, title="GPicSync",size=(800,400))
+        wx.Frame.__init__(self, parent, -1, title="GPicSync",size=(900,400))
         self.tcam_l="00:00:00"
         self.tgps_l="00:00:00"
         self.log=False
@@ -90,7 +90,7 @@ class GUI(wx.Frame):
     def aboutApp(self,evt): 
         """An about message dialog"""
         text="""
-        GPicSync version 0.3 - March 2007 
+        GPicSync version 0.42 - March 2007 
          
         GPicSync is Free Software (GPL v2)
         

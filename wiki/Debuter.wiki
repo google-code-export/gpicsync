@@ -1,0 +1,58 @@
+= Getting started with GPicSync =
+
+  * 1) Set your GPS receiver (GPSr)
+  * 2) Set your camera
+  * 3) Go outside and shoot
+  * 4) Come back home and sync
+  * 5) Enjoy your geolocalized pictures
+
+===1) Set your GPSr===
+If it's not already the case set the local time in your GPSr settings.
+
+
+===2)  Set your camera===
+Set the local time precisely to the same local time indicated by the GPSr. Also check the date if necessary.
+
+===3) Go outside and shoot===
+Take your GPSr with you and make sure that it is recording a track log. Keep your GPSr ON during all the time you take pictures.
+A few tips to attach your GPSr (to come)
+
+===4) Come back home and sync===
+
+Put the  pictures you want to geolocalize in a folder.
+With the software of your choice (for example [http://www.easygps.com/ EasyGPS]) retrieve the track log as a .gpx file. Put the .gpx file preferably in the folder containing the pictures.
+
+Install and launch GPicSync:
+  * select the pictures folder
+  * select the .gpx file
+  * indicate the UTC Offset (+1 in France, 0 in the UK, -8 for PST, -5 for EST,etc.)
+  * hit the  "synchronize !" button
+
+If all goes well you should see a line per picture with the file name found and the localization that has been written in the EXIF part of the picture.
+
+There's also an indication of the time difference between the nearest time in the track log and the time of the picture. Depending on the track log settings in your GPS you should see a few seconds difference. If this difference is important (above a hundred seconds) there's probably something wrong in your time setting. In particular check that you've indicated the right UTC offset. For later reference it could be useful to check the "create a log file" option to have a summary of all the operations in your pictures folder. Note that the original picture has been kept intact with the "original" suffix.
+
+If there's no location showing check your .gpx file and how GPicSync reads it : TroubleShooting
+
+If you forgot to set the local time for your camera you can take this into account in the Option menu.
+
+===5) Use your localized pictures===
+
+You can now use your pictures with any software or website which can read the latitude/longitude information. For example:
+
+====a) Flickr====
+
+In the setting of your account you must first authorize the use of this information ("Your Account">"Privacy & Permissions">"Import EXIF location data: Yes").
+
+When you upload your pictures you will see a "map" link near each picture to open Yahoo Maps which will point to the location.
+
+If you prefer google maps you can use this neat [http://www.flickr.com/groups/geotagging/discuss/72157594165549916/ geocoding bookmarklet] which will point to the location in [http://loc.alize.us/ loc.alize.us webiste] which uses google maps.
+
+====b) Picassa / Google Earth====
+
+If you select your pictures with picassa you can ask to show them on Google Earth (in Picassa : something like "Tools">"Geolocalize">"Display in Google Earth".
+
+WARNING:
+GPicSync is beta software. Please report any bug or problem and remember there's no guarantee : don't use it for critical missions and always check on maps if the results are correct.
+
+

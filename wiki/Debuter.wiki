@@ -4,22 +4,22 @@
 
   * 1) Initialiser votre GPS
   * 2) Initialiser votre APN (Appareil Photo Numérique) 
-  * 3) Faites votre ballade et prenez des photos
+  * 3) Faites votre ballade et prenez des photos !
   * 4) De retour, synchronisez avec GPicSync
   * 5) Appréciez vos photos géolocaliseés
 
-===1) Set your GPSr===
-If it's not already the case set the local time in your GPSr settings.
+===1) Initialisez votre GPS===
+Si ce n'est pas déjà le cas mettez votre GPS à l'heure locale.
 
+===2)  Initialisez votre APN===
+Rentrez la même heure dans votre APN que celle indiquée par votre GPS. Profitez en pour régler la date si nécessaire.
 
-===2)  Set your camera===
-Set the local time precisely to the same local time indicated by the GPSr. Also check the date if necessary.
+===3) Faites votre ballade et prenez des photos ! ===
+Prenez votre GPS avec vous et assurez vous qu'il enregistre bien votre parcours ("track log").Laissez le allumé durant toute la ballade et prenez vos photos comme d'habitude.
 
-===3) Go outside and shoot===
-Take your GPSr with you and make sure that it is recording a track log. Keep your GPSr ON during all the time you take pictures.
-A few tips to attach your GPSr (to come)
+Quelques astuces pour attacher votre GPS (à venir)
 
-===4) Come back home and sync===
+===4) De retour, synchronisez avec GPicSync ===
 
 Put the  pictures you want to geolocalize in a folder.
 With the software of your choice (for example [http://www.easygps.com/ EasyGPS]) retrieve the track log as a .gpx file. Put the .gpx file preferably in the folder containing the pictures.
@@ -56,4 +56,3 @@ If you select your pictures with picassa you can ask to show them on Google Eart
 
 WARNING:
 GPicSync is beta software. Please report any bug or problem and remember there's no guarantee : don't use it for critical missions and always check on maps if the results are correct.
-

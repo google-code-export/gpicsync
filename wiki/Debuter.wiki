@@ -24,11 +24,11 @@ Quelques astuces pour attacher votre GPS (à venir)
 Mettez les photos que vous voulez géolocaliser dans un dossier.
 Avec un logiciel de votre choix (par exemple le freeware [http://www.easygps.com/ EasyGPS]) récupérez le "track log" et enregistrez le sous la forme d'un fichier ".gpx". Mettez ce fichier .gpx dans le dossier contenant les photos par example.
 
-Install and launch GPicSync:
-  * select the pictures folder
-  * select the .gpx file
-  * indicate the UTC Offset (+1 in France, 0 in the UK, -8 for PST, -5 for EST,etc.)
-  * hit the  "synchronize !" button
+Installez et lancez GPicSync:
+  * sélectionnez le dossier contenant vos photos (bouton "pictures folder")
+  * sélectionnez votre fichier .gpx (bouton "GPS file .gpx")
+  * indiquez l'UTC Offset, c'est à dire le fuseau horaire (+1 in France, 0 en Angleterre, -8 pour la côte Ouest des états-unis, etc.)
+  * appuyez sur le bouton "synchronize !"
 
 If all goes well you should see a line per picture with the file name found and the localization that has been written in the EXIF part of the picture.
 

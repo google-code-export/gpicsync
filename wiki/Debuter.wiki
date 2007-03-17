@@ -36,21 +36,23 @@ Il y a aussi une indication sur l'écart en seconde avec le point du "track log"
 
 Vous avez aussi la possibilité de créer un rapport des opérations effectuées dans le dossier des photos en cochant "create a log file". A noter que pour éviter tout problème éventuel qu'une copie de chaque photo originale est conservée avec le suffix "original" en fin de nom.
 
-If there's no location showing check your .gpx file and how GPicSync reads it : TroubleShooting
+Si les informations de localisations n'apparaissent pas vérifiez d'abord l'allure de votre fichier .gpx : TroubleShooting (en cas de problème n'héistez pas à me contacter ou à utiliser le Google group GPicSync).
 
-If you forgot to set the local time for your camera you can take this into account in the Option menu.
+Si vous avez oublié de régler l'heure locale de vos appareils vous pourrez indiquer les informations nécessaires dans le menu "option" > "local time correction"
 
-===5) Use your localized pictures===
+===5) Appréciez vos photos géolocaliseés===
 
-You can now use your pictures with any software or website which can read the latitude/longitude information. For example:
+Vous pouvez maintenant utiliser vos photos avec n'importe quel logiciel ou site web capable de lire les méta-données de géolocalisation.
+
+Par exemple:
 
 ====a) Flickr====
 
-In the setting of your account you must first authorize the use of this information ("Your Account">"Privacy & Permissions">"Import EXIF location data: Yes").
+Dans les options de votre compte vous devez autoriser Flickr à lire les informations de géolocalisation ("Your Account">"Privacy & Permissions">"Import EXIF location data: Yes").
 
-When you upload your pictures you will see a "map" link near each picture to open Yahoo Maps which will point to the location.
+Quand vous uploader vos photos vous verrez un lien "map" près de chaque photo qui ouvre montre la postition de celle-ci sur les cartes Yahoo Maps.
 
-If you prefer google maps you can use this neat [http://www.flickr.com/groups/geotagging/discuss/72157594165549916/ geocoding bookmarklet] which will point to the location in [http://loc.alize.us/ loc.alize.us webiste] which uses google maps.
+Si vous préférez Google maps (plus précises en France que Yahoo maps) vous pouvez utilisez ce [http://www.flickr.com/groups/geotagging/discuss/72157594165549916/ geocoding bookmarklet] qui utilise le site[http://loc.alize.us/ loc.alize.us] lui-même basé sur les cartes Yahoo.
 
 ====b) Picassa / Google Earth====
 

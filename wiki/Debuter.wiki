@@ -21,8 +21,8 @@ Quelques astuces pour attacher votre GPS (à venir)
 
 ===4) De retour, synchronisez avec GPicSync ===
 
-Put the  pictures you want to geolocalize in a folder.
-With the software of your choice (for example [http://www.easygps.com/ EasyGPS]) retrieve the track log as a .gpx file. Put the .gpx file preferably in the folder containing the pictures.
+Mettez les photos que vous voulez géolocaliser dans un dossier.
+Avec un logiciel de votre choix (par exemple le freeware [http://www.easygps.com/ EasyGPS]) récupérez le "track log" et enregistrez le sous la forme d'un fichier ".gpx". Mettez ce fichier .gpx dans le dossier contenant les photos par example.
 
 Install and launch GPicSync:
   * select the pictures folder

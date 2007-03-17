@@ -32,10 +32,9 @@ Installez et lancez GPicSync:
 
 Si tout se passe bien vous devriez voir rapidement une ligne d'information par photo trouvée avec la localisation qui vient d'être inscrite dans les informations EXIF de celle-ci. 
 
-Il y a aussi une indication sur l'écart en seconde avec le point du "track log" le plus proche. En fonction des réglages de votre GPS vous devriez voir quelques secondes de différences (au delà d'une centaine de seconde il y a probablement une erreur dans votre timming).
+Il y a aussi une indication sur l'écart en seconde avec le point du "track log" le plus proche. En fonction des réglages de votre GPS vous devriez voir quelques secondes de différences (au delà d'une centaine de seconde il y a probablement une erreur dans votre timing). En particulier vérifiez que vous indiquez le bon "UTC Offset"(fuseau horaire).  
 
- 
-There's also an indication of the time difference between the nearest time in the track log and the time of the picture. Depending on the track log settings in your GPS you should see a few seconds difference. If this difference is important (above a hundred seconds) there's probably something wrong in your time setting. In particular check that you've indicated the right UTC offset. For later reference it could be useful to check the "create a log file" option to have a summary of all the operations in your pictures folder. Note that the original picture has been kept intact with the "original" suffix.
+Vous avez aussi la possibilité de créer un rapport des opérations effectuées dans le dossier des photos en cochant "create a log file". A noter que pour éviter tout problème éventuel qu'une copie de chaque photo originale est conservée avec le suffix "original" en fin de nom.
 
 If there's no location showing check your .gpx file and how GPicSync reads it : TroubleShooting
 

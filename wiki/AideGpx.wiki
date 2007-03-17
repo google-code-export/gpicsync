@@ -1,6 +1,4 @@
 #labels french
-TRADUCTION A FAIRE
-
 Si aucune information de geolocalisation apparaît il faut d'abord vérifier le fichier .gpx. 
 
 Un fichier .gpx est un fichier texte que vous pouvez ouvrir et modifier facilement dans un éditeur de texte : il contient plein de tags sous la forme de balises contenant du texte ou d'autres tags : <tag> .... </tag>
@@ -8,10 +6,11 @@ Un fichier .gpx est un fichier texte que vous pouvez ouvrir et modifier facileme
 
 GPicSync cherche d'abord le tag <trkseg> ... </trkseg> qui devrait comporter de nombreux points GPS  <trkpt>...</trkpt> qui indique votre position précise à un instant donné. time.
 
-Si il a plus qu'une section <trkseg> ... </trkseg> GPicSync va utiliser la première section qui contient des points GPS avec horaire.
+Si il a plus d'une section <trkseg> ... </trkseg>, GPicSync va utiliser la première section qui contient des points GPS valides avec indication horaire (les <trakseg> sans indication horaires sont ignorés).
 
 Un fichier gpx valide pour GPicSync ressemble à ceci : 
 {{{
+...
 <trkseg> 
 <trkpt lat="48.50517319" lon="7.13916969">
 <ele>700.46</ele>
@@ -27,11 +26,13 @@ Un fichier gpx valide pour GPicSync ressemble à ceci :
 </trkpt
  ... ... 
 </trkseg>
+...
 }}}
 
 Attention:
+
 Pour l'instant GPicSync lit uniquement le temps de la photo et non la date.
-Si vous avez plusieurs dates vous devez d'abord créer par copier-coller un fichier par jour que vous pourrez ensuite synchroniser avec le dossier contenant les photos de la journée correspondante.
+Si vous avez plusieurs dates dans votre gpx vous devez d'abord créer par copier-coller un fichier par jour que vous pourrez ensuite synchroniser avec le dossier contenant les photos de la journée correspondante.
 
 Dans les prochaines versions de GPicSync l'option directe de synchronisation de dates multiples est prévue.
 

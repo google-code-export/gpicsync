@@ -1,11 +1,12 @@
 #labels french
 TRADUCTION A FAIRE
 
-If no indications of localization appears check first your .gpx file:
+Si aucune information de geolocalisation apparaît il faut d'abord vérifier le fichier .gpx. 
 
-A .gpx file is a "XML" file. You can open it and modify it easily in a text editor: it has plenty of tags (<tag> .... </tag>)
+Un fichier .gpx est un fichier texte que vous pouvez ouvrir et modifier facilement dans un éditeur de texte : il contient plein de tags sous la forme de balises contenant du texte ou d'autres tags : tag> .... </tag>
 
-GPicSync search for the <trkseg> ... </trkseg> tag which contain plenty of trackpoints <trkpt>...</trkpt> which says at which location you were at a precise time.
+
+GPicSync cherche d'abord le tag <trkseg> ... </trkseg> qui devrait comporter de nombreux points GPS  <trkpt>...</trkpt> qui indique votre position précise à un instant donné. time.
 
 If there is more than one <trkseg> ... </trkseg> GPicSync will use the first one which has time informations for the trakpoints (some trakseg could contain trkpt tags without time and are just data that GPicSync ignores).
 
@@ -28,4 +29,3 @@ A good trkseg should look like below and often have a line like "<name>ACTIVE LO
 </trkseg>
 
 For now GPicSync reads the time only (not the date). If you have multiple dates in your gpx file just find the good trkseg and copy it to a new file and save it as a .gpx file that you can now use with GPicSync.
-

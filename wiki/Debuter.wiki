@@ -6,38 +6,38 @@
   * 1) Initialiser votre GPS
   * 2) Initialiser votre APN (Appareil Photo Numérique) 
   * 3) Faites votre ballade et prenez des photos !
-  * 4) De retour, synchronisez avec GPicSync
-  * 5) Appréciez vos photos géolocaliseés
+  * 4) De retour, synchronisez le tout avec GPicSync
+  * 5) Visualisez et partagez vos photos géolocaliseés
 
 ===1) Initialisez votre GPS===
-Si ce n'est pas déjà le cas mettez votre GPS à l'heure locale.
+Si ce n'est pas déjà le cas mettez votre GPS à l'heure locale du pays.
 
 ===2)  Initialisez votre APN===
 Rentrez la même heure dans votre APN que celle indiquée par votre GPS. Profitez en pour régler la date si nécessaire.
 
 ===3) Faites votre ballade et prenez des photos ! ===
-Prenez votre GPS avec vous et assurez vous qu'il enregistre bien votre parcours ("track log").Laissez le allumé durant toute la ballade et prenez vos photos comme d'habitude.
+Prenez votre GPS avec vous et assurez vous qu'il enregistre bien votre parcours ("track log" ON).Laissez le allumé durant toute la ballade et prenez vos photos comme d'habitude.
 
-Quelques astuces pour attacher votre GPS (à venir)
+Quelques astuces pour attacher votre GPS (à venir).
 
-===4) De retour, synchronisez avec GPicSync ===
+===4) De retour, synchronisez le tout avec GPicSync ===
 
 Mettez les photos que vous voulez géolocaliser dans un dossier.
-Avec un logiciel de votre choix (par exemple le freeware [http://www.easygps.com/ EasyGPS]) récupérez le "track log" et enregistrez le sous la forme d'un fichier ".gpx". Mettez ce fichier .gpx dans le dossier contenant les photos par example.
+Avec un logiciel de votre choix (par exemple le freeware [http://www.easygps.com/ EasyGPS]) récupérez le "track log" et enregistrez le sous la forme d'un fichier ".gpx". Mettez ce fichier .gpx dans le dossier contenant les photos par exemple.
 
-Installez et lancez GPicSync:
+Installez et lancez [http://code.google.com/p/gpicsync/downloads/list GPicSync]:
   * sélectionnez le dossier contenant vos photos (bouton "pictures folder")
   * sélectionnez votre fichier .gpx (bouton "GPS file .gpx")
   * indiquez l'UTC Offset, c'est à dire le fuseau horaire (+1 in France, 0 en Angleterre, -8 pour la côte Ouest des états-unis, etc.)
   * appuyez sur le bouton "synchronize !"
 
-Si tout se passe bien vous devriez voir rapidement une ligne d'information par photo trouvée avec la localisation qui vient d'être inscrite dans les informations EXIF de celle-ci. 
+Si tout se passe bien vous devriez voir rapidement une ligne d'information (par photo trouvée) avec la localisation qui vient d'être inscrite dans les informations EXIF de celle-ci. 
 
-Il y a aussi une indication sur l'écart en seconde avec le point du "track log" le plus proche. En fonction des réglages de votre GPS vous devriez voir quelques secondes de différences (au delà d'une centaine de seconde il y a probablement une erreur dans votre timing). En particulier vérifiez que vous indiquez le bon "UTC Offset"(fuseau horaire).  
+Il y a aussi une indication sur l'écart en seconde avec le point du "track log" le plus proche. En fonction des réglages de votre GPS vous devriez voir quelques secondes de différences (au delà d'une centaine de seconde il y a probablement une erreur dans votre timing). En particulier vérifiez que vous indiquez bien le bon "UTC Offset"(fuseau horaire = 1 pour la France).  
 
-Vous avez aussi la possibilité de créer un rapport des opérations effectuées dans le dossier des photos en cochant "create a log file". A noter que pour éviter tout problème éventuel qu'une copie de chaque photo originale est conservée avec le suffix "original" en fin de nom.
+Vous avez aussi la possibilité de créer un rapport des opérations effectuées dans le dossier des photos en cochant "create a log file". A noter que pour éviter tout problème éventuel une copie de chaque photo originale est conservée avec le suffix "original" en fin de nom.
 
-Si les informations de localisations n'apparaissent pas vérifiez d'abord l'allure de votre fichier .gpx : TroubleShooting (en cas de problème n'héistez pas à me contacter ou à utiliser le Google group GPicSync).
+Si les informations de localisations n'apparaissent pas vérifiez d'abord l'allure de votre fichier .gpx : TroubleShooting (en cas de problème n'hésitez pas à utiliser le Google group GPicSync ou à me contacter).
 
 Si vous avez oublié de régler l'heure locale de vos appareils vous pourrez indiquer les informations nécessaires dans le menu "option" > "local time correction"
 
@@ -51,14 +51,17 @@ Par exemple:
 
 Dans les options de votre compte vous devez autoriser Flickr à lire les informations de géolocalisation ("Your Account">"Privacy & Permissions">"Import EXIF location data: Yes").
 
-Quand vous uploader vos photos vous verrez un lien "map" près de chaque photo qui ouvre montre la postition de celle-ci sur les cartes Yahoo Maps.
+Quand vous uploadez vos photos vous verrez ensuite un lien "map" près de chaque photo qui montre la photo sur les cartes Yahoo Maps.
 
 Si vous préférez Google maps (plus précises en France que Yahoo maps) vous pouvez utilisez ce [http://www.flickr.com/groups/geotagging/discuss/72157594165549916/ geocoding bookmarklet] qui utilise le site [http://loc.alize.us/ loc.alize.us] lui-même basé sur les cartes Yahoo et les photos Flickr.
 
 ====b) Picassa / Google Earth====
 
-Si vous visualisez vos photos avec Picassa vous pouvez demander à les montrer dans Google Earth (dans Picassa, menu "Outils">"Géolocaliser">"Afficher dans Google Earth"
+Si vous visualisez vos photos avec Picassa allez dans le  menu "Outils">"Géolocaliser">"Afficher dans Google Earth".
 
 
 ATTENTION:
-GPicSync est un logiciel libre en phase "beta". Merci de m'informer de tout bug ou problèmes que vous rencontrer. GPicSync n'offre aucune garantie donc ne l'utilisez pas pour des missions "critiques" et vos vérifiez toujours les résultats avec des cates récentes.
+
+GPicSync est un logiciel libre en phase "beta". Merci de m'informer de tout bug ou problèmes que vous rencontrez (si possible en m'envoyant votre fichier .gpx et au moins une photo). 
+
+GPicSync n'offre aucune garantie donc ne l'utilisez pas pour des missions "critiques" et vérifiez toujours les résultats avec des cartes récentes.

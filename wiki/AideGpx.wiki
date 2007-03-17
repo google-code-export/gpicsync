@@ -3,15 +3,15 @@ TRADUCTION A FAIRE
 
 Si aucune information de geolocalisation apparaît il faut d'abord vérifier le fichier .gpx. 
 
-Un fichier .gpx est un fichier texte que vous pouvez ouvrir et modifier facilement dans un éditeur de texte : il contient plein de tags sous la forme de balises contenant du texte ou d'autres tags : tag> .... </tag>
+Un fichier .gpx est un fichier texte que vous pouvez ouvrir et modifier facilement dans un éditeur de texte : il contient plein de tags sous la forme de balises contenant du texte ou d'autres tags : <tag> .... </tag>
 
 
 GPicSync cherche d'abord le tag <trkseg> ... </trkseg> qui devrait comporter de nombreux points GPS  <trkpt>...</trkpt> qui indique votre position précise à un instant donné. time.
 
-If there is more than one <trkseg> ... </trkseg> GPicSync will use the first one which has time informations for the trakpoints (some trakseg could contain trkpt tags without time and are just data that GPicSync ignores).
+Si il a plus qu'une section <trkseg> ... </trkseg> GPicSync va utiliser la première section qui contient des points GPS avec horaire.
 
-A good trkseg should look like below and often have a line like "<name>ACTIVE LOG</name>" before.
-
+Un fichier gpx valide pour GPicSync ressemble à ceci : 
+{{{
 <trkseg> 
 <trkpt lat="48.50517319" lon="7.13916969">
 <ele>700.46</ele>
@@ -27,5 +27,12 @@ A good trkseg should look like below and often have a line like "<name>ACTIVE LO
 </trkpt
  ... ... 
 </trkseg>
+}}}
 
-For now GPicSync reads the time only (not the date). If you have multiple dates in your gpx file just find the good trkseg and copy it to a new file and save it as a .gpx file that you can now use with GPicSync.
+Attention:
+Pour l'instant GPicSync lit uniquement le temps de la photo et non la date.
+Si vous avez plusieurs dates vous devez d'abord créer par copier-coller un fichier par jour que vous pourrez ensuite synchroniser avec le dossier contenant les photos de la journée correspondante.
+
+Dans les prochaines versions de GPicSync l'option directe de synchronisation de dates multiples est prévue.
+
+Si malgré cela vous n'arrivez toujours pas à obtenir vos photos géolocalisées merci de m'envoyer votre fichier .gpx et une ou deux photos à [http://francois.schnell.free.fr/mygmail.png cette adresse mail]. Merci d'avance pour votre feedback !

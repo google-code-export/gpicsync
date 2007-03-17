@@ -52,11 +52,12 @@ Dans les options de votre compte vous devez autoriser Flickr à lire les informa
 
 Quand vous uploader vos photos vous verrez un lien "map" près de chaque photo qui ouvre montre la postition de celle-ci sur les cartes Yahoo Maps.
 
-Si vous préférez Google maps (plus précises en France que Yahoo maps) vous pouvez utilisez ce [http://www.flickr.com/groups/geotagging/discuss/72157594165549916/ geocoding bookmarklet] qui utilise le site[http://loc.alize.us/ loc.alize.us] lui-même basé sur les cartes Yahoo.
+Si vous préférez Google maps (plus précises en France que Yahoo maps) vous pouvez utilisez ce [http://www.flickr.com/groups/geotagging/discuss/72157594165549916/ geocoding bookmarklet] qui utilise le site [http://loc.alize.us/ loc.alize.us] lui-même basé sur les cartes Yahoo et les photos Flickr.
 
 ====b) Picassa / Google Earth====
 
-If you select your pictures with picassa you can ask to show them on Google Earth (in Picassa : something like "Tools">"Geolocalize">"Display in Google Earth".
+Si vous visualisez vos photos avec Picassa vous pouvez demander à les montrer dans Google Earth (dans Picassa, menu "Outils">"Géolocaliser">"Afficher dans Google Earth"
 
-WARNING:
-GPicSync is beta software. Please report any bug or problem and remember there's no guarantee : don't use it for critical missions and always check on maps if the results are correct.
+
+ATTENTION:
+GPicSync est un logiciel libre en phase "beta". Merci de m'informer de tout bug ou problèmes que vous rencontrer. GPicSync n'offre aucune garantie donc ne l'utilisez pas pour des missions "critiques" et vos vérifiez toujours les résultats avec des cates récentes.

@@ -27,7 +27,7 @@ Avec un logiciel de votre choix (par exemple le freeware [http://www.easygps.com
 
 Installez et lancez [http://code.google.com/p/gpicsync/downloads/list GPicSync]:
   * sélectionnez le dossier contenant vos photos (bouton "pictures folder")
-  * sélectionnez votre fichier .gpx (bouton "GPS file .gpx")
+  * sélectionnez votre [AideGpx fichier .gpx] (bouton "GPS file .gpx")
   * indiquez l'UTC Offset, c'est à dire le fuseau horaire (+1 in France, 0 en Angleterre, -8 pour la côte Ouest des états-unis, etc.)
   * appuyez sur le bouton "synchronize !"
 
@@ -37,7 +37,7 @@ Il y a aussi une indication sur l'écart en seconde avec le point du "track log"
 
 Vous avez aussi la possibilité de créer un rapport des opérations effectuées dans le dossier des photos en cochant "create a log file". A noter que pour éviter tout problème éventuel une copie de chaque photo originale est conservée avec le suffix "original" en fin de nom.
 
-Si les informations de localisations n'apparaissent pas vérifiez d'abord l'allure de votre fichier .gpx : TroubleShooting (en cas de problème n'hésitez pas à utiliser le Google group GPicSync ou à me contacter).
+Si les informations de localisations n'apparaissent pas vérifiez d'abord l'allure de votre fichier .gpx : AideGpx (en cas de problème n'hésitez pas à utiliser le Google group GPicSync ou à me contacter).
 
 Si vous avez oublié de régler l'heure locale de vos appareils vous pourrez indiquer les informations nécessaires dans le menu "option" > "local time correction"
 

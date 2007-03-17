@@ -1,10 +1,12 @@
-= Getting started with GPicSync =
+(Page in French)
 
-  * 1) Set your GPS receiver (GPSr)
-  * 2) Set your camera
-  * 3) Go outside and shoot
-  * 4) Come back home and sync
-  * 5) Enjoy your geolocalized pictures
+= Débuter avec GPicSync =
+
+  * 1) Initialiser votre GPS
+  * 2) Initialiser votre APN (Appareil Photo Numérique) 
+  * 3) Faites votre ballade et prenez des photos
+  * 4) De retour, synchronisez avec GPicSync
+  * 5) Appréciez vos photos géolocaliseés
 
 ===1) Set your GPSr===
 If it's not already the case set the local time in your GPSr settings.
@@ -54,5 +56,4 @@ If you select your pictures with picassa you can ask to show them on Google Eart
 
 WARNING:
 GPicSync is beta software. Please report any bug or problem and remember there's no guarantee : don't use it for critical missions and always check on maps if the results are correct.
-
 

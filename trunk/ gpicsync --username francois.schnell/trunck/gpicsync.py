@@ -68,7 +68,7 @@ class GpicSync(object):
         self.shotDate=pic.readDateTime()[0].replace(":","-")
         latitude=""
         longitude=""
-        dateCheck=True
+        dateCheck=False
         #print "Picture shotTime was", self.shotTime
         tpic_tgps_l=86400 # maximum seconds interval in a day
         if dateCheck==True:
@@ -117,7 +117,7 @@ class GpicSync(object):
                 " "+latitude+" ,"+longRef+" "+longitude+" with time difference (s)= "+str(tpic_tgps_l)
             else:
                 print "Didn't find any picture for this day"
-                return "Didn't find any trackpoint for the day of the picture: "\
+                return "Failure: didn't find any trackpoint for the day of the picture: "\
                 +self.shotDate+"-"+self.shotTime+"\n"
         if dateCheck==False:
             if latitude != "" and longitude !="":
@@ -131,6 +131,7 @@ class GpicSync(object):
                 if self.shotDate != trkptDay:
                     response=response+"\nWarning: Picure date: "+self.shotDate+\
                    " and track point date are different: "+ trkptDay
+                return response
             else:
                 print "Didn't find any suitable trackpoint"
                 return "Didn't find any suitable trackpoint"

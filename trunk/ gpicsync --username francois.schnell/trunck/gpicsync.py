@@ -65,31 +65,76 @@ class GpicSync(object):
         """
         pic=GeoExif(picture)
         self.shotTime=pic.readDateTime()[1]
+        self.shotDate=pic.readDateTime()[0].replace(":","-")
+        latitude=""
+        longitude=""
+        dateCheck=True
         #print "Picture shotTime was", self.shotTime
-        tpic_tgps_l=86400 # <bug> 15520 </bug> maximum seconds interval in a day
-        for rec in self.track:
-            rec["tpic_tgps_l"]= self.compareTime(self.shotTime,rec["time"])
-            if abs(rec["tpic_tgps_l"])<tpic_tgps_l:
-                tpic_tgps_l=abs(rec["tpic_tgps_l"])
-                latitude=rec['lat']
-                #print "latitude =",rec['lat']
-                longitude=rec['lon']
-                #print "longitude =",rec['lon']
-                if float(latitude)>0:
-                    latRef="N"
-                else: latRef="S"
-                if float(longitude)>0:
-                    longRef="E"
-                else: longRef="W"
-        if float(longitude)<0:longitude=str(abs(float(longitude)))
-        if float(latitude)<0:latitude=str(abs(float(latitude)))
-        print "Writting best lat./long. match to pic. EXIF -->",latitude,latRef,
-        longitude,longRef,"with tpic-tgps=",tpic_tgps_l,"seconds\n"
-        pic.writeLatLong(latitude,longitude,latRef,longRef)
-        #return tpic_tgps_l
-        return "Writting best latitude/longitude match to EXIF picture: "+latRef+\
-        " "+latitude+" ,"+longRef+" "+longitude+" with time difference (s)= "+str(tpic_tgps_l)
-        
+        tpic_tgps_l=86400 # maximum seconds interval in a day
+        if dateCheck==True:
+            for rec in self.track:
+                if rec['date']==self.shotDate:
+                    rec["tpic_tgps_l"]= self.compareTime(self.shotTime,rec["time"])
+                    if abs(rec["tpic_tgps_l"])<tpic_tgps_l:
+                        tpic_tgps_l=abs(rec["tpic_tgps_l"])
+                        latitude=rec['lat']
+                        #print "latitude =",rec['lat']
+                        longitude=rec['lon']
+                        #print "longitude =",rec['lon']
+                        if float(latitude)>0:
+                            latRef="N"
+                        else: latRef="S"
+                        if float(longitude)>0:
+                            longRef="E"
+                        else: longRef="W"
+        if dateCheck==False:
+            for rec in self.track:
+                rec["tpic_tgps_l"]= self.compareTime(self.shotTime,rec["time"])
+                if abs(rec["tpic_tgps_l"])<tpic_tgps_l:
+                    tpic_tgps_l=abs(rec["tpic_tgps_l"])
+                    latitude=rec['lat']
+                    #print "latitude =",rec['lat']
+                    longitude=rec['lon']
+                    trkptDay=rec['date']
+                    #print "longitude =",rec['lon']
+                    if float(latitude)>0:
+                        latRef="N"
+                    else: latRef="S"
+                    if float(longitude)>0:
+                        longRef="E"
+                    else: longRef="W"
+        if dateCheck==True:
+            if latitude != "" and longitude !="":
+                if float(longitude)<0:longitude=str(abs(float(longitude)))
+                if float(latitude)<0:latitude=str(abs(float(latitude)))
+                print "Writting best lat./long. match to pic. EXIF -->",latitude,latRef,
+                longitude,longRef,"with tpic-tgps=",tpic_tgps_l,"seconds\n"
+                pic.writeLatLong(latitude,longitude,latRef,longRef)
+                #return tpic_tgps_l
+                return "Original date and time of the picure is :"+\
+                self.shotDate+"-"+self.shotTime+"\n"+\
+                "Writting best latitude/longitude match to EXIF picture: "+latRef+\
+                " "+latitude+" ,"+longRef+" "+longitude+" with time difference (s)= "+str(tpic_tgps_l)
+            else:
+                print "Didn't find any picture for this day"
+                return "Didn't find any trackpoint for the day of the picture: "\
+                +self.shotDate+"-"+self.shotTime+"\n"
+        if dateCheck==False:
+            if latitude != "" and longitude !="":
+                if float(longitude)<0:longitude=str(abs(float(longitude)))
+                if float(latitude)<0:latitude=str(abs(float(latitude)))
+                print "Writting best lat./long. match to pic. EXIF -->",latitude,latRef,
+                longitude,longRef,"with tpic-tgps=",tpic_tgps_l,"seconds\n"
+                pic.writeLatLong(latitude,longitude,latRef,longRef)
+                response= "Writting best latitude/longitude match to EXIF picture: "+latRef+\
+                " "+latitude+" ,"+longRef+" "+longitude+" with time difference (s)= "+str(tpic_tgps_l)
+                if self.shotDate != trkptDay:
+                    response=response+"\nWarning: Picure date: "+self.shotDate+\
+                   " and track point date are different: "+ trkptDay
+            else:
+                print "Didn't find any suitable trackpoint"
+                return "Didn't find any suitable trackpoint"
+            
 if __name__=="__main__":
     
     ## Commnand-line version

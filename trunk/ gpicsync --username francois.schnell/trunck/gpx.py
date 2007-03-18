@@ -11,28 +11,34 @@
 
 """
 A class to read longitude, latitude, time&date from track points in a gpx file.
+
+It creates a list with a  dictionary per valid gps track point.
+        Dictionary keys:
+        'date': returns a string date like '2006-11-05'
+        'lat': returns a string latitude like '48.5796761739'
+        'lon': returns a string longitude like '7.2847080265'
+        'time': returns a string 24h time (hh mm sss) like '15:21:27'
 """
 
 import xml.etree.ElementTree as ET,re,sys
 
 class Gpx(object):
     def __init__(self,gpxFile):
-        """ create a list with a gpx file line per list element """
-        self.gpx=""
+        """ create a list with the trkpts found in the .gpx file """
+        self.gpx_trkpts=[]#The valid list of trackpoints
         gpx_file = open(gpxFile,'r').read()
-        regex=re.compile('(<trkseg>.*?</trkseg>)',re.S)
-        gpx_trksegs=regex.findall(gpx_file)
-        print "Number of <trkseg>...</trkseg> found: ",len(gpx_trksegs)
+        #print gpx_file
+        regex=re.compile('(<trkpt.*?</trkpt>)',re.S)
+        gpx_trkpts_found=regex.findall(gpx_file)
+        #print gpx_trkpts_found
+        print "Number of raw track points found: ",len(gpx_trkpts_found)
         i=1
-        for trkseg in gpx_trksegs:
-            if trkseg.find("time")<1: pass
-            if trkseg.find("time")>1:
-                self.gpx=trkseg
-                print "Found a trakseg with time informations: "+str(i)
-                break
+        for trkpt in gpx_trkpts_found:
+            if trkpt.find("time")>0: self.gpx_trkpts.append(trkpt)
             i=i+1
-        if self.gpx=="":print "Didn't find an appropriate trkseg :("
-        #print self.gpx
+        if len(self.gpx_trkpts)==0:print "Didn't find any valid trkpt :("
+        print "Number of valid track points found: ",len(self.gpx_trkpts)
+        #print self.gpx_trkpts
 
     def extract(self):
         """
@@ -43,11 +49,9 @@ class Gpx(object):
         'lon': returns a string longitude like '7.2847080265'
         'time': returns a string 24h time (hh mm sss) like '15:21:27'
         """
-        print "Extracting data from the gpx file ..."
+        print "Extracting data from valids track points ..."
         self.geoData=[]
-        regex=re.compile('(<trkpt.*?</trkpt>)',re.S)
-        gpx_trkpts=regex.findall(self.gpx)
-        for line in gpx_trkpts:
+        for line in self.gpx_trkpts:
             lineTree=ET.fromstring(line)
             self.geoData.append({
             'date':lineTree[1].text[0:10],
@@ -59,5 +63,5 @@ class Gpx(object):
         return self.geoData
     
 if __name__=="__main__":
-    myGpx=Gpx("test.gpx") 
-    myGpx.extract()     
+    myGpx=Gpx("test2.gpx") 
+    print myGpx.extract()     

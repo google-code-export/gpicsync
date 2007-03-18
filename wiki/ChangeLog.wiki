@@ -1,0 +1,5 @@
+
+
+=== Version 0.43 ===
+
+Version 0.43 reads now all the valid track points and don't search anymore for <trackseg> in the file. This is useful if you switch off and On your GPS during your trek : all valid points with time will be processed.  

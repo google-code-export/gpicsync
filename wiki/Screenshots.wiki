@@ -1,4 +1,4 @@
 Version 0.5:
 
-http://www.flickr.com/photo_zoom.gne?id=425549191&size=o
-http://www.flickr.com/photo_zoom.gne?id=425537568&size=o
+  * http://www.flickr.com/photo_zoom.gne?id=425549191&size=o
+  * http://www.flickr.com/photo_zoom.gne?id=425537568&size=o

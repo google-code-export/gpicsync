@@ -15,7 +15,7 @@ If it's not already the case set the local time in your GPSr settings.
 Set the local time precisely to the same local time indicated by the GPSr. Also check the date if necessary.
 
 ===3) Go outside and shoot===
-Take your GPSr with you and make sure that it is recording a track log (clear the previous ative tracklog if you had one). Keep your GPSr ON during all the time you take pictures.
+Take your GPSr with you and make sure that it is recording a track log. Keep your GPSr ON during all the time you take pictures.
 A few tips to attach your GPSr (to come)
 
 ===4) Come back home and sync===
@@ -33,7 +33,9 @@ If all goes well you should see a line per picture with the file name found and 
 
 There's also an indication of the time difference between the nearest time in the track log and the time of the picture. Depending on the track log settings in your GPS you should see a few seconds difference. If this difference is important (above a hundred seconds) there's probably something wrong in your time setting. In particular check that you've indicated the right UTC offset. For later reference it could be useful to check the "create a log file" option to have a summary of all the operations in your pictures folder. Note that the original picture has been kept intact with the "original" suffix.
 
-If there's no location showing check your .gpx file and how GPicSync reads it : TroubleShooting
+If the date on your camera was wrong uncheck "dates must match" before synchronizing.
+
+If there's no location showing check your .gpx file: TroubleShooting
 
 If you forgot to set the local time for your camera you can take this into account in the Option menu.
 

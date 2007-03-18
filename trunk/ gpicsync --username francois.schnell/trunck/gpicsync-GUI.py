@@ -35,10 +35,11 @@ class GUI(wx.Frame):
     def __init__(self,parent, title):
         """Initialize the main frame"""
         
-        wx.Frame.__init__(self, parent, -1, title="GPicSync",size=(800,400))
+        wx.Frame.__init__(self, parent, -1, title="GPicSync",size=(850,400))
         self.tcam_l="00:00:00"
         self.tgps_l="00:00:00"
         self.log=False
+        self.stop=False
         
         bkg=wx.Panel(self)
         #bkg.SetBackgroundColour('light blue steel')
@@ -59,6 +60,9 @@ class GUI(wx.Frame):
         gpxButton=wx.Button(bkg,size=(150,-1),label="GPS file (.gpx)")
         syncButton=wx.Button(bkg,size=(150,-1),label=" Synchronise ! ")
         quitButton=wx.Button(bkg,label="Quit")
+        stopButton=wx.Button(bkg,label="Stop")
+        clearButton=wx.Button(bkg,label="Clear")
+        
         utcLabel = wx.StaticText(bkg, -1,"UTC Offset=")
         self.logFile=wx.CheckBox(bkg,-1,"Create a log file in picture folder")
         self.logFile.SetValue(True)
@@ -69,6 +73,8 @@ class GUI(wx.Frame):
         self.Bind(wx.EVT_BUTTON, self.findGpx, gpxButton)
         self.Bind(wx.EVT_BUTTON, self.syncPictures, syncButton)
         self.Bind(wx.EVT_BUTTON, self.exitApp,quitButton)
+        self.Bind(wx.EVT_BUTTON, self.stopApp,stopButton)
+        self.Bind(wx.EVT_BUTTON, self.clearConsole,clearButton)
         
         self.dirEntry=wx.TextCtrl(bkg)
         self.gpxEntry=wx.TextCtrl(bkg)
@@ -86,12 +92,14 @@ class GUI(wx.Frame):
         hbox2.Add(self.gpxEntry,proportion=1,flag=wx.EXPAND)
         
         hbox3=wx.BoxSizer()
-        hbox3.Add(utcLabel,proportion=0,flag=wx.LEFT,border=10)
-        hbox3.Add(self.utcEntry,proportion=0,flag=wx.LEFT,border=10)
-        hbox3.Add(self.logFile,proportion=0,flag=wx.LEFT,border=10)
-        hbox3.Add(self.dateCheck,proportion=0,flag=wx.LEFT,border=10)
-        hbox3.Add(syncButton,proportion=0,flag=wx.LEFT,border=10)
-        hbox3.Add(quitButton,proportion=0,flag=wx.RIGHT,border=20)
+        hbox3.Add(utcLabel,proportion=0,flag=wx.LEFT,border=5)
+        hbox3.Add(self.utcEntry,proportion=0,flag=wx.LEFT,border=5)
+        hbox3.Add(self.logFile,proportion=0,flag=wx.LEFT,border=5)
+        hbox3.Add(self.dateCheck,proportion=0,flag=wx.LEFT,border=5)
+        hbox3.Add(syncButton,proportion=0,flag=wx.LEFT,border=5)
+        hbox3.Add(stopButton,proportion=0,flag=wx.LEFT,border=5)
+        hbox3.Add(clearButton,proportion=0,flag=wx.LEFT,border=5)
+        hbox3.Add(quitButton,proportion=0,flag=wx.LEFT,border=5)
         
         vbox=wx.BoxSizer(wx.VERTICAL)
         vbox.Add(hbox,proportion=0,flag=wx.EXPAND | wx.ALL,border=5)
@@ -126,6 +134,14 @@ class GUI(wx.Frame):
         print "Exiting the app..."
         self.Close()
         sys.exit(1)
+    
+    def stopApp(self,evt):
+        """Stop current processing"""
+        self.stop=True
+        
+    def clearConsole(self,evt):
+        """clear the output console"""
+        self.consoleEntry.Clear()
         
     def findGpx(self,evt):
         """Select the .gpx file to use"""
@@ -145,6 +161,7 @@ class GUI(wx.Frame):
     
     def syncPictures(self,evt):
         """Sync. pictures with the .gpx file"""
+        self.stop=False
         utcOffset=int(self.utcEntry.GetValue())
         dateProcess=self.dateCheck.GetValue()
         self.log=self.logFile.GetValue()
@@ -162,6 +179,7 @@ class GUI(wx.Frame):
                 f.write("GPX file: "+self.gpxEntry.GetValue()+"\n\n")
                 
             for fileName in os.listdir ( self.picDir ):
+                if self.stop==True: break
                 if fnmatch.fnmatch ( fileName, '*.jpg' ):
                     print "\nFound fileName ",fileName," Processing now ..."
                     self.consoleEntry.AppendText("\nFound "+fileName+" ")
@@ -170,7 +188,10 @@ class GUI(wx.Frame):
                     self.consoleEntry.AppendText(result+"\n")
                     if self.log==True:
                         f.write("Processed image "+fileName+" : "+result+"\n")
-            self.consoleEntry.AppendText("\n *** FINISHED ***\n")
+            if self.stop==False:
+                self.consoleEntry.AppendText("\n *** FINISHED ***\n")
+            if self.stop==True:
+                self.consoleEntry.AppendText("\n *** Processing STOPPED bu the user ***\n")
             if self.log==True: f.close()
         start_new_thread(sync,())
         

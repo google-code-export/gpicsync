@@ -15,7 +15,7 @@ If it's not already the case set the local time in your GPSr settings.
 Set the local time precisely to the same local time indicated by the GPSr. Also check the date if necessary.
 
 ===3) Go outside and shoot===
-Take your GPSr with you and make sure that it is recording a track log. Keep your GPSr ON during all the time you take pictures.
+Take your GPSr with you and make sure that it is recording a track log (clear the previous ative tracklog if you had one). Keep your GPSr ON during all the time you take pictures.
 A few tips to attach your GPSr (to come)
 
 ===4) Come back home and sync===

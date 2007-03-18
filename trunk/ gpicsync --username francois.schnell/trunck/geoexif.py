@@ -21,10 +21,12 @@ class GeoExif(object):
     """
     def __init__(self,picture):
         self.picPath=picture
+        
     def readExifAll(self):
-        "read all exif tags and return a string of the result"
+        """read all exif tags and return a string of the result"""
         result=os.popen('exiftool.exe "%s"' % self.picPath).read()
         return result
+    
     def readDateTime(self):
         """
         Read the time and date when the picture was taken if available
@@ -35,8 +37,9 @@ class GeoExif(object):
         result=os.popen('exiftool.exe -DateTimeOriginal "%s"' % self.picPath).read()
         timeDate= [result[34:44],result[45:53]]
         return timeDate
+    
     def readLatitude(self):
-        "read the latitute tag is available and return a float"
+        """read the latitute tag is available and return a float"""
         result=os.popen('exiftool.exe -n -GPSLatitude -GPSLatitudeRef  "%s"  '
         % self.picPath).read().split("\n")
         print result
@@ -46,8 +49,9 @@ class GeoExif(object):
             return latitude
         else:
             return "None"
+        
     def readLongitude(self):
-        "read the longitude tag if available"
+        """read the longitude tag if available"""
         result=os.popen('exiftool.exe -n -GPSLongitude -GPSLongitudeRef   "%s" '
         % self.picPath).read().split("\n")
         print result
@@ -57,6 +61,7 @@ class GeoExif(object):
             return longitude
         else:
             return "None"
+        
     def writeLatitude(self,lat):
         """
         write the latitude value given in argument in the EXIF
@@ -71,6 +76,7 @@ class GeoExif(object):
         else:
             os.popen('exiftool.exe  -GPSLatitudeRef="S" "%s" '% self.picPath)    
         os.popen('exiftool.exe  -GPSLatitude=%s "%s"'%(lat,self.picPath))
+        
     def writeLongitude(self,long):
         """
         write the longitude value given in argument in the EXIF
@@ -83,7 +89,9 @@ class GeoExif(object):
         else:
             os.popen('exiftool.exe  -GPSLongitudeRef="W" "%s"' % self.picPath)  
         os.popen('exiftool.exe  -GPSLongitude=%s  "%s" '% (long,self.picPath))
+        
     def writeLatLong(self,lat,long,latRef,longRef):
+        """Write both latitudeRef/latitude and longitudeRef/longitude in EXIF"""
         os.popen('exiftool.exe  -GPSLongitude=%s -GPSLatitude=%s \
         -GPSLongitudeRef=%s -GPSLatitudeRef=%s  "%s"'%(long,lat,longRef,latRef,self.picPath))
 

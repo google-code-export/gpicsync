@@ -35,7 +35,7 @@ class GpicSync(object):
     A class to manage the geolocalisation from a .gpx file.
     """
     def __init__(self,gpxFile,tcam_l="00:00:00",tgps_l="00:00:00",UTCoffset=0):
-        "Extracts data from the gpx file and compute local offset duration"
+        """Extracts data from the gpx file and compute local offset duration"""
         myGpx=Gpx(gpxFile)   
         self.track=myGpx.extract()
         self.localOffset=0 #default time offset between camera and GPS
@@ -45,8 +45,11 @@ class GpicSync(object):
         self.localOffset=tcam_l-(tgps_l+self.UTCoffset)
         print "local UTC Offset (seconds)= ", self.localOffset
         #print self.track
+        
     def compareTime(self,t1,t2):
-        "Compute and return the duration (int) in seconds  between two times"
+        """
+        Compute and return the duration (int) in seconds  between two times
+        """
         #print "t1=",t1
         #print "t2=",t2
         t1sec=int(t1[0:2])*3600+int(t1[3:5])*60+int(t1[6:8])
@@ -54,6 +57,7 @@ class GpicSync(object):
         delta_t=(t2sec-t1sec)-self.localOffset
         #print "delta_t =",delta_t
         return delta_t
+    
     def syncPicture(self,picture):
         """ 
         Find the nearest trackpoint from the recorded time in the picture.

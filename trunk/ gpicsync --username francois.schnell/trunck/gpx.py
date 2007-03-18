@@ -17,7 +17,7 @@ import xml.etree.ElementTree as ET,re,sys
 
 class Gpx(object):
     def __init__(self,gpxFile):
-        " create a list with a gpx file line per list element "
+        """ create a list with a gpx file line per list element """
         self.gpx=""
         gpx_file = open(gpxFile,'r').read()
         regex=re.compile('(<trkseg>.*?</trkseg>)',re.S)

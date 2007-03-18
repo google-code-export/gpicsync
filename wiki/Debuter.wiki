@@ -16,7 +16,7 @@ Si ce n'est pas déjà le cas mettez votre GPS à l'heure locale du pays.
 Rentrez la même heure dans votre APN que celle indiquée par votre GPS. Profitez en pour régler la date si nécessaire.
 
 ===3) Faites votre ballade et prenez des photos ! ===
-Prenez votre GPS avec vous et assurez vous qu'il enregistre bien votre parcours ("track log" ON).Laissez le allumé durant toute la ballade et prenez vos photos comme d'habitude.
+Prenez votre GPS avec vous et assurez vous qu'il enregistre bien votre parcours ("track log" ON, effacer d'abord l'ancien traklog actif si vous en aviez un). Laissez le GPS allumé durant toute la ballade et prenez vos photos comme d'habitude.
 
 Quelques astuces pour attacher votre GPS (à venir).
 

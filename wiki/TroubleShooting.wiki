@@ -3,14 +3,12 @@
 
 A .gpx file is a "XML" file. You can open it and modify it easily in a text editor: it has plenty of tags (<tag> .... </tag>)
 
-GPicSync search for the <trkseg> ... </trkseg> tag which contain plenty of trackpoints <trkpt>...</trkpt> which says at which location you were at a precise time.
-
-If there is more than one <trkseg> ... </trkseg> GPicSync will use the first one which has  time informations for the trakpoints (some trakseg could contain trkpt tags without time and are just data that GPicSync ignores).
-
-A good trkseg should look like below and often have a line like  "<name>ACTIVE LOG</name>" before.
+Gpx files have one or more <trkseg> ... </trkseg>  which contain plenty of trackpoints <trkpt>...</trkpt> which says at which location you were at a precise time.
 
 {{{
-<trkseg> 
+...
+<trkseg>
+... 
 <trkpt lat="48.50517319" lon="7.13916969">
 <ele>700.46</ele>
 <time>2007-03-04T12:05:16Z</time>
@@ -25,6 +23,7 @@ A good trkseg should look like below and often have a line like  "<name>ACTIVE L
 </trkpt
  ... ... 
 </trkseg>
+...
 }}}
 
-For now GPicSync reads the time only (not the date). If you have multiple dates in your gpx file just find the good trkseg and copy it to a new file and save it as a .gpx file that you can now use with GPicSync. 
+For now GPicSync reads the time only (not the date)and takes all valid track points. If you have track points with diffrent dates in your gpx file just find the good trkseg(s) per day  and copy it to a new file and save it as a .gpx file that you can now use with GPicSync. 

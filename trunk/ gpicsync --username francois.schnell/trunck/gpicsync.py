@@ -34,11 +34,12 @@ class GpicSync(object):
     """
     A class to manage the geolocalisation from a .gpx file.
     """
-    def __init__(self,gpxFile,tcam_l="00:00:00",tgps_l="00:00:00",UTCoffset=0):
+    def __init__(self,gpxFile,tcam_l="00:00:00",tgps_l="00:00:00",UTCoffset=0,dateProcess=False):
         """Extracts data from the gpx file and compute local offset duration"""
         myGpx=Gpx(gpxFile)   
         self.track=myGpx.extract()
         self.localOffset=0 #default time offset between camera and GPS
+        self.dateCheck=dateProcess
         self.UTCoffset=UTCoffset*3600
         tcam_l=int(tcam_l[0:2])*3600+int(tcam_l[3:5])*60+int(tcam_l[6:8])
         tgps_l=int(tgps_l[0:2])*3600+int(tgps_l[3:5])*60+int(tgps_l[6:8])
@@ -68,10 +69,9 @@ class GpicSync(object):
         self.shotDate=pic.readDateTime()[0].replace(":","-")
         latitude=""
         longitude=""
-        dateCheck=False
         #print "Picture shotTime was", self.shotTime
         tpic_tgps_l=86400 # maximum seconds interval in a day
-        if dateCheck==True:
+        if self.dateCheck==True:
             for rec in self.track:
                 if rec['date']==self.shotDate:
                     rec["tpic_tgps_l"]= self.compareTime(self.shotTime,rec["time"])
@@ -87,7 +87,7 @@ class GpicSync(object):
                         if float(longitude)>0:
                             longRef="E"
                         else: longRef="W"
-        if dateCheck==False:
+        if self.dateCheck==False:
             for rec in self.track:
                 rec["tpic_tgps_l"]= self.compareTime(self.shotTime,rec["time"])
                 if abs(rec["tpic_tgps_l"])<tpic_tgps_l:
@@ -103,7 +103,7 @@ class GpicSync(object):
                     if float(longitude)>0:
                         longRef="E"
                     else: longRef="W"
-        if dateCheck==True:
+        if self.dateCheck==True:
             if latitude != "" and longitude !="":
                 if float(longitude)<0:longitude=str(abs(float(longitude)))
                 if float(latitude)<0:latitude=str(abs(float(latitude)))
@@ -111,15 +111,14 @@ class GpicSync(object):
                 longitude,longRef,"with tpic-tgps=",tpic_tgps_l,"seconds\n"
                 pic.writeLatLong(latitude,longitude,latRef,longRef)
                 #return tpic_tgps_l
-                return "Original date and time of the picure is :"+\
-                self.shotDate+"-"+self.shotTime+"\n"+\
-                "Writting best latitude/longitude match to EXIF picture: "+latRef+\
-                " "+latitude+" ,"+longRef+" "+longitude+" with time difference (s)= "+str(tpic_tgps_l)
+                return "taken "+self.shotDate+"-"+self.shotTime+\
+                "  - Writting best match to picture  -> "+latRef+\
+                " "+latitude+" ,"+longRef+" "+longitude+" : time difference (s)= "+str(tpic_tgps_l)
             else:
                 print "Didn't find any picture for this day"
-                return "Failure: didn't find any trackpoint for the day of the picture: "\
-                +self.shotDate+"-"+self.shotTime+"\n"
-        if dateCheck==False:
+                return " : Failure, didn't find any trackpoint at this picture's date: "\
+                +self.shotDate+"-"+self.shotTime
+        if self.dateCheck==False:
             if latitude != "" and longitude !="":
                 if float(longitude)<0:longitude=str(abs(float(longitude)))
                 if float(latitude)<0:latitude=str(abs(float(latitude)))
@@ -129,8 +128,8 @@ class GpicSync(object):
                 response= "Writting best latitude/longitude match to EXIF picture: "+latRef+\
                 " "+latitude+" ,"+longRef+" "+longitude+" with time difference (s)= "+str(tpic_tgps_l)
                 if self.shotDate != trkptDay:
-                    response=response+"\nWarning: Picure date: "+self.shotDate+\
-                   " and track point date are different: "+ trkptDay
+                    response=response+"\nWarning: Picture date "+self.shotDate+\
+                   " and track point date "+trkptDay+" are different ! " 
                 return response
             else:
                 print "Didn't find any suitable trackpoint"

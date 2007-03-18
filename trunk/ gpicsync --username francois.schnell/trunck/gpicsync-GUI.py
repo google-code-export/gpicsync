@@ -35,7 +35,7 @@ class GUI(wx.Frame):
     def __init__(self,parent, title):
         """Initialize the main frame"""
         
-        wx.Frame.__init__(self, parent, -1, title="GPicSync",size=(900,400))
+        wx.Frame.__init__(self, parent, -1, title="GPicSync",size=(800,400))
         self.tcam_l="00:00:00"
         self.tgps_l="00:00:00"
         self.log=False
@@ -60,7 +60,10 @@ class GUI(wx.Frame):
         syncButton=wx.Button(bkg,size=(150,-1),label=" Synchronise ! ")
         quitButton=wx.Button(bkg,label="Quit")
         utcLabel = wx.StaticText(bkg, -1,"UTC Offset=")
-        self.logFile=wx.CheckBox(bkg,-1,"Create a log file in pictures folder")
+        self.logFile=wx.CheckBox(bkg,-1,"Create a log file in picture folder")
+        self.logFile.SetValue(True)
+        self.dateCheck=wx.CheckBox(bkg,-1,"Dates must match")
+        self.dateCheck.SetValue(True)
 
         self.Bind(wx.EVT_BUTTON, self.findPictures, dirButton)
         self.Bind(wx.EVT_BUTTON, self.findGpx, gpxButton)
@@ -86,6 +89,7 @@ class GUI(wx.Frame):
         hbox3.Add(utcLabel,proportion=0,flag=wx.LEFT,border=10)
         hbox3.Add(self.utcEntry,proportion=0,flag=wx.LEFT,border=10)
         hbox3.Add(self.logFile,proportion=0,flag=wx.LEFT,border=10)
+        hbox3.Add(self.dateCheck,proportion=0,flag=wx.LEFT,border=10)
         hbox3.Add(syncButton,proportion=0,flag=wx.LEFT,border=10)
         hbox3.Add(quitButton,proportion=0,flag=wx.RIGHT,border=20)
         
@@ -103,7 +107,7 @@ class GUI(wx.Frame):
     def aboutApp(self,evt): 
         """An about message dialog"""
         text="""
-        GPicSync version 0.42 - March 2007 
+        GPicSync version 0.50 - March 2007 
          
         GPicSync is Free Software (GPL v2)
         
@@ -142,11 +146,12 @@ class GUI(wx.Frame):
     def syncPictures(self,evt):
         """Sync. pictures with the .gpx file"""
         utcOffset=int(self.utcEntry.GetValue())
+        dateProcess=self.dateCheck.GetValue()
+        self.log=self.logFile.GetValue()
         print "utcOffset= ",utcOffset
         geo=GpicSync(gpxFile=self.gpxFile,tcam_l=self.tcam_l,tgps_l=self.tgps_l,
-        UTCoffset=utcOffset)
+        UTCoffset=utcOffset,dateProcess=dateProcess)
         def sync():
-            self.log=self.logFile.GetValue()
             self.consoleEntry.AppendText("Beginning synchronisation with "
             +"UTC Offset="+self.utcEntry.GetValue()+"\n")
             if self.log==True:
@@ -159,7 +164,7 @@ class GUI(wx.Frame):
             for fileName in os.listdir ( self.picDir ):
                 if fnmatch.fnmatch ( fileName, '*.jpg' ):
                     print "\nFound fileName ",fileName," Processing now ..."
-                    self.consoleEntry.AppendText("\nFound "+fileName+" : Processing now ...")
+                    self.consoleEntry.AppendText("\nFound "+fileName+" ")
                     print self.picDir+'\\'+fileName
                     result=geo.syncPicture(self.picDir+'\\'+fileName)
                     self.consoleEntry.AppendText(result+"\n")

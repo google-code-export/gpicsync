@@ -25,9 +25,4 @@ Gpx files have one or more <trkseg> ... </trkseg>  which contain plenty of track
 </trkseg>
 ...
 }}}
-
-For now GPicSync reads the time only (not the date)and takes all valid track points.
-If you have track points with different dates in your gpx file:
-  * find the good trkseg(s) for your day
-  * copy it (them) to a new file and save it as a .gpx file
-  * you can now use it with GPicSync and the folder containing the pictures for this day. 
+ 

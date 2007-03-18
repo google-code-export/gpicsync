@@ -12,6 +12,17 @@
 #
 ###############################################################################
 
+"""
+GUI Part of GPicSync, a Free Software tool to geolocalize informations from:
+- a GPS (.gpx file)
+- pictures from a camera
+The resulting pictures have latitude/longitude informations in their EXIF
+meta-data and can be used with software or webservice which can read them
+(like Flickr or Google Earth)
+More informations at this URL:
+http://code.google.com/p/gpicsync/
+"""
+
 import wx,time
 import os,sys,fnmatch
 from geoexif import *
@@ -22,6 +33,7 @@ from thread import start_new_thread
 class GUI(wx.Frame):
     """Main Frame of GPicSync"""
     def __init__(self,parent, title):
+        """Initialize the main frame"""
         wx.Frame.__init__(self, parent, -1, title="GPicSync",size=(900,400))
         self.tcam_l="00:00:00"
         self.tgps_l="00:00:00"
@@ -59,7 +71,7 @@ class GUI(wx.Frame):
         self.utcEntry.SetValue("0")
         self.consoleEntry=wx.TextCtrl(bkg,style=wx.TE_MULTILINE | wx.HSCROLL)
         #self.consoleEntry.SetBackgroundColour("light grey")
-
+        
         hbox=wx.BoxSizer()
         hbox.Add(dirButton,proportion=0,flag=wx.LEFT,border=5)
         hbox.Add(self.dirEntry,proportion=1,flag=wx.EXPAND)
@@ -103,6 +115,7 @@ class GUI(wx.Frame):
         dialog=wx.MessageDialog(self,message=text,
         style=wx.OK|wx.CANCEL|wx.ICON_INFORMATION)
         dialog.ShowModal()
+        
     def exitApp(self,evt):
         """Quit properly the app"""
         print "Exiting the app..."
@@ -156,6 +169,7 @@ class GUI(wx.Frame):
         start_new_thread(sync,())
         
     def localtimeCorrection(self,evt):
+            """ Local time correction if GPS and camera wasn't synchronized """
             self.winOpt.Close()
             self.tcam_l=self.camEntry.GetValue()
             self.tgps_l=self.gpsEntry.GetValue()

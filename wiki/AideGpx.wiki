@@ -4,11 +4,8 @@ Si aucune information de geolocalisation apparaît il faut d'abord vérifier le 
 Un fichier .gpx est un fichier texte que vous pouvez ouvrir et modifier facilement dans un éditeur de texte : il contient plein de tags sous la forme de balises contenant du texte ou d'autres tags : <tag> .... </tag>
 
 
-GPicSync cherche d'abord le tag <trkseg> ... </trkseg> qui devrait comporter de nombreux points GPS  <trkpt>...</trkpt> qui indique votre position précise à un instant donné. time.
+Un fichier gpx a un ou plusieurs <trkseg> ... </trkseg> qui devrait comporter de nombreux points GPS  <trkpt>...</trkpt> qui indique votre position précise à un instant donné. time.
 
-Si il a plus d'une section <trkseg> ... </trkseg>, GPicSync va utiliser la première section qui contient des points GPS valides avec indication horaire (les <trakseg> sans indication horaires sont ignorés).
-
-Un fichier gpx valide pour GPicSync ressemble à ceci : 
 {{{
 ...
 <trkseg> 

@@ -34,10 +34,12 @@ class GUI(wx.Frame):
     """Main Frame of GPicSync"""
     def __init__(self,parent, title):
         """Initialize the main frame"""
+        
         wx.Frame.__init__(self, parent, -1, title="GPicSync",size=(900,400))
         self.tcam_l="00:00:00"
         self.tgps_l="00:00:00"
         self.log=False
+        
         bkg=wx.Panel(self)
         #bkg.SetBackgroundColour('light blue steel')
         #toolbar=self.CreateToolBar()
@@ -85,7 +87,6 @@ class GUI(wx.Frame):
         hbox3.Add(self.utcEntry,proportion=0,flag=wx.LEFT,border=10)
         hbox3.Add(self.logFile,proportion=0,flag=wx.LEFT,border=10)
         hbox3.Add(syncButton,proportion=0,flag=wx.LEFT,border=10)
-        
         hbox3.Add(quitButton,proportion=0,flag=wx.RIGHT,border=20)
         
         vbox=wx.BoxSizer(wx.VERTICAL)

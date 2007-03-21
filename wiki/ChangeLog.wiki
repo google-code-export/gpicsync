@@ -1,4 +1,7 @@
+== Version 0.50 ===
 
+  * can sync now whatever the dates in the gpx files or the pictures folder "dates must match" (is now default option)
+  * added a stop and  clear button
 
 === Version 0.43 ===
 

@@ -1,5 +1,3 @@
-= Contributions =
-
 Thanks to all people contrubuting feedback, bugs report, patches, suggestions...
 
 In particular:

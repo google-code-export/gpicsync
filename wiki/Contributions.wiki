@@ -4,7 +4,7 @@ In particular:
 
 *Marc Nozell*
 
-For his patch for the EXIFTool cross-compatiblity (windows-linux)
+For his patch on geoexif.py to use EXIFTool with windows and linux
 
 http://nozell.com/blog
 

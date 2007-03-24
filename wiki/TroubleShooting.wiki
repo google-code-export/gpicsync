@@ -36,4 +36,4 @@ Google the name of the file. You'll find plenty of sites where you can download 
 
 *3)Linux (gpicsync-GUI.py): the console text area doesn't refresh properly.*
 
-If you encounter this problem and until its fixed you can resize the windows or use the vertical slider to refresh the text area.
+If you encounter this problem and until its fixed you can resize the window or use the vertical slider to refresh the text area.

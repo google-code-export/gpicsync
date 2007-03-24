@@ -1,6 +1,7 @@
 #labels Featured
   * 1)If no indications of localization appears check first your .gpx file
-  * 2)If you have an error MSVCP71.dll was not found (or another dll file).  
+  * 2)If you have an error MSVCP71.dll was not found (or another dll file).
+  * 3)Linux (gpicsync-GUI.py): the console text area doesn't refresh properly.
 
 *1) If no indications of localization appears check first your .gpx file:* 
 
@@ -32,3 +33,7 @@ Gpx files have one or more <trkseg> ... </trkseg>  which contain plenty of track
 *2)If you have an error MSVCP71.dll was not found (or another dll file).  *
 
 Google the name of the file. You'll find plenty of sites where you can download the dll.
+
+*3)Linux (gpicsync-GUI.py): the console text area doesn't refresh properly.*
+
+If you encounter this problem and until its fixed you can resize the windows or use the vertical slider to refresh the text area.

@@ -41,7 +41,9 @@ If you forgot to set the local time for your camera you can take this into accou
 
 ===5) Use your localized pictures===
 
-You can now use your pictures with any software or website which can read the latitude/longitude information. For example:
+New in 0.7: If you didn't uncheck "create a local Google Earth file" you can directly view you pictures in Google Earth from GPicSync by clicking on "View in Google Earth" button at the end of the synchronization.
+
+You can also use your pictures with any software or website which can read the latitude/longitude information. For example:
 
 ====a) Flickr====
 

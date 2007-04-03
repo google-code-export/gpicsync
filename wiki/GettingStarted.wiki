@@ -41,7 +41,9 @@ If you forgot to set the local time for your camera you can take this into accou
 
 ===5) Use your localized pictures===
 
-New in 0.7: If you didn't uncheck "create a local Google Earth file" you can directly view you pictures in Google Earth from GPicSync by clicking on "View in Google Earth" button at the end of synchronization.
+If you didn't uncheck "create a local Google Earth file" you can directly view your pictures and tracklong in Google Earth from GPicSync (by clicking on "View in Google Earth" button at the end of synchronization).
+
+You can also export your geolocalized pictures in a kmz file for sharing or to put on a server ("Tools"->"KMZ Generator").
 
 You can also use your pictures with any software or website which can read the latitude/longitude information. For example:
 

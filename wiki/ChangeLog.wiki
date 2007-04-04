@@ -1,3 +1,11 @@
+== Version 0.81 (april 4th 2007) ===
+
+* Changed the way the  kml file + synchronization is produced (gained
+around a third of the
+previous time)
+* Fixed in the doc.kml the tag "name" which appeared twice inside each
+placemark (thanks Peter) 
+
 == Version 0.50 ===
 
   * can sync now whatever the dates in the gpx files or the pictures folder "dates must match" (is now default option)

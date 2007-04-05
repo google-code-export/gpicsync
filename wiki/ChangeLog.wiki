@@ -1,3 +1,8 @@
+
+=== Version 0.81.1 (april 5th 2007) ===
+
+  * Fixed a sign problem which appeared when the user unchecks "dates must match" (for western longitudes or southern latitudes)
+
 === Version 0.81 (april 4th 2007) ===
 
   * Changed the way the  kml file + synchronization is produced (gained around a third of the previous time)

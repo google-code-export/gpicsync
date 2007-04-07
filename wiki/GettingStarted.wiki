@@ -28,7 +28,7 @@ Install and launch GPicSync:
   * indicate the UTC Offset (+1 in France, 0 in the UK, -8 for PST, -5 for EST,etc, You may need to add an hour for summer local time depending of your country policy)
   * hit the  "synchronize !" button
 
-You should now see a line per picture with the file name found and the localization that has been written in the EXIF part of the picture (each geolocalization takes 2 to 3 seconds to process).
+You should now see a line per picture with the file name found and the localization that has been written in the EXIF part of the picture (each geolocalization takes 1 to 3 seconds to process).
 
 There's also an indication of the time difference between the nearest time in the track log and the time of the picture. Depending on the track log settings in your GPS you should see a few seconds difference. If this difference is important (above a hundred seconds) there's probably something wrong in your time setting. In particular check that you've indicated the right UTC offset (and maybe add an hour if you are in a summer daylight saving case). 
 

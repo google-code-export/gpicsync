@@ -8,3 +8,8 @@ Uploaded pictures in Flickr as seen in loc.alize.us:
 
 [http://www.flickr.com/photo_zoom.gne?id=449392074&size=o http://farm1.static.flickr.com/194/449392074_45b24abd9e.jpg]
 
+*Version 0.5*
+
+On Linux Ubuntu Feisty Fawn:
+
+[http://www.flickr.com/photo_zoom.gne?id=430807544&size=o http://farm1.static.flickr.com/173/430807544_813fd17758_m.jpg]

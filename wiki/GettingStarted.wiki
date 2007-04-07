@@ -20,7 +20,7 @@ Take your GPSr with you and make sure that it is recording a track log. Keep you
 ===4) Come back home and sync===
 
 Put the  pictures you want to geolocalize in a folder.
-With the software of your choice (for example [http://www.easygps.com/ EasyGPS] on Windows) retrieve the track log as a .gpx file. Put the .gpx file preferably in the folder containing the pictures.
+With the software of your choice (for example [http://www.easygps.com/ EasyGPS] on Windows) retrieve the track log as a .gpx file (a [http://www.topografix.com/gpx_resources.asp list of GPX capable software]). Put the .gpx file preferably in the folder containing the pictures.
 
 Install and launch GPicSync:
   * select the pictures folder

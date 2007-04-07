@@ -1,4 +1,4 @@
-Thanks to all people contrubuting feedback, bugs report, patches, suggestions...
+Thanks to all people contributing feedback, bugs report, patches, suggestions...
 
 In particular:
 
@@ -13,4 +13,8 @@ http://nozell.com/blog
 For testing the very first version and sending detailed reports and making amazing pictures of Africa:
 
 http://www.flickr.com/photos/7314364@N04/
+
+*Phil Harvey*
+
+For his great [http://www.sno.phy.queensu.ca/~phil/exiftool/ EXIFTool] library that use to read/write in the EXIF part of pictures.
   

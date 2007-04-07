@@ -1,0 +1,7 @@
+A ToDo list for future releases
+
+  * give option not to make back-up pictures from the GUI
+  * give option for an interpolation mode
+  * in kml/kmz resize while keeping the original ratio of the photo
+  * in kml/kmz add time and localization in the description of the picture
+  * internationalize the application with gettext and po files

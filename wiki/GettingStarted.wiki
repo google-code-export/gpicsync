@@ -30,26 +30,28 @@ Install and launch GPicSync:
 
 You should now see a line per picture with the file name found and the localization that has been written in the EXIF part of the picture (each geolocalization takes 2 to 3 seconds to process).
 
-If you've let the "Create a Google Earth file" checked you can directly verify your photos in Google Earth (just click the "View in Google Eath" button at the end of the process).
-
 There's also an indication of the time difference between the nearest time in the track log and the time of the picture. Depending on the track log settings in your GPS you should see a few seconds difference. If this difference is important (above a hundred seconds) there's probably something wrong in your time setting. In particular check that you've indicated the right UTC offset (and maybe add an hour if you are in a summer daylight saving case). 
+
+If you've let the "Create a Google Earth file" checked you can directly verify your photos in Google Earth (just click the "View in Google Eath" button at the end of the process).
 
 Note that the original picture has been kept intact with the "original" suffix. If all went well you can obviously erase them ('type' selection in the explorer). 
 
 If the date on your camera was wrong uncheck "dates must match" before synchronizing.
 
-If there's no location showing check your .gpx file or use "Tools"->"GPX Inspector" to quickly see the data GPicSync finds in it.
+If there's no location showing:
+  * use "Tools"->"GPX Inspector" to quickly see the data GPicSync finds in it.
+  * use "Tools"->"EXIF Reader" and check if your photos contain a Date/Time Original   field like (Date/Time Original : 2007:04:06 14:41:02). Some image processing software erase metadata (Picassa for example keeps the metadata)
 
 If you forgot to set the local time for your camera you can take this into account in the Option menu.
 
 
 ===5) Use your localized pictures===
 
-If you didn't uncheck "create a local Google Earth file" you can directly view your pictures and tracklong in Google Earth from GPicSync (by clicking on "View in Google Earth" button at the end of synchronization).
+As mentioned above if you didn't uncheck "create a local Google Earth file" you can directly view your pictures and tracklong in Google Earth from GPicSync (by clicking on "View in Google Earth" button at the end of synchronization).
 
-You can also export your geolocalized pictures in a kmz file for sharing or to put on a server ("Tools"->"KMZ Generator").
+You can also export your geolocalized pictures in a single kmz file for sharing or to put on a server ("Tools"->"KMZ Generator").
 
-You can also use your pictures with any software or website which can read the latitude/longitude information. For example:
+You can also use your pictures with any software or website which can read the latitude/longitude informations. For example:
 
 ====a) Flickr====
 

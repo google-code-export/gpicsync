@@ -1,5 +1,5 @@
 #labels french
-Si aucune information de geolocalisation apparaît il faut d'abord vérifier le fichier .gpx. 
+Si aucune information de geolocalisation apparaît vérifiez votre fichier .gpx. 
 
 Un fichier .gpx est un fichier texte que vous pouvez ouvrir et modifier facilement dans un éditeur de texte : il contient plein de tags sous la forme de balises contenant du texte ou d'autres tags : <tag> .... </tag>
 
@@ -26,11 +26,8 @@ Un fichier gpx a un ou plusieurs <trkseg> ... </trkseg> qui devrait comporter de
 ...
 }}}
 
-Attention:
+Vous pouvez vérifier les informations que GPicSync extrait en utilisant le menu "Tools"->"GPX Inspector".
 
-Pour l'instant GPicSync lit uniquement le temps de la photo et non la date.
-Si vous avez plusieurs dates dans votre gpx vous devez d'abord créer par copier-coller un fichier par jour que vous pourrez ensuite synchroniser avec le dossier contenant les photos de la journée correspondante.
-
-Dans les prochaines versions de GPicSync l'option directe de synchronisation de dates multiples est prévue.
+Utilisez "Tools"->"EXIF Reader" pour vérifiez éventuellement que vos photos contiennent bien un champ 'Date/Time Original'(Exemple: Date/Time Original : 2007:04:06 14:41:02). Certain logiciels de traitement d'image effacent les metadonnées des photos.
 
 Si malgré cela vous n'arrivez toujours pas à obtenir vos photos géolocalisées merci de m'envoyer votre fichier .gpx et une ou deux photos à [http://francois.schnell.free.fr/mygmail.png cette adresse mail]. Merci d'avance pour votre feedback !

@@ -16,22 +16,23 @@ Set the local time precisely to the same local time indicated by the GPSr. Also 
 
 ===3) Go outside and shoot===
 Take your GPSr with you and make sure that it is recording a track log. Keep your GPSr ON during all the time you take pictures.
-A few tips to attach your GPSr (to come)
 
 ===4) Come back home and sync===
 
 Put the  pictures you want to geolocalize in a folder.
-With the software of your choice (for example [http://www.easygps.com/ EasyGPS] on Windows or GPSman on Linux) retrieve the track log as a .gpx file. Put the .gpx file preferably in the folder containing the pictures.
+With the software of your choice (for example [http://www.easygps.com/ EasyGPS] on Windows) retrieve the track log as a .gpx file. Put the .gpx file preferably in the folder containing the pictures.
 
 Install and launch GPicSync:
   * select the pictures folder
   * select the .gpx file
-  * indicate the UTC Offset (+1 in France, 0 in the UK, -8 for PST, -5 for EST,etc,You may need to add an hour for summer local time)
+  * indicate the UTC Offset (+1 in France, 0 in the UK, -8 for PST, -5 for EST,etc, You may need to add an hour for summer local time depending of your country policy)
   * hit the  "synchronize !" button
 
 If all goes well you should see a line per picture with the file name found and the localization that has been written in the EXIF part of the picture.
 
-There's also an indication of the time difference between the nearest time in the track log and the time of the picture. Depending on the track log settings in your GPS you should see a few seconds difference. If this difference is important (above a hundred seconds) there's probably something wrong in your time setting. In particular check that you've indicated the right UTC offset. For later reference it could be useful to check the "create a log file" option to have a summary of all the operations in your pictures folder. Note that the original picture has been kept intact with the "original" suffix.
+There's also an indication of the time difference between the nearest time in the track log and the time of the picture. Depending on the track log settings in your GPS you should see a few seconds difference. If this difference is important (above a hundred seconds) there's probably something wrong in your time setting. In particular check that you've indicated the right UTC offset. 
+
+Note that the original picture has been kept intact with the "original" suffix. If all went well you can obviously erase them. 
 
 If the date on your camera was wrong uncheck "dates must match" before synchronizing.
 

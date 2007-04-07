@@ -29,6 +29,8 @@ Gpx files have one or more <trkseg> ... </trkseg>  which contain plenty of track
 </trkseg>
 ...
 }}}
+
+Use "Tools"->"GPX Inspector" to quickly see the data GPicSync finds in it. If your gpx file seems fine use "Tools"->"EXIF Reader" and check if your photos contain a éDate/Time Original' field like (Date/Time Original : 2007:04:06 14:41:02). Some image processing software erase metadata (Picassa for example keeps the metadata).
  
 *2)If you have an error MSVCP71.dll was not found (or another dll file).  *
 

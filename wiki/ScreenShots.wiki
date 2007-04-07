@@ -1,3 +1,6 @@
 *Version 0.8*
 
 [http://www.flickr.com/photo_zoom.gne?id=445300384&size=o http://farm1.static.flickr.com/237/445300384_1b25375302.jpg]
+(Checking directly results in Google Earth)
+
+[http://www.flickr.com/photo_zoom.gne?id=449392074&size=o http://farm1.static.flickr.com/194/449392074_45b24abd9e.jpg]

@@ -1,6 +1,14 @@
 #labels Featured
 *Version 0.83*
 
+Checking directly results in Google Earth:
+
+[http://www.flickr.com/photo_zoom.gne?id=451406044&size=o http://farm1.static.flickr.com/251/451406044_62d5ae804f.jpg]
+
+Uploaded pictures on Flickr and checking in Flickr map:
+
+[http://www.flickr.com/photo_zoom.gne?id=451413024&size=o http://farm1.static.flickr.com/234/451413024_af01d5df0e.jpg]
+
 *Version 0.80*
 
 Checking directly results in Google Earth:

@@ -1,5 +1,7 @@
 #labels Featured
-*Version 0.8*
+*Version 0.83*
+
+*Version 0.80*
 
 Checking directly results in Google Earth:
 

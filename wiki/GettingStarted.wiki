@@ -1,4 +1,6 @@
 #labels Featured
+(for version 0.80)
+
 = Getting started with GPicSync =
 
   * 1) Set your GPS receiver (GPSr)

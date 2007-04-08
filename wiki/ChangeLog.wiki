@@ -1,3 +1,11 @@
+=== Version 0.83 (april 9th 2007) ===
+
+Added two feature request:
+
+  * An option to geocode only the photos where the time difference (between picture time and nearest track  point) is below a given time range (by default 120 seconds).
+  * An option to decide if you need or not a back-up of your pictures before processing.  
+
+
 === Version 0.81.1 (april 5th 2007) ===
 
   * Fixed a sign problem from version 0.81 when the user unchecks "dates must match" (for western longitudes or southern latitudes)

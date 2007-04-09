@@ -1,5 +1,6 @@
 A ToDo list for future releases
 
+  * make a tool to add a track log to an existing kmz file (produced by Picassa 2 for exemple)
   * update Linux version
   * give option for an interpolation mode
   * in kml/kmz resize while keeping the original ratio of the photo

@@ -13,12 +13,10 @@
 Si ce n'est pas déjà le cas mettez votre GPS à l'heure locale du pays.
 
 ===2)  Initialisez votre APN===
-Rentrez la même heure dans votre APN que celle indiquée par votre GPS. Profitez en pour régler la date si nécessaire.
+Rentrez la même heure dans votre APN que celle indiquée par votre GPS (à la seconde près). Profitez en pour régler la date si nécessaire.
 
 ===3) Faites votre ballade et prenez des photos ! ===
 Prenez votre GPS avec vous et assurez vous qu'il enregistre bien votre parcours ("track log" ON). Laissez le GPS allumé durant toute la ballade et prenez vos photos comme d'habitude.
-
-Quelques astuces pour attacher votre GPS (à venir).
 
 ===4) De retour, synchronisez le tout avec GPicSync ===
 
@@ -31,9 +29,11 @@ Installez et lancez [http://code.google.com/p/gpicsync/downloads/list GPicSync]:
   * indiquez l'UTC Offset, c'est à dire le fuseau horaire (+1 in France, 0 en Angleterre, -8 pour la côte Ouest des états-unis, etc.)
   * appuyez sur le bouton "synchronize !"
 
-Si tout se passe bien vous devriez voir rapidement une ligne d'information (par photo trouvée) avec la localisation qui vient d'être inscrite dans les informations EXIF de celle-ci. 
+Si tout se passe bien vous devriez voir rapidement une ligne d'information (par photo trouvée) avec la localisation qui vient d'être inscrite dans les informations EXIF de celle-ci (chaque localisation prends entre 1 et 3 secondes). 
 
-Il y a aussi une indication sur l'écart en seconde avec le point du "track log" le plus proche. En fonction des réglages de votre GPS vous devriez voir quelques secondes de différences (au delà d'une centaine de seconde il y a probablement une erreur dans votre timing). En particulier vérifiez que vous indiquez bien le bon "UTC Offset"(fuseau horaire = 1 pour la France).  
+Il y a aussi une indication sur l'écart en seconde entre votre photo et le point du "track log" le plus proche. En fonction des réglages de votre GPS vous devriez voir quelques secondes de différences (au delà d'une centaine de seconde il y a probablement une erreur dans votre timing). En particulier vérifiez que vous indiquez bien le bon "UTC Offset"(fuseau horaire = 1 pour la France, ajouter un heure pour l'heure d'été).  
+
+Par défaut GPicSync ne geocode pas les photos dont la différence de temps est inférieure à 120 secondes. Vous pouvez ajuter cette limite directement dans l'interface ("Geocode only if time difference is less than (seconds)=").
 
 Vous avez aussi la possibilité de créer un rapport des opérations effectuées dans le dossier des photos en cochant "create a log file". A noter que pour éviter tout problème éventuel une copie de chaque photo originale est conservée avec le suffix "original" en fin de nom.
 

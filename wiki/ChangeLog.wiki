@@ -3,7 +3,7 @@
 Added two feature requests:
 
   * An option to geocode only the photos where the time difference (between picture time and nearest track  point) is below a given time range (by default 120 seconds).
-  * An option to decide if you need or not a back-up of your pictures before processing.  
+  * An option to decide if you need or not a back-up of your pictures before processing (by default a backup is made).  
 
 
 === Version 0.81.1 (april 5th 2007) ===

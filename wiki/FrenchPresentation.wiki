@@ -23,7 +23,7 @@ Si vous le trouvez utile merci de le faire connaître autour de vous. Si vous re
 
 *Quelques exemples de photos géolocalisées avec GPicSync:*
 
-  * Une de mes [http://loc.alize.us/#/user:Francois%20Schnell/geo:48.58412,7.76409,17,k/ pause sandwich  géolocalisée] (as seen in loc.alize.us which use Flickr and Google maps)
+  * Une de mes [http://loc.alize.us/#/user:Francois%20Schnell/geo:48.58412,7.76409,17,k/ pause sandwich  géolocalisée] (vue dans loc.alize.us qui utilise Flickr et Google maps)
   * Une [http://www.flickr.com/photos/frenchy/sets/72157600057036260/map/ sortie vélo dans le vignoble alsacien] (via Yahoo maps - Flickr)
   * Un export Google Earth [http://francois.schnell.free.fr/geo/testGpicsync.kmz KMZ autour de Strasbourg] (généré par GPicSync via 'Tools' -> 'KMZ Generator')  
   * [http://loc.alize.us/#/user:Francois%20Schnell/geo:48.45095,7.03726,13,k/ Un premier test en VTT] (vue dans loc.alize.us)

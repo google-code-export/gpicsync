@@ -1,3 +1,10 @@
+=== Version 0.84 (april 9th 2007) ===
+
+Minor changes:
+
+  * Fixed a freeze of few seconds (graphical interface) when GPicSync was processing a big GPX file on "slow" computers.
+  * Added a message before the track log is added to the kml file (in case its a big GPX file which takes time to process).
+
 === Version 0.83 (april 9th 2007) ===
 
 Added two feature requests:

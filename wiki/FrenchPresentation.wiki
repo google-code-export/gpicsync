@@ -1,6 +1,6 @@
 [http://www.flickr.com/photo_zoom.gne?id=451406044&size=o http://farm1.static.flickr.com/251/451406044_62d5ae804f.jpg]
 
-( Debuter ) ( ScreenShots ) ( ChangeLog )
+( [Debuter] ) ( ScreenShots ) ( ChangeLog )
 
 *9 avril 2007* : Nouvelle version *0.83* disponible (voir ChangeLog )
 

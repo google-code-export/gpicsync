@@ -4,16 +4,16 @@
 
 *9 avril 2007* : Nouvelle version *0.83* disponible (voir ChangeLog )
 
-GPicSync automatically inserts location in your photos metadata  so they can also be used with any 'geocode aware' application like Picassa/Google Earth, Flickr, loc.alize.us, etc.
+GPicSync insère automatiquement les coordonnées latitude/longitudes dans les métadonnées de la photo qui peut alors aussi être utilisée avec toutes les logiciels sachant lire ces informations comme Picassa/Google Earth, Flickr, loc.alize.us, etc.
 
-*Features:*
+*Caractéristiques:*
 
-  * automatically geocode your photos (EXIF header)
-  * use any GPS tracklog in the universal [http://www.topografix.com/gpx_for_users.asp GPX format]
-  * create a Google Earth KML file to directly visualize the geocoded photos and track in Google Earth
-  * create a Google Earth KMZ file (containing your geolocalized pictures and tracklog) for easy sharing or to publish on a website.
-  * rename your pictures with their date and location
-  * handy tools integrated (Time correction, EXIF reader, GPX inspector, etc)
+  * geocode automatiquement vos photos (en-tête EXIF)
+  * utilise n'importe quel parcous GPS (track log) au format universel  [http://www.topografix.com/gpx_for_users.asp GPX]
+  * créer un fichier Google Earth KML pour directement visualiser vos photos et le track log dans Google Earth
+  * créer un fichier Google Earth KMZ file (contenant vos photos gélocalisées ainsi que le  track log) pour partager facilement par e-mail ou pour publier sur un site web.
+  * renomme vos photos avec la date et latitude/longitude
+  * quelques utilitaires intégrés (correction temporelle, lecteur EXIF, inspecteur GPX, etc)
 
 *Ready to geocode your photos?* GettingStarted
 

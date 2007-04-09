@@ -1,5 +1,4 @@
 #labels Featured
-(for version 0.80)
 
 = Getting started with GPicSync =
 
@@ -32,11 +31,13 @@ Install and launch GPicSync:
 
 You should now see a line per picture with the file name found and the localization that has been written in the EXIF part of the picture (each geolocalization takes 1 to 3 seconds to process).
 
-There's also an indication of the time difference between the nearest time in the track log and the time of the picture. Depending on the track log settings in your GPS you should see a few seconds difference. If this difference is important (above a hundred seconds) there's probably something wrong in your time setting. In particular check that you've indicated the right UTC offset (and maybe add an hour if you are in a summer daylight saving case). 
+There's also an indication of the time difference between the nearest time in the track log and the time of the picture. Depending on the track log settings in your GPS you should see a few seconds difference. If this difference is important (above a hundred seconds) there's probably something wrong in your time setting. In particular check that you've indicated the right UTC offset (and maybe add an hour if you are in a summer daylight saving case).
+
+By default GPicSync don't Geocode photos if the time difference is above 120 seconds but you can adjust this threshold in the interface ("Geocode only if time difference is less than (seconds)=").
 
 If you've let the "Create a Google Earth file" checked you can directly verify your photos in Google Earth (just click the "View in Google Eath" button at the end of the process).
 
-Note that the original picture has been kept intact with the "original" suffix. If all went well you can obviously erase them ('type' selection in the explorer). 
+By default a backup of you pictures is made (with an _original suffix added). If you already have a backup uncheck "backup pictures" in the interface). 
 
 If the date on your camera was wrong uncheck "dates must match" before synchronizing.
 

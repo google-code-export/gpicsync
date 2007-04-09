@@ -4,22 +4,22 @@
 
 *9 avril 2007* : Nouvelle version *0.83* disponible (voir ChangeLog )
 
-GPicSync insère automatiquement les coordonnées latitude/longitudes dans les métadonnées de la photo qui peut alors aussi être utilisée avec toutes les logiciels sachant lire ces informations comme Picassa/Google Earth, Flickr, loc.alize.us, etc.
+GPicSync insère automatiquement les coordonnées latitude/longitude dans les métadonnées de de vos photos qui peuvent alors aussi être utilisées avec tous les logiciels sachant lire ces informations comme Picassa/Google Earth, Flickr, loc.alize.us, etc.
 
 *Caractéristiques:*
 
   * geocode automatiquement vos photos (en-tête EXIF)
-  * utilise n'importe quel parcous GPS (track log) au format universel  [http://www.topografix.com/gpx_for_users.asp GPX]
-  * créer un fichier Google Earth KML pour directement visualiser vos photos et le track log dans Google Earth
-  * créer un fichier Google Earth KMZ file (contenant vos photos gélocalisées ainsi que le  track log) pour partager facilement par e-mail ou pour publier sur un site web.
+  * utilise n'importe quel parcours GPS (track log) au format universel  [http://www.topografix.com/gpx_for_users.asp GPX]
+  * crée un fichier Google Earth KML pour directement visualiser vos photos et le parcours GPS dans Google Earth
+  * crée un fichier Google Earth KMZ (contenant vos photos gélocalisées ainsi que le parcours) pour le partager facilement par e-mail ou pour le publier sur un site web.
   * renomme vos photos avec la date et latitude/longitude
-  * quelques utilitaires intégrés (correction temporelle, lecteur EXIF, inspecteur GPX, etc)
+  * quelques utilitaires intégrés (correction temporelle, lecteur EXIF, inspecteur GPX, etc.)
 
-*Ready to geocode your photos?* GettingStarted
+*Prêt à géocoder vos photos?* [Debuter]
 
-GPicSync stands for G:GPS Pic:Pictures Sync:Synchronization and is a Free and Open Source tool.
+GPicSync signifie G:GPS Pic:Pictures Sync:Synchronization et est un logiciel libre et Open Source.
 
-If you find it useful please tell others about it. If you encounter any problems, have questions, feature requests, etc, please don't hesitate to use the [http://groups.google.com/group/gpicsync dedicated Google Group].
+Si vous le trouvez utile merci de le faire connaître autour de vous. Si vous rencontrez des problèmes, avez des questions, souhaitez des fonctionnalités nouvelles, merci de ne pas hésitez à le faire savoir dans le [http://groups.google.com/group/gpicsync group Google dédié].
 
 *Few examples of pictures geolocalized with GPicSync:*
 

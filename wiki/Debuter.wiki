@@ -72,6 +72,6 @@ Si vous visualisez vos photos avec Picassa allez dans le  menu "Outils">"Géoloc
 
 ATTENTION:
 
-GPicSync est un logiciel libre en phase "beta". Merci de m'informer de tout bug ou problèmes que vous rencontrez (si possible en m'envoyant votre fichier .gpx et au moins une photo). 
+GPicSync est un logiciel libre en phase "beta". Merci de reporter tout problème dans le [http://groups.google.com/group/gpicsync groupe dédié]. 
 
-GPicSync n'offre aucune garantie donc ne l'utilisez pas pour des missions "critiques" en territoire ennemi et vérifiez toujours les résultats avec des cartes récentes.
+GPicSync n'offre aucune garantie donc ne l'utilisez pas pour des missions "critiques" en territoire ennemi et vérifiez toujours les résultats avec des cartes récentes.:)

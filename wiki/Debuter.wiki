@@ -35,6 +35,8 @@ Il y a aussi une indication sur l'écart en seconde entre votre photo et le poin
 
 Par défaut GPicSync ne geocode pas les photos dont la différence de temps est inférieure à 120 secondes. Vous pouvez ajuster cette limite directement dans l'interface ("Geocode only if time difference is less than (seconds)=").
 
+Si vous avez laissé la coche "Create a Google Earth file" vous pouvez directement en fin de synchronisation vérifier  vos photos et le parcours GPS dans Google Earth (en cliquant sur le bouton "View in Google Eath" à l'invite).
+
 Vous avez aussi la possibilité de créer un rapport des opérations effectuées dans le dossier des photos en cochant "create a log file". A noter que pour éviter tout problème éventuel une copie de chaque photo originale est conservée avec le suffix "original" en fin de nom. Si vous avez ou ne souhaitez pas un backup de vos photos il suffit de décocher "backup pictures" dans l'interface).
 
 Si les informations de localisation n'apparaissent pas vérifiez:
@@ -46,6 +48,10 @@ Si vous avez oublié de régler l'heure locale de vos appareils vous pourrez ind
 Si la date de votre appareil photo était fausse décochez "dates must match" avant de synchroniser.
 
 ===5) Appréciez vos photos géolocaliseés===
+
+Comme indiqué précédemment vous pouvez en fin de synchronisation vérifier vos photos dans Google Earth en cliquant "View in Google Earth). Un fichier doc.kml a été créer dans votre dossier photo sur lequel vous pouvez aussi double cliquer pour lancer la visualisation/
+
+Si vous souhaitez exporter vos photos dans un seul fichier Google Earth KMZ (pour partage via e-mail ou mise à disposition sur un serveur), sélectionnez le menu 'Tools'->'KMZ Generator'.
 
 Vous pouvez maintenant utiliser vos photos avec n'importe quel logiciel ou site web capable de lire les méta-données de géolocalisation.
 
@@ -68,4 +74,4 @@ ATTENTION:
 
 GPicSync est un logiciel libre en phase "beta". Merci de m'informer de tout bug ou problèmes que vous rencontrez (si possible en m'envoyant votre fichier .gpx et au moins une photo). 
 
-GPicSync n'offre aucune garantie donc ne l'utilisez pas pour des missions "critiques" et vérifiez toujours les résultats avec des cartes récentes.
+GPicSync n'offre aucune garantie donc ne l'utilisez pas pour des missions "critiques" en territoire ennemi et vérifiez toujours les résultats avec des cartes récentes.

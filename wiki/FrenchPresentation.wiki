@@ -19,7 +19,7 @@ GPicSync insère automatiquement les coordonnées latitude/longitude dans les m�
 
 GPicSync signifie G:GPS Pic:Pictures Sync:Synchronization et est un logiciel libre et Open Source.
 
-Si vous le trouvez utile merci de le faire connaître autour de vous. Si vous rencontrez des problèmes, avez des questions, souhaitez des fonctionnalités nouvelles, merci de ne pas hésitez à le faire savoir dans le [http://groups.google.com/group/gpicsync group Google dédié].
+Si vous le trouvez utile merci de le faire connaître autour de vous. Si vous rencontrez des problèmes, avez des questions, souhaitez des fonctionnalités nouvelles, merci de ne pas hésitez à le faire savoir dans le [http://groups.google.com/group/gpicsync group dédié].
 
 *Quelques exemples de photos géolocalisées avec GPicSync:*
 

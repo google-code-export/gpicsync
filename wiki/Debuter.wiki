@@ -31,13 +31,15 @@ Installez et lancez [http://code.google.com/p/gpicsync/downloads/list GPicSync]:
 
 Si tout se passe bien vous devriez voir rapidement une ligne d'information (par photo trouvée) avec la localisation qui vient d'être inscrite dans les informations EXIF de celle-ci (chaque localisation prends entre 1 et 3 secondes). 
 
-Il y a aussi une indication sur l'écart en seconde entre votre photo et le point du "track log" le plus proche. En fonction des réglages de votre GPS vous devriez voir quelques secondes de différences (au delà d'une centaine de seconde il y a probablement une erreur dans votre timing). En particulier vérifiez que vous indiquez bien le bon "UTC Offset"(fuseau horaire = 1 pour la France, ajouter un heure pour l'heure d'été).  
+Il y a aussi une indication sur l'écart en seconde entre votre photo et le point du "track log" le plus proche. En fonction des réglages de votre GPS vous devriez voir quelques secondes de différences (au delà d'une centaine de seconde il y a probablement une erreur dans votre timing). En particulier vérifiez que vous indiquez bien le bon "UTC Offset"(fuseau horaire = 1 pour la France et 2 à l'heure d'été).  
 
-Par défaut GPicSync ne geocode pas les photos dont la différence de temps est inférieure à 120 secondes. Vous pouvez ajuter cette limite directement dans l'interface ("Geocode only if time difference is less than (seconds)=").
+Par défaut GPicSync ne geocode pas les photos dont la différence de temps est inférieure à 120 secondes. Vous pouvez ajuster cette limite directement dans l'interface ("Geocode only if time difference is less than (seconds)=").
 
-Vous avez aussi la possibilité de créer un rapport des opérations effectuées dans le dossier des photos en cochant "create a log file". A noter que pour éviter tout problème éventuel une copie de chaque photo originale est conservée avec le suffix "original" en fin de nom.
+Vous avez aussi la possibilité de créer un rapport des opérations effectuées dans le dossier des photos en cochant "create a log file". A noter que pour éviter tout problème éventuel une copie de chaque photo originale est conservée avec le suffix "original" en fin de nom. Si vous avez ou ne souhaitez pas un backup de vos photos il suffit de décocher "backup pictures" dans l'interface).
 
-Si les informations de localisations n'apparaissent pas vérifiez d'abord l'allure de votre fichier .gpx : AideGpx (en cas de problème n'hésitez pas à utiliser le Google group GPicSync ou à me contacter).
+Si les informations de localisation n'apparaissent pas vérifiez:
+  *  votre fichier GPX (utilisez "Tools"->"GPX Inspector" pour voir les données que voit GPicSync dans le fichier)
+  * les métadonnées de vos photos (utilisez "Tools"->"EXIF Reader" et vérifez que 'Date/Time Original est bien présent. Exemple: "Date/Time Original : 2007:04:06 14:41:02")
 
 Si vous avez oublié de régler l'heure locale de vos appareils vous pourrez indiquer les informations nécessaires dans le menu "option" > "local time correction".
 

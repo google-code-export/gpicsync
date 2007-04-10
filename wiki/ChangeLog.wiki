@@ -1,4 +1,4 @@
-=== Version 0.85 (april 9th 2007) ===
+=== Version 0.85 (april 10th 2007) ===
 
 A test release to address Issue N°3 (writing in EXIF header doesn't work properly with pictures taken with certain camera brands, at least SONY Cybershot).
 

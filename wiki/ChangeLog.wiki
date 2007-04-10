@@ -1,3 +1,10 @@
+=== Version 0.85 (april 9th 2007) ===
+
+A test release to address Issue N°3 (writing in EXIF header doesn't work properly with pictures taken with certain camera brands, at least SONY Cybershot).
+
+If you had problems before try this new release. If it doesn't work for you please send me one original non geocoded picture taken by your camera (whatever it is). See Google Group:
+http://groups.google.com/group/gpicsync
+
 === Version 0.84 (april 9th 2007) ===
 
 Minor changes:

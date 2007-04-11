@@ -12,7 +12,7 @@ Vous pouvez ensuite mettre ce fichier kmz sur un serveur ou l'envoyer par mail. 
 
 Cliquez sur la capture d'écran ci-dessus pour mieux comprendre les différentes étapes.
 
-=== Quelques exemples de fichiers ainsi produits===:
+=== Quelques exemples ===:
 
 === Etapes: ===
 

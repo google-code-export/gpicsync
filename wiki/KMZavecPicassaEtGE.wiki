@@ -6,13 +6,9 @@
 
 L'objectif est de créer un fichier unique "léger" contenant les photos et le parcours GPS. Vous pouvez ensuite mettre ce fichier kmz sur un serveur ou l'envoyer par mail. Les destinataires devront avoir Google Earth pour l'ouvrir.
 
-1) 
+*1)*Utilisez des photos géocodées. Si ce n'est pas déjà fait utilisez GPicSync par exemple ( Debuter )
 
-Géocoder vos photos avec GPicSync par exemple ( Debuter )
-
-2)
-
-Lancez Picassa (à partir de la version 2) et sélectionnez le dossier contenant les photos géolocalisées de votre ballade.
+*2)* Lancez *Picassa* (à partir de la version 2) et sélectionnez le dossier contenant les photos géolocalisées de votre ballade.
 
 Pour les photos qu'il identifie comme étant géocodées, Picassa surimpose un petit cercle avec une croix (en bas à droite de chaque photo).
 
@@ -40,6 +36,5 @@ Votre fichier kmz contient maintenant vos photos et le parcours GPS.
 6)
 
 Si le fichiez KMZ n'est pas trop lourd vous pouvez l'envoyez à des amis par mail ou mieux le mettre dans un dossier sur un serveur et donner diffuser le lien correspondant.
-
 
 

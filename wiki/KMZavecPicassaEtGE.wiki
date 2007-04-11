@@ -12,7 +12,7 @@ Vous pouvez ensuite mettre ce fichier kmz sur un serveur ou l'envoyer par mail. 
 
 Cliquez sur la capture d'écran ci-dessus pour mieux comprendre les différentes étapes.
 
-*Quelques exemples du résultat attendu*:
+*Quelques exemples de fichiers ainsi produits*:
 
 
 *1)*Utilisez des *photos géocodées*. Si ce n'est pas déjà le cas utilisez GPicSync par exemple( Debuter )

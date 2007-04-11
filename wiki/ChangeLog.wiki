@@ -1,6 +1,6 @@
 === Version 0.85 (april 10th 2007) ===
 
-A test release to address Issue N°3 and 4 (writing in EXIF header doesn't work properly with pictures taken with certain camera brands, at least SONY Cybershot)and Longitude didn't write on some tests.
+A test release to address Issue N°3 and 4 (writing in EXIF header doesn't work properly with pictures taken with certain camera brands, at least SONY Cybershot) and Longitude didn't write for some users.
 
 If you had problems before try this new release. If it still doesn't work for you please send me one original non geocoded picture taken by your camera (whatever it is). See also the Google Group to stay informed:
 http://groups.google.com/group/gpicsync

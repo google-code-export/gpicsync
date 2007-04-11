@@ -1,3 +1,4 @@
+#labels french,tutorial
 *Partagez votre balade et vos photos géolocalisées avec Picassa et Google Earth (Windows).* 
 
 
@@ -28,6 +29,17 @@ Picassa va créer un fichier unique (en fait un zip renommé en kmz) qui contien
 Retrouver ce fichier kmz sur votre disque et double cliquez dessus : Google Earth se lance et montre les photo localisées sur Terre.
 
 5)
+
+Pour ceux qui souhaitent rajouter le parcours GPS au fichier kmz:
+  * glissez-déposez votre fichier gpx dans Google Earth. Vous voyez maintenant le parcours.
+  * sur la gauche regardez la partie "Lieux", regardez le dossier "Lieux temporaires". Celui-ci devrait contenir vos photos et votre parcours GPS ("GPS Device"). Si ce n'est pas le cas faites le ménage.
+  * faites maintenant un click droit sur le dossier "Lieux temporaires", puis "enregistrer sous" dans le menu contextuel qui appairait (donner le nom que vous voulez à votre fichier kmz)
+
+Votre fichier kmz contient maintenant vos photos et le parcours GPS.
+
+6)
+
+Si le fichiez KMZ n'est pas trop lourd vous pouvez l'envoyez à des amis par mail ou mieux le mettre dans un dossier sur un serveur et donner diffuser le lien correspondant.
 
 
 

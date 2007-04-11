@@ -2,3 +2,5 @@
 
 
 [http://farm1.static.flickr.com/235/455611242_75fa897f38_o.jpg http://farm1.static.flickr.com/235/455611242_d574862e52.jpg]
+
+L'objectif est de créer un fichier unique "léger" contenant les photos et le parcours GPS. Vous pouvez ensuite mettre ce fichier kmz sur un serveur ou l'envoyer par mail.

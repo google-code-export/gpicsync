@@ -69,6 +69,8 @@ Si vous préférez Google maps (plus précises en France que Yahoo maps) vous po
 
 Si vous visualisez vos photos avec Picassa allez dans le  menu "Outils">"Géolocaliser">"Afficher dans Google Earth".
 
+Voir aussi [http://code.google.com/p/gpicsync/wiki/KMZavecPicassaEtGE ce tutoriel] pour créer un fichier kmz avec le parcours GPS pour le distribuer facilement sur le web ou par mail.
+
 
 ATTENTION:
 

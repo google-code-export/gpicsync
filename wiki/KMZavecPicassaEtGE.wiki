@@ -7,28 +7,34 @@
 *Objectif:*
 
 Créer un fichier unique contenant les photos géolocalisées et le parcours GPS. 
+
 Vous pouvez ensuite mettre ce fichier kmz sur un serveur ou l'envoyer par mail. Les destinataires devront avoir Google Earth pour l'ouvrir.
 
-*1)*Utilisez des photos géocodées. Si ce n'est pas déjà le cas utilisez GPicSync par exemple( Debuter )
+Cliquez sur la capture d'écran ci-dessus pour mieux comprendre les différentes étapes.
+
+*Quelques exemples du résultat attendu*:
+
+
+*1)*Utilisez des *photos géocodées*. Si ce n'est pas déjà le cas utilisez GPicSync par exemple( Debuter )
 
 *2)* Lancez *Picassa* (à partir de la version 2) et sélectionnez le dossier contenant les photos géocodées de votre ballade.
 
-Picassa identifie automatiquement les photos géocodées et le montre en surimposant un petit cercle avec une croix (en bas à droite de chaque photo).
+Picassa identifie automatiquement les photos géocodées en surimposant un petit cercle avec une croix (en bas à droite de chaque photo).
 
 *3)* Sélectionnez le menu *"Outils" -> "Géolocaliser" -> "Exporter vers le fichier Google Earth"*.
 
-Vous êtes invités à donner un nom à votre fichier kmz.
+Vous êtes invité à donner un nom à votre fichier kmz.
 
 Picassa va créer ce fichier unique (en fait un zip renommé en kmz) qui contient vos photos  redimensionnées en "petit format" 400*300 pixels ce qui convient bien pour un partage sur le web ou par mail.
 
 *4)* Retrouver ce fichier kmz sur votre disque et double cliquez dessus : Google Earth se lance et montre les photos localisées sur Terre.
 
-*5)* Pour ceux qui souhaitent rajouter le parcours GPS au fichier kmz:
+*5)* Pour ceux qui souhaitent *rajouter le parcours GPS au fichier kmz*:
 
   * glissez-déposez votre fichier gpx dans Google Earth. Vous voyez maintenant le parcours.
   * sur la gauche regardez la partie "Lieux" et cherchez le dossier "Lieux temporaires". Celui-ci devrait contenir vos photos et votre parcours GPS ("GPS Device"). Si il y a d'autres choses faites le ménage.
-  * faites maintenant un click droit sur le dossier "Lieux temporaires", puis "enregistrer sous" dans le menu contextuel qui appairait (donnez le nom que vous voulez à votre fichier kmz)
+  * faites maintenant un click droit sur le dossier "Lieux temporaires", puis "enregistrer sous" (donnez le nom que vous voulez à votre fichier kmz)
 
-Votre fichier kmz contient maintenant vos photos et le parcours GPS.
+Votre fichier kmz contient maintenant vos photos *et* le parcours GPS.
 
 *6)* Si le fichiez KMZ n'est pas trop lourd vous pouvez l'envoyez à des amis par mail ou mieux le mettre dans un dossier sur un serveur et diffuser le lien correspondant.

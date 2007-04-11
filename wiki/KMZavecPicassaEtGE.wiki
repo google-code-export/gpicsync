@@ -4,7 +4,7 @@
 
 [http://farm1.static.flickr.com/235/455611242_75fa897f38_o.jpg http://farm1.static.flickr.com/235/455611242_d574862e52.jpg]
 
-=== Objectif:===
+=== Objectif ===
 
 Créer un fichier unique contenant les photos géolocalisées et le parcours GPS. 
 
@@ -12,9 +12,9 @@ Vous pouvez ensuite mettre ce fichier kmz sur un serveur ou l'envoyer par mail. 
 
 Cliquez sur la capture d'écran ci-dessus pour mieux comprendre les différentes étapes.
 
-=== Quelques exemples ===:
+=== Quelques exemples ===
 
-=== Etapes: ===
+=== Etapes  ===
 
 
 *1)*Utilisez des *photos géocodées*. Si ce n'est pas déjà le cas utilisez GPicSync par exemple( Debuter )

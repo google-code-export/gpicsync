@@ -6,7 +6,8 @@
 
 *Objectif:*
 
-Créer un fichier unique contenant les photos géolocalisées et le parcours GPS. Vous pouvez ensuite mettre ce fichier kmz sur un serveur ou l'envoyer par mail. Les destinataires devront avoir Google Earth pour l'ouvrir.
+Créer un fichier unique contenant les photos géolocalisées et le parcours GPS. 
+Vous pouvez ensuite mettre ce fichier kmz sur un serveur ou l'envoyer par mail. Les destinataires devront avoir Google Earth pour l'ouvrir.
 
 *1)*Utilisez des photos géocodées. Si ce n'est pas déjà le cas utilisez GPicSync par exemple( Debuter )
 
@@ -31,4 +32,3 @@ Picassa va créer ce fichier unique (en fait un zip renommé en kmz) qui contien
 Votre fichier kmz contient maintenant vos photos et le parcours GPS.
 
 *6)* Si le fichiez KMZ n'est pas trop lourd vous pouvez l'envoyez à des amis par mail ou mieux le mettre dans un dossier sur un serveur et diffuser le lien correspondant.
-

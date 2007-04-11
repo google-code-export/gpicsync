@@ -14,6 +14,8 @@ Cliquez sur la capture d'écran ci-dessus pour mieux comprendre les différentes
 
 *Quelques exemples de fichiers ainsi produits*:
 
+*Etapes:*
+
 
 *1)*Utilisez des *photos géocodées*. Si ce n'est pas déjà le cas utilisez GPicSync par exemple( Debuter )
 

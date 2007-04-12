@@ -42,7 +42,7 @@ If the date on your camera was wrong uncheck "dates must match" before synchroni
 
 If there's no location showing:
   * use "Tools"->"GPX Inspector" to quickly see the data GPicSync finds in it.
-  * use "Tools"->"EXIF Reader" and check if your photos contain a Date/Time Original   field like (Date/Time Original : 2007:04:06 14:41:02). Some image processing software erase metadata (Picassa for example keeps the metadata)
+  * use "Tools"->"EXIF Reader" and check if your photos contain a Date/Time Original   field like (Date/Time Original : 2007:04:06 14:41:02). Some image processing software erase metadata (Picasa for example keeps the metadata)
 
 If you forgot to set the local time for your camera you can take this into account in the Option menu.
 
@@ -63,9 +63,9 @@ When you upload your pictures you will see a "map" link near each picture to ope
 
 If you prefer google maps you can use this neat [http://www.flickr.com/groups/geotagging/discuss/72157594165549916/ geocoding bookmarklet] which will point to the location in [http://loc.alize.us/ loc.alize.us webiste] which uses google maps.
 
-====b) Picassa / Google Earth====
+====b) Picasa / Google Earth====
 
-If you select your pictures with picassa you can ask to show them on Google Earth (in Picassa : something like "Tools">"Geolocalize">"Display in Google Earth".
+If you select your pictures with picasa you can ask to show them on Google Earth (in Picasa : something like "Tools">"Geolocalize">"Display in Google Earth".
 
 WARNING:
 GPicSync is beta software. Please report any bug or problem and remember there's no guarantee : don't use it for critical missions and always check on maps if the results are correct.

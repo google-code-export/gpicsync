@@ -4,7 +4,7 @@
 
 *9 avril 2007* : Nouvelle version *0.83* disponible (voir ChangeLog )
 
-GPicSync insère automatiquement les coordonnées latitude/longitude dans les métadonnées de de vos photos qui peuvent alors aussi être utilisées avec tout logiciel sachant lire ces informations comme Picassa/Google Earth, Flickr, loc.alize.us, etc.
+GPicSync insère automatiquement les coordonnées latitude/longitude dans les métadonnées de de vos photos qui peuvent alors aussi être utilisées avec tout logiciel sachant lire ces informations comme Picasa/Google Earth, Flickr, loc.alize.us, etc.
 
 *Caractéristiques:*
 

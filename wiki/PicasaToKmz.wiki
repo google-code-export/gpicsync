@@ -7,13 +7,13 @@
 
 Create a unique file containing the geolocalized pictures and the GPS tracklog.
 
-You can then put this kmz file on a weberver or send it by mail. Google is necessary to open the file.
+You can then put this kmz file on a weberver or send it by mail. Google Earth is necessary to open the file.
 
-Enlarge the screenshot to better understand the different steps.
+Enlarge the screenshot to better understand the key steps.
 
 === Few examples ===
 
-[http://francois.schnell.free.fr/geo/riquewhir-8-april-07-viaPicassa.kmz Ballade VTT dans les vignes (depuis Riquewhir, Alsace)] (fichier [http://francois.schnell.free.fr/geo/traklog-8-april-07-riquewhir.gpx gpx])
+[http://francois.schnell.free.fr/geo/riquewhir-8-april-07-viaPicassa.kmz A mountain bike stroll in the vignard (Riquewhir, Alsace, France)] (fichier [http://francois.schnell.free.fr/geo/traklog-8-april-07-riquewhir.gpx gpx])
 
 [http://francois.schnell.free.fr/geo/westhoffen-6-april-07-viaPicassa.kmz Ballade VTT près  de Westhoffen (Alsace)] (fichier [http://francois.schnell.free.fr/geo/traklog-6-april-07-westhoffen.gpx gpx])
 
@@ -22,7 +22,7 @@ Enlarge the screenshot to better understand the different steps.
 
 *1)*Search for your *geocoded pictures*. If  they are not already geocoded you can use GPicSync ( see [GettingStarted] )
 
-*2)* Lauch *Picasa* (from version 2) and select the folder containing the geocoded pictures.
+*2)* Launch *Picasa* (from version 2) and select the folder containing the geocoded pictures.
 
 Picasa identifies automatically the geocoded pictures by showing a little circle with a cross (below to the right of each picture).
 

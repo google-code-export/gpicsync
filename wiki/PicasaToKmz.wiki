@@ -1,44 +1,45 @@
-*Partagez votre balade et vos photos géolocalisées avec Picasa et Google Earth (Windows).* 
+*Share your stroll and your geolocalized pictures with Picasa and Google Earth (Windows)*
 
 
 [http://farm1.static.flickr.com/235/455611242_75fa897f38_o.jpg http://farm1.static.flickr.com/235/455611242_d574862e52.jpg]
 
-=== Objectif ===
+=== Goals ===
 
-Créer un fichier unique contenant les photos géolocalisées et le parcours GPS. 
+Create a unique file containing the geolocalized pictures and the GPS tracklog.
 
-Vous pouvez ensuite mettre ce fichier kmz sur un serveur ou l'envoyer par mail. Les destinataires devront avoir Google Earth pour l'ouvrir.
+You can then put this kmz file on a weberver or send it by mail. Google is necessary to open the file.
 
-Cliquez sur la capture d'écran ci-dessus pour mieux comprendre les différentes étapes.
+Enlarge the screenshot to better understand the different steps.
 
-=== Quelques exemples ===
+=== Few examples ===
 
 [http://francois.schnell.free.fr/geo/riquewhir-8-april-07-viaPicassa.kmz Ballade VTT dans les vignes (depuis Riquewhir, Alsace)] (fichier [http://francois.schnell.free.fr/geo/traklog-8-april-07-riquewhir.gpx gpx])
 
 [http://francois.schnell.free.fr/geo/westhoffen-6-april-07-viaPicassa.kmz Ballade VTT près  de Westhoffen (Alsace)] (fichier [http://francois.schnell.free.fr/geo/traklog-6-april-07-westhoffen.gpx gpx])
-=== Etapes  ===
+
+=== Steps  ===
 
 
-*1)*Utilisez des *photos géocodées*. Si ce n'est pas déjà le cas utilisez GPicSync par exemple( [Debuter] )
+*1)*Search for your *geocoded pictures*. If  they are not already geocoded you can use GPicSync ( see [GettingStarted] )
 
-*2)* Lancez *Picasa* (à partir de la version 2) et sélectionnez le dossier contenant les photos géocodées de votre ballade.
+*2)* Lauch *Picasa* (from version 2) and select the folder containing the geocoded pictures.
 
-Picasa identifie automatiquement les photos géocodées en surimposant un petit cercle avec une croix (en bas à droite de chaque photo).
+Picasa identifies automatically the geocoded pictures by showing a little circle with a cross (below to the right of each picture).
 
-*3)* Sélectionnez le menu *"Outils" -> "Géolocaliser" -> "Exporter vers le fichier Google Earth"*.
+*3)* Select the menu *"Tools" -> "Geolocalize" -> "Export to Google Earth file"*.
 
-Vous êtes invité à donner un nom à votre fichier kmz.
+You're invited to give a name to your kmz file.
 
-Picasa va créer ce fichier unique (en fait un zip renommé en kmz) qui contient vos photos  redimensionnées en "petit format" 400*300 pixels ce qui convient bien pour un partage sur le web ou par mail.
+Picasa will create this file (in fact a renamed zip) which contains all your geocoded pictures resized to the 400*300 pixels format which is Ok for web sharing or to send by mail.
 
-*4)* Retrouver ce fichier kmz sur votre disque et double-cliquez dessus : Google Earth se lance et montre les photos localisées.
+*4)* Find this kmz file on your disk and double-click on it: Google Earth should launch and show you the geolocalized pictures.
 
-*5)* Pour ceux qui souhaitent *ajouter le parcours GPS au fichier kmz*:
+*5)* If you want to add and visualize latter the *GPS tracklog in the kmz file*:
 
-  * glissez-déposez votre fichier gpx dans Google Earth. Vous voyez maintenant le parcours.
-  * sur la gauche regardez la partie "Lieux" et cherchez le dossier "Lieux temporaires". Celui-ci devrait contenir vos photos et votre parcours GPS ("GPS Device"). Si il y a d'autres choses faites le ménage.
-  * Click droit sur le dossier "Lieux temporaires", puis "enregistrer sous" (donnez le nom que vous voulez à votre fichier kmz)
+  * drop your gpx file inside Google Earth. You should now see the tracklog.
+  * on the left look at the "Places" pan and  seach for the folder "Tempory places". It should contain your pictures and you GPS track log ("GPS Device"). Is something else is present you'll maybe want to remove it.
+  * Right click on the folder "Tempory places", then "save as" (give the name that you want to the resulting kmz file).
 
-Votre fichier kmz contient maintenant vos photos *et* le parcours GPS.
+Your kmz file contain now your geocoded pictures and the GPS trace.
 
-*6)* Si le fichiez KMZ n'est pas trop lourd vous pouvez l'envoyez à des amis par mail, ou mieux, le mettre dans un dossier sur un serveur et diffuser le lien correspondant.
+*6)* If the KMZ file is not to heavy you can send it by mail or better put it on a websever and give the URL of the file to others.

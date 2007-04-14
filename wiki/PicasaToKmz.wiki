@@ -26,7 +26,7 @@ Enlarge the screenshot to better understand the key steps.
 
 Picasa identifies automatically the geocoded pictures by showing a little circle with a cross (below to the right of each picture).
 
-*3)* Select the menu *"Tools" -> "Geolocalize" -> "Export to Google Earth file"*.
+*3)* Select the menu *"Tools" -> "Geotag" -> "Export to Google Earth file"*.
 
 You're invited to give a name to your kmz file.
 

@@ -11,11 +11,11 @@
 
 Two possibilities here.
 
-*a) The universal one* 
+*a) The universal one (preferred)* 
 
 If you didn't change its setting, your GPSr records the track log with the GMT time (Greenwich Meridian Time) also know as UTC (Universal Time Co-ordinated).
    
-Set the time of your camera to GMT. You can see actual GMT time at the bottom of this webpage (be precise at the second level):
+Set the time of your camera to GMT. You can see actual the GMT time at the bottom of this webpage (be precise at the second level):
 
 [http://wwp.greenwichmeantime.com/]
 

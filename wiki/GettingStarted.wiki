@@ -11,14 +11,14 @@
 
 There two possibilities here.
 
-a) The most universal one 
+*a) The universal one* 
 
 If you didn't change its setting, your GPSr records the track log with the GMT time (Greenwich Meridian Time) also know as UTC (Universal Time Co-ordinated).
 
 Set the time of your camera to GMT. You can see actual GMT time at the bottom of this webpage (be precise at the second level):
-http://wwp.greenwichmeantime.com/
+[http://wwp.greenwichmeantime.com/]
 
-Setting your GPSr to GMT is the prefer way since you won't have any problems for summer/winter time or when you travel through time zones. You also don't need to give the UTC offset each time you use GPicSync since it is at 0 by default.
+Setting your camera to GMT is the prefer way since you won't have any problems for summer/winter time or when you travel through time zones. You also don't need to give the UTC offset each time you use GPicSync since it is at 0 by default.
 
 Also check set camera date if necessary. 
 

@@ -11,7 +11,7 @@
 
 Two possibilities here.
 
-*a) The universal one (preferred)* 
+*a) Universal way (preferred)* 
 
 If you didn't change its setting, your GPSr records the track log with the GMT time (Greenwich Meridian Time) also know as UTC (Universal Time Co-ordinated).
    
@@ -23,7 +23,7 @@ Setting your camera to GMT is the prefer way since you won't have any problems f
 
 Also check set the camera date if necessary. 
 
-*b) The local one*
+*b) Local way*
 
 Set the local time precisely to the same local time indicated by the GPSr. Also check the camera date if necessary (avoid to use "date must match" option in this mode for early morning or late evening pictures with important UTC Offset). 
 

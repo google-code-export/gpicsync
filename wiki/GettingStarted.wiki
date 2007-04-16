@@ -7,17 +7,31 @@
   * 4) Come back home and sync
   * 5) Enjoy your geolocalized pictures
 
-===1) Set your GPSr===
-If it's not already the case set the local time in your GPSr settings.
+===1) Set your GPSr and camera===
 
+There two possibilities here.
 
-===2)  Set your camera===
-Set the local time precisely to the same local time indicated by the GPSr. Also check the date if necessary.
+a) The most universal one 
 
-===3) Go outside and shoot===
+If you didn't change its setting, your GPSr records the track log with the GMT time (Greenwich Meridian Time) also know as UTC (Universal Time Co-ordinated).
+
+Set the time of your camera to GMT. You can see actual GMT time at the bottom of this webpage (be precise at the second level):
+http://wwp.greenwichmeantime.com/
+
+Setting your GPSr to GMT is the prefer way since you won't have any problems for summer/winter time or when you travel through time zones. You also don't need to give the UTC offset each time you use GPicSync since it is at 0 by default.
+
+Also check set camera date if necessary. 
+
+b) the local one
+
+Set the local time precisely to the same local time indicated by the GPSr. Also check the camera date if necessary (avoid to use "date must match" option in this mode for early morning or late evening pictures). 
+
+On some GPS it is possible to set the recording time to the local time of your country. In this case you can set the same local time to your camera and you won't need to indicate an UTC offset latter to GPIcSync. 
+
+===2) Go outside and shoot===
 Take your GPSr with you and make sure that it is recording a track log. Keep your GPSr ON during all the time you take pictures.
 
-===4) Come back home and sync===
+===3) Come back home and sync===
 
 Put the  pictures you want to geolocalize in a folder.
 With the software of your choice (for example [http://www.easygps.com/ EasyGPS] on Windows) retrieve the track log as a .gpx file (a [http://www.topografix.com/gpx_resources.asp list of GPX capable software]). Put the .gpx file preferably in the folder containing the pictures.
@@ -47,7 +61,7 @@ If there's no location showing:
 If you forgot to set the local time for your camera you can take this into account in the Option menu.
 
 
-===5) Use your localized pictures===
+===4) Use your localized pictures===
 
 As mentioned above if you didn't uncheck "create a local Google Earth file" you can directly view your pictures and track log in Google Earth from GPicSync (by clicking on "View in Google Earth" button at the end of synchronization). There is also a doc.kml file in your pictures folder: you can also directly launch Google Earth by double clicking on it.
 

@@ -25,9 +25,9 @@ Also check set camera date if necessary.
 
 *b) The local one*
 
-Set the local time precisely to the same local time indicated by the GPSr. Also check the camera date if necessary (avoid to use "date must match" option in this mode for early morning or late evening pictures). 
+Set the local time precisely to the same local time indicated by the GPSr. Also check the camera date if necessary (avoid to use "date must match" option in this mode for early morning or late evening pictures with important UTC Offset). 
 
-On some GPS it is possible to set the recording time to the local time of your country. In this case you can set the same local time to your camera and you won't need to indicate an UTC offset latter to GPIcSync. 
+On some GPS it is possible to set the recording track log time to the local time of your country. In this case you won't need to indicate an UTC offset latter to GPIcSync and it also works well in all situations. 
 
 ===2) Go outside and shoot===
 Take your GPSr with you and make sure that it is recording a track log. Keep your GPSr ON during all the time you take pictures.
@@ -40,7 +40,9 @@ With the software of your choice (for example [http://www.easygps.com/ EasyGPS] 
 Install and launch GPicSync:
   * select the pictures folder
   * select the .gpx file
-  * indicate the UTC Offset (+1 in France, 0 in the UK, -8 for PST, -5 for EST,etc, You may need to add an hour for summer local time depending of your country policy)
+  * depending of the way you've set your camera and GPSr indicate the UTC Offset
+    *  +1 in France, 0 in the UK, -8 for PST, -5 for EST,etc, You may need to add an hour for summer local time depending of your country policy
+    * 0 if your camera is at GMT time  
   * hit the  "synchronize !" button
 
 You should now see a line per picture with the file name found and the localization that has been written in the EXIF part of the picture (each geolocalization takes 1 to 3 seconds to process).

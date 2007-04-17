@@ -1,5 +1,5 @@
 #labels Featured
-(Windows tutorial)
+(Windows mini-tutorial)
 
 *Share your stroll and your geolocalized pictures with Picasa, Google Earth and Google "My maps"*
 

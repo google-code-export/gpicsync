@@ -21,9 +21,9 @@ Enlarge the screen shots to better understand the key steps.
 
 === Few examples ===
 
-[http://francois.schnell.free.fr/geo/riquewhir-8-april-07-viaPicassa.kmz A mountain bike stroll in the vignard (Riquewhir, Alsace, France)] (fichier [http://francois.schnell.free.fr/geo/traklog-8-april-07-riquewhir.gpx gpx])
+[http://francois.schnell.free.fr/geo/riquewhir-8-april-07-viaPicassa.kmz A mountain bike stroll in the vignard (Riquewhir, Alsace, France)] ([http://francois.schnell.free.fr/geo/traklog-8-april-07-riquewhir.gpx gpx])
 
-[http://francois.schnell.free.fr/geo/westhoffen-6-april-07-viaPicassa.kmz Mountain biking near Westhoffen (Alsace)] (fichier [http://francois.schnell.free.fr/geo/traklog-6-april-07-westhoffen.gpx gpx])
+[http://francois.schnell.free.fr/geo/westhoffen-6-april-07-viaPicassa.kmz Mountain biking near Westhoffen (Alsace)] ([http://francois.schnell.free.fr/geo/traklog-6-april-07-westhoffen.gpx gpx])
 
 Yoy can also link your kmz files on a Google [http://maps.google.com/help/maps/userguide/index.html#overview "My maps" page]
 ( example with [http://maps.google.com/maps/ms?ie=UTF8&hl=en&z=9&ll=48.443778,7.597046&spn=0.668648,1.867676&t=h&om=1&msid=100273353392671595172.00000111f1333a196b094&msa=0 some of my bike rides]).

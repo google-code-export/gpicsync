@@ -12,7 +12,7 @@ Create a unique file containing the geolocalized pictures and the GPS tracklog.
 
 You can then put this kmz file on a weberver or send it by mail. Google Earth is necessary to open the file.
 
-Gather this Google Earth files in a "My maps" (Google maps).
+Gather these KMZ Google Earth files on a "My maps" (Google maps).
 
 Enlarge the screenshot to better understand the key steps.
 

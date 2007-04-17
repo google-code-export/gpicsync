@@ -55,18 +55,18 @@ Your kmz file contain now your geocoded pictures and the GPS trace.
 
 *6)* If the KMZ file is not to heavy you can send it by mail or better put it on a websever and give the URL of the file to others.
 
-*7)* Eventually create a "My maps" gathering some of your kmz, links and other informtions.
+*7)* Eventually create a "My maps" gathering some of your kmz, links and other informations.
 
-You can easily do that by mouse clicking on you Google map (you need a Google account).
+You can easily do that by mouse clicking on your Google map (you need a Google account).
 
-  * Go here (and login): http://maps.google.com/
+  * Go here (and log in): http://maps.google.com/
   * click on "My maps" tab
   * click on "create a new map"
   * add a placemark for each of your trip
   * edit the placemark and put the text, image or links you want
   * more [http://maps.google.com/help/maps/userguide/index.html#overview informations about Google "My maps"]
 
-For my part I upload my kmz to the free webspace I have at my ISP. I then make some links to them in the placemark of "My map".
+For my part I upload my kmz to the free webspace I have at my ISP (via FTP). I then make a link in each placemark of "My map".
 
 Others ideas, tips or things to correct ? Please say so on the [http://groups.google.com/group/gpicsync GPicSync group] 
 

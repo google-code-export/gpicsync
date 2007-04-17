@@ -25,6 +25,7 @@ Si vous le trouvez utile merci de le faire connaître autour de vous. Si vous re
 
   * Une de mes [http://loc.alize.us/#/user:Francois%20Schnell/geo:48.58412,7.76409,17,k/ pause sandwich  géolocalisée] (vue dans loc.alize.us qui utilise Flickr et Google maps)
   * Une [http://www.flickr.com/photos/frenchy/sets/72157600057036260/map/ sortie vélo dans le vignoble alsacien] (via Yahoo maps - Flickr)
+  * [http://maps.google.com/maps/ms?ie=UTF8&hl=en&z=9&ll=48.443778,7.597046&spn=0.668648,1.867676&t=h&om=1&msid=100273353392671595172.00000111f1333a196b094&msa=0 Picassa kmz export de certaines ballades sur une carte 'My maps'] (voir [http://code.google.com/p/gpicsync/wiki/PicasaVersKmz tutorial])
   * Un export Google Earth [http://francois.schnell.free.fr/geo/testGpicsync.kmz KMZ autour de Strasbourg] (généré par GPicSync via 'Tools' -> 'KMZ Generator')  
   * [http://loc.alize.us/#/user:Francois%20Schnell/geo:48.45095,7.03726,13,k/ Un premier test en VTT] (vue dans loc.alize.us)
 

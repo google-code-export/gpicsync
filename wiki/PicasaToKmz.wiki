@@ -17,7 +17,7 @@ You can then put this kmz file on a weberver or send it by mail. Google Earth is
 
 Gather these KMZ Google Earth files on a "My maps" (Google maps).
 
-Enlarge the screenshot to better understand the key steps.
+Enlarge the screen shots to better understand the key steps.
 
 === Few examples ===
 
@@ -68,6 +68,6 @@ You can easily do that by mouse clicking on you Google map (you need a Google ac
 
 For my part I upload my kmz to the free webspace I have at my ISP. I then make some links to them in the placemark of "My map".
 
-Others ideas ? tip or things to correct ? Please say so on the [http://groups.google.com/group/gpicsync GPicSync group] 
+Others ideas, tips or things to correct ? Please say so on the [http://groups.google.com/group/gpicsync GPicSync group] 
 
   

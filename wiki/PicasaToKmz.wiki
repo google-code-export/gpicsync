@@ -1,5 +1,7 @@
 #labels Featured
-*Share your stroll and your geolocalized pictures with Picasa and Google Earth (Windows)*
+(Windows tutorial)
+
+*Share your stroll and your geolocalized pictures with Picasa, Google Earth and Google "My maps"*
 
 
 [http://farm1.static.flickr.com/169/463087878_910dc1fc91_o.jpg http://farm1.static.flickr.com/169/463087878_59e732237a.jpg]

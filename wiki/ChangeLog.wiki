@@ -1,3 +1,16 @@
+=== Version 0.90 (april 19th 2007) ===
+
+You can now decide to automatically add geonames and geotags to the metada of your photos during the geocoding process (check "add geonames and geotags" in the interface).
+
+geonames: country, region, nearest place with distance (in Km)
+goetags: "geotagged", "geo:lat=48.167358", "geo:lon=7.294641"
+
+When you upload to Flickr these will appear in the tags section of the photos.
+
+Know problems:
+- you mustn't allow the Flickr Uloadr tool to resize you picture (your geonames/geotags won't be kept)
+- if you were in places that don't use the English alphabet these characters may not appear well (I'll try to find a solution soon).
+
 === Version 0.85 (april 10th 2007) ===
 
 A bug release to address Issue N°3 and 4 (writing in EXIF header doesn't work properly with pictures taken with certain camera brands, at least SONY Cybershot) and Longitude didn't write for some users.

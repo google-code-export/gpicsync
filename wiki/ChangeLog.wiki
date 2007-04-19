@@ -8,7 +8,7 @@ You can now decide to automatically add "[http://www.geonames.org/ geonames]" an
 When you upload to Flickr the tags will appear in the tags section of the photos (zoom in the [http://www.flickr.com/photos/frenchy/465037997/ example]).
 
 Known problems:
-  * you mustn't allow the Flickr Uloadr tool to resize you picture (your geonames/geotags won't be kept.You could resize them before with Picasa for example)
+  * you mustn't allow the Flickr Uloadr tool to resize your pictures (your geonames/geotags won't be kept.You could resize them before with Picasa for example)
   * if you were in places that don't use the English alphabet these characters may not appear well (this should be fixed soon).
 
 Thanks to Jose Oliver for his feature request in the [http://groups.google.com/group/gpicsync GPicSync group].

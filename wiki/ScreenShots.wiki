@@ -5,6 +5,10 @@ Geonames and geotags read by Flickr
 
 [http://www.flickr.com/photo_zoom.gne?id=465037997&size=o http://farm1.static.flickr.com/223/465037997_8038a714ac.jpg]
 
+Checking directly results in Google Earth:
+
+[http://farm1.static.flickr.com/183/465169357_25b5e38a21_o.jpg http://farm1.static.flickr.com/183/465169357_8a66c299d0.jpg]
+
 *Version 0.83*
 
 Checking directly results in Google Earth:

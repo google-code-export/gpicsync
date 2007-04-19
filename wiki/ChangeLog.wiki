@@ -1,6 +1,6 @@
 === Version 0.90 (april 19th 2007) ===
 
-You can now decide to automatically add "[http://www.geonames.org/ geonames]" and "geotags" to the metada of your photos (check "add geonames and geotags"  in the interface before geocoding).
+You can now decide to automatically add "[http://www.geonames.org/ geonames]" and "geotags" to the metada of your photos (check "add geonames and geotags"  in the interface before geocoding). GPicSync must have an internet connection to retrieve the geonames.
 
   * geonames: country, region, nearest place with distance (in Km)
   * goetags: "geotagged", "geo:lat=48.167358", "geo:lon=7.294641"

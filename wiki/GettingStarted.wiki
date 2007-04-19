@@ -42,7 +42,8 @@ Install and launch GPicSync:
   * select the .gpx file
   * depending of the way you've set your camera and GPSr indicate the UTC Offset:
     *  +1 in France, 0 in the UK, -8 for PST, -5 for EST,etc, You may need to add an hour for summer local time depending of your country policy
-    * 0 if your camera is at GMT time  
+    * 0 if your camera is at GMT time
+  * if you want to add geonames and geotags metada check "add geonames and geotags" but be  sure to have an internet connection
   * hit the  "synchronize !" button
 
 You should now see a line per picture with the file name found and the localization that has been written in the EXIF part of the picture (each geolocalization takes 1 to 3 seconds to process).
@@ -79,6 +80,15 @@ In the setting of your account you must first authorize the use of this informat
 When you upload your pictures you will see a "map" link near each picture to open Yahoo Maps which will point to the location.
 
 If you prefer google maps you can use this neat [http://www.flickr.com/groups/geotagging/discuss/72157594165549916/ geocoding bookmarklet] which will point to the location in [http://loc.alize.us/ loc.alize.us webiste] which uses google maps.
+
+If you've checked "add geonames and geotags" you pictures have also the following metadata:
+
+  * geonames: country, region, nearest place with distance (in Km)
+  * goetags: "geotagged", "geo:lat=48.167358", "geo:lon=7.294641"
+
+When you upload to Flickr the tags will appear in the tags section of the photos (zoom in the [http://www.flickr.com/photos/frenchy/465037997/ example]).
+
+You mustn't allow the Flickr Uloadr tool to resize your pictures before uploading (your geonames/geotags won't be kept, If needed you could resize them before with Picasa for example). If you were in places that don't use the English alphabet these characters may not appear well (this should be fixed soon).
 
 ====b) Picasa / Google Earth====
 

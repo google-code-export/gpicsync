@@ -1,8 +1,7 @@
 #labels Featured
-
 *Version 0.90*
 
-Geonames and goetags read by Flickr
+Geonames and geotags read by Flickr
 
 [http://www.flickr.com/photo_zoom.gne?id=465037997&size=o http://farm1.static.flickr.com/223/465037997_8038a714ac.jpg]
 

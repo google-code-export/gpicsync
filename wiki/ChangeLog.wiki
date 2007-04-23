@@ -1,3 +1,10 @@
+=== Version 0.90 (april 23th 2007) ===
+
+
+When visualizing the geocoded pictures in Google Earth tehy now all keep their initial size ratio (whatever their width and length, maximum showing width= 800 pixels and height=600 pixels). Other improvements for the KML will come soon in future versions.
+
+Fixed a backup bug (when backup was uncheck and geonames was check a backup occurred anyway).
+
 === Version 0.90 (april 19th 2007) ===
 
 You can now decide to automatically add "[http://www.geonames.org/ geonames]" and "geotagged" to the metada of your photos (check "add geonames and geotags"  in the interface before geocoding). GPicSync must have an internet connection to retrieve the geonames.

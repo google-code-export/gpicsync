@@ -1,4 +1,4 @@
-=== Version 0.90 (april 23th 2007) ===
+=== Version 0.91 (april 24th 2007) ===
 
 Geocoded pictures visualized in Google Earth now keep their initial size ratio (whatever their original width and height). Pictures will appear with a a maximal width of 800 pixels (or 600 pixels for height if the picture was taller than wider).
 Other improvements for the KML will come soon in future versions. Thanks to Jerome for mentioning the problem in the GPicSync group.

@@ -1,10 +1,11 @@
 #labels french
 (Page in French)
 
-
-Mise à jour:
+---
+*Mise à jour:*
 
 Cette page n'a pas encore été mise à jour surtout pour l'utilisation des "Geonames" (recherche automatique des méta données de pays, région, distance à la zone habitée la plus proche, etc). Si vous souhaitez utiliser les Geonames merci de regarder GettingStarted (en Anglais) le temps que cette page soit actualisée.
+---
 
 = Débuter avec GPicSync =
 

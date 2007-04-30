@@ -1,3 +1,11 @@
+=== Version 0.92 (may 1st 2007) ===
+
+  * Google Maps export with clikable photos + tracklog (thanks to Marc Nozell for his feature request)
+  * Support of RAW files for the geocoding process (tested with CR2 files but should work with Canon (CRW, CR2), Nikon (NEF), Pentax (PEF), Samsung (PEF), Sony (SR2, ARW), Fuji (RAF)) 
+  * kml: default icon is now a camera instead of a yellow pin (thanks to gpspassion for th e suggestion) 
+  * Windows: new entries in start menu (uninstaller, GPicSync website and Google Group)
+  * Linux:
+
 === Version 0.91 (april 24th 2007) ===
 
 Geocoded pictures visualized in Google Earth now keep their initial size ratio (whatever their original width and height). Pictures will appear with a a maximal width of 800 pixels (or 600 pixels for height if the picture was taller than wider).

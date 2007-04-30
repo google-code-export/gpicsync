@@ -1,6 +1,8 @@
+[http://farm1.static.flickr.com/171/478403489_7621c88dd2_o.jpg http://farm1.static.flickr.com/171/478403489_9d9dfb435d.jpg]
+
 === Goals ===
 
-Create a Google Map with clikable pictures and track.
+Create a Google Map with clikable pictures and track (enlarge the screenshot to better understand the main steps) .
 
 === Steps ===
 
@@ -15,6 +17,6 @@ Before geocoding in GPicSync:
 To view your pictures and track in Google Maps:
 
   * go to the Google Maps website
-  * in the search box enter the URL of the doc-web.kml ({{{http://pathToThePicturesFolder/doc-web.kml}}}
+  * in the search box enter the URL of the doc-web.kml ({{{http://pathToThePicturesFolder/doc-web.kml}}})
   * center the map and chose the viewing mode you like (map,hybrid,satellite)
   * click on "Link to this map" to have a URL you can use on your webpages

@@ -1,4 +1,11 @@
 #labels Featured
+
+*Version 0.90*
+
+Google Maps export:
+
+[http://www.flickr.com/photo_zoom.gne?id=465037997&size=o http://farm1.static.flickr.com/171/478403489_7621c88dd2_o.jpg]
+
 *Version 0.90*
 
 Geonames and geotags read by Flickr

@@ -20,3 +20,5 @@ To view your pictures and track in Google Maps:
   * in the search box enter the URL of the doc-web.kml ({{{http://pathToThePicturesFolder/doc-web.kml}}})
   * center the map and chose the viewing mode you like (map,hybrid,satellite)
   * click on "Link to this map" to have a URL you can use on your webpages
+
+Know issue: if you have lots of pictures and your gpx is big Google Maps may not display the track-log and all the pictures. I'm not sure what is exactly the limit and if it depends also of the availability of the Google Maps server.

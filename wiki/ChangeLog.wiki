@@ -6,7 +6,7 @@
   * Windows: new entries in start menu with 'uninstaller', 'GPicSync website' and 'Google Group' (thanks T-Bon3 for the uninstall feature request)
   * Linux: GPicSync GUI doesn't wait anymore that the user shut down Google Earth
 
-Know issues with Google Maps export: if you have lots of pictures and your gpx is big Google Maps may not display the track-log and/or some pictures.
+Know issues for Google Maps export: if you have lots of pictures and your gpx is big Google Maps may not display the track-log and/or some pictures.
  
 
 === Version 0.91 (april 24th 2007) ===

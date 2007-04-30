@@ -1,5 +1,5 @@
 #labels Featured
-*Version 0.90*
+*Version 0.92*
 
 Google Maps export:
 

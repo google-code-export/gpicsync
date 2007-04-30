@@ -1,10 +1,13 @@
 === Version 0.92 (may 1st 2007) ===
 
-  * Google Maps export with clikable photos + tracklog (thanks to Marc Nozell for his feature request)
-  * Support of RAW files for the geocoding process (tested with CR2 files but should work with Canon (CRW, CR2), Nikon (NEF), Pentax (PEF), Samsung (PEF), Sony (SR2, ARW), Fuji (RAF)) 
+  * Google Maps export with clikable photos + track log (thanks to Marc Nozell for his feature request)
+  * geocode RAW photos. Tested with CR2 files but should work with Canon (CRW, CR2), Nikon (NEF), Pentax (PEF), Samsung (PEF), Sony (SR2, ARW), Fuji (RAF)(thanks to chris.nursey,  rb799, bmedicke and holyCow for the feature request and RAW samples) 
   * kml: default icon is now a camera instead of a yellow pin (thanks to gpspassion for th e suggestion) 
-  * Windows: new entries in start menu (uninstaller, GPicSync website and Google Group)
-  * Linux:
+  * Windows: new entries in start menu with 'uninstaller', 'GPicSync website' and 'Google Group' (thanks T-Bon3 for the uninstall feature request)
+  * Linux: GPicSync GUI doesn't wait anymore that the user shut down Google Earth
+
+Know issues with Google Maps export: if you have lots of pictures and your gpx is big Google Maps may not display the track-log and/or some pictures.
+ 
 
 === Version 0.91 (april 24th 2007) ===
 

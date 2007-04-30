@@ -1,6 +1,6 @@
 === Version 0.92 (may 1st 2007) ===
 
-  * [http://www.flickr.com/photo_zoom.gne?id=478403489&size=o Google Maps export with clikable photos + track log] (thanks to Marc Nozell for his feature request)
+  * [GoogleMapsExport Google Maps export with clikable photos + track log] (thanks to Marc Nozell for his feature request)
   * geocode RAW photos. Tested with CR2 files but should work with Canon (CRW, CR2), Nikon (NEF), Pentax (PEF), Samsung (PEF), Sony (SR2, ARW), Fuji (RAF)(thanks to chris.nursey,  rb799, bmedicke and holyCow for the feature request and RAW samples) 
   * kml: default icon is now a camera instead of a yellow pin (thanks to gpspassion for the suggestion) 
   * Windows: new entries in start menu with 'uninstaller', 'GPicSync website' and 'Google Group' (thanks T-Bon3 for the uninstall feature request)

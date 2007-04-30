@@ -1,16 +1,16 @@
-- DRAFT -
+- DRAFT in progress -
 
 [http://farm1.static.flickr.com/171/478403489_7621c88dd2_o.jpg http://farm1.static.flickr.com/171/478403489_9d9dfb435d.jpg]
 
 === Goals ===
 
-Create a Google Map with clikable pictures and track (enlarge the screenshot to better understand the main steps) .
+Create a Google Map with clickable pictures and track (enlarge the screenshot to better understand the main steps) .
 
 === Steps ===
 
 Before geocoding in GPicSync:
 
-  * check "Google Maps export, base URL="
+  * check "Google Maps export, folder URL="
   * fill the field with the URL of the picture folder you want:
     *  don't forget the {{{http://}}} and the final "/" (ie {{{http://pathToThePicturesFolder/}}}) 
   * at the end of the geocoding there is a doc-web.kml file in the picture folder

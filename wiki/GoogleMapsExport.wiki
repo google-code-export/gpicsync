@@ -8,4 +8,4 @@ Before geocoding in GPicSync:
 
   * check "Google Maps export, base URL="
   * fill the field with the URL of the picture folder you want:
-    * don't forget the http:// and the final "/" (ie http://pathToThePicturesFolder/) 
+    * don't forget the "http://" and the final "/" (ie http://pathToThePicturesFolder/) 

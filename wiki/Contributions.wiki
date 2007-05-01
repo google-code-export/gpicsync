@@ -1,4 +1,4 @@
-Thanks to all people contributing feedback, bugs report, patches, suggestions... (see also ChangeLog)
+Thanks to all people contributing feedback, bugs report, patches, suggestions... (see also ChangeLog and the [http://groups.google.com/group/gpicsync GPicSync Google Group])
 
 In particular:
 

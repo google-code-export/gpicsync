@@ -1,4 +1,4 @@
-Thanks to all people contributing feedback, bugs report, patches, suggestions...
+Thanks to all people contributing feedback, bugs report, patches, suggestions... (see also ChangeLog)
 
 In particular:
 

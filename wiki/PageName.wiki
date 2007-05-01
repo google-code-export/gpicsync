@@ -1,4 +1,3 @@
-#A list of other geocoding software.
 
 
 

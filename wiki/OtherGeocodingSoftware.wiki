@@ -1,3 +1,2 @@
 
-
-  * [http://www.carto.net/projects/photoTools/gpsPhoto/ gpsPhoto] (Linux command line tool, GPL)
+  * [http://www.carto.net/projects/photoTools/gpsPhoto/ gpsPhoto] (Linux command line tool, GPL, written in Perl,also use Exiftool library)

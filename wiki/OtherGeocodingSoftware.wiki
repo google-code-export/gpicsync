@@ -4,6 +4,8 @@ A list of other geocoding software. If you know another software (preferably Ope
     
   * [http://oregonstate.edu/~earlyj/gpsphotolinker/overview.php Gpsphotolinker] (Mac, freeware)
 
+  * [http://happycamel.sourceforge.net/ Happy Camel] (GPL, command line tool for Linux)
+
   * [http://www.mmisoftware.co.uk/pages/photogpseditor.php PhotoGpsEditor] (Mac, freeware)
 
   * [http://www.robogeo.com/home/ Robogeo] (Windows, commercial, lots of features)

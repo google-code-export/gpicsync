@@ -7,6 +7,9 @@ Google Maps export and Google Earth:
 
 [http://www.flickr.com/photo_zoom.gne?id=480434063&size=o http://farm1.static.flickr.com/169/480434063_27d7cea189.jpg]
 
+Linux version (tested on Ubuntu Feisty Fawn):
+
+[[http://www.flickr.com/photo_zoom.gne?id=480434063&size=o http://farm1.static.flickr.com/194/480471894_8ccc278304_m.jpg] 
 
 
 *Version 0.90*

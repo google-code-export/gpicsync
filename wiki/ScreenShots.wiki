@@ -5,6 +5,10 @@ Google Maps export:
 
 [http://farm1.static.flickr.com/171/478403489_7621c88dd2_o.jpg http://farm1.static.flickr.com/171/478403489_9d9dfb435d.jpg]
 
+[http://www.flickr.com/photo_zoom.gne?id=480434063&size=o http://farm1.static.flickr.com/169/480434063_27d7cea189.jpg]
+
+
+
 *Version 0.90*
 
 Geonames and geotags read by Flickr

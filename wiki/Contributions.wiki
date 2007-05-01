@@ -2,6 +2,10 @@ Thanks to all people contributing feedback, bugs report, patches, suggestions...
 
 In particular:
 
+*Phil Harvey*
+
+For his great [http://www.sno.phy.queensu.ca/~phil/exiftool/ EXIFTool] library that use to read/write in the EXIF part of pictures.
+
 *Marc Nozell*
 
 For his patch on geoexif.py to use EXIFTool with windows and linux
@@ -14,7 +18,5 @@ For testing the very first version and sending detailed reports and making amazi
 
 http://www.flickr.com/photos/7314364@N04/
 
-*Phil Harvey*
 
-For his great [http://www.sno.phy.queensu.ca/~phil/exiftool/ EXIFTool] library that use to read/write in the EXIF part of pictures.
   

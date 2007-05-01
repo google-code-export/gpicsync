@@ -1,6 +1,8 @@
+A list of other geocoding software. If you know of other software (preferably Open Source or freeware) and what is interesting or particular about them please let me know so I can add them to the list.
+
   * [http://www.carto.net/projects/photoTools/gpsPhoto/ gpsPhoto] (Linux command line tool, GPL, written in Perl, also use Exiftool library)
   
-  * [http://www.robogeo.com/home/ Robogeo] (Windows, commercial)
+  * [http://www.robogeo.com/home/ Robogeo] (Windows, commercial, lots of features)
   
   * [http://wwmx.org/Download.aspx  WWMX from Microsoft] (Windows, freeware, need .Net 1.1)
 

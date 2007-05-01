@@ -1,1 +1,3 @@
   * [http://www.carto.net/projects/photoTools/gpsPhoto/ gpsPhoto] (Linux command line tool, GPL, written in Perl, also use Exiftool library)
+  * [http://www.robogeo.com/home/ Robogeo] (Windows, commercial)
+  * [http://wwmx.org/Download.aspx  WWMX from Microsoft] (Windows, freeware, need .Net 1.1)

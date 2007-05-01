@@ -30,6 +30,6 @@ When you click on a camera icon you'll see a 'thumbnail' of the picture. If you 
 
 *Known issue:*
 
-If you have lots of pictures and your gpx is big Google Maps may not display the track-log and all the pictures. I'm not sure what is exactly the limit and if it depends also of the availability of the Google Maps server.
+If you have lots of pictures and your gpx is big Google Maps may not display the track-log and all the pictures. 
 
-I've seen an example where a big tracklog is cut to smaller portions (I will probably add that in the next version).
+I've seen an example where a big tracklog is cut to smaller portions. I've tested with the 29th of april bike ride and it works. For the Google Map export in the next version GPicSync  a big track will be cut in smaller parts to be sure it works fine in Google Maps.

@@ -9,11 +9,11 @@ Create a Google Map with clickable pictures and track (enlarge the screenshot to
 
 *Examples:*
 
-  * [http://maps.google.com/maps?f=q&hl=en&q=http%3A%2F%2Ffrancois.schnell.free.fr%2Fgeo%2F29avr07%2Fdoc-web.kml&ie=UTF8&ll=48.535363,8.138294&spn=0.047967,0.11673&t=h&z=13&om=1  29th of april bike ride]
+ [http://maps.google.com/maps?f=q&hl=en&q=http%3A%2F%2Ffrancois.schnell.free.fr%2Fgeo%2F29avr07%2Fdoc-web.kml&ie=UTF8&ll=48.535363,8.138294&spn=0.047967,0.11673&t=h&z=13&om=1  29th of april bike ride]
 
-     *[http://maps.google.com/maps?f=q&hl=en&q=http%3A%2F%2Ffrancois.schnell.free.fr%2Fgeo%2F29avr07%2Fdoc-web3.kml&ie=UTF8&t=h&om=1&ll=48.539277,8.094848&spn=0.001499,0.003648&z=18 Oberkirch Castle]
+     [http://maps.google.com/maps?f=q&hl=en&q=http%3A%2F%2Ffrancois.schnell.free.fr%2Fgeo%2F29avr07%2Fdoc-web3.kml&ie=UTF8&t=h&om=1&ll=48.539277,8.094848&spn=0.001499,0.003648&z=18 Oberkirch Castle]
 
-  *[http://maps.google.com/maps?f=q&hl=en&q=http://francois.schnell.free.fr/geo/25-03-07/doc-web.kml&layer=&ie=UTF8&z=12&ll=48.61952,7.806473&spn=0.094414,0.233459&t=h&om=1  Near the Rhin river] 
+  [http://maps.google.com/maps?f=q&hl=en&q=http://francois.schnell.free.fr/geo/25-03-07/doc-web.kml&layer=&ie=UTF8&z=12&ll=48.61952,7.806473&spn=0.094414,0.233459&t=h&om=1  Near the Rhin river] 
 === Steps ===
 
 Before geocoding in GPicSync:

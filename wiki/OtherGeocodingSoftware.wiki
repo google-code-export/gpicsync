@@ -6,4 +6,4 @@ A list of other geocoding software. If you know of other software (preferably Op
   
   * [http://wwmx.org/Download.aspx  WWMX from Microsoft] (Windows, freeware, need .Net 1.1)
 
-  * [http://oregonstate.edu/~earlyj/gpsphotolinker/overview.php Gpsphotolinker](Mac, freeware)
+  * [http://oregonstate.edu/~earlyj/gpsphotolinker/overview.php Gpsphotolinker] (Mac, freeware)

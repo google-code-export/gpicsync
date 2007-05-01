@@ -11,7 +11,7 @@ Create a Google Map with clickable pictures and track (enlarge the screenshot to
 
 Before geocoding in GPicSync:
 
-  * check "Google Maps export, folder URL="
+  * check {{{ "Google Maps export, folder URL=" }}}
   * fill the field with the URL of the picture folder you want:
     *  don't forget the {{{http://}}} and the final "/" (ie {{{http://pathToThePicturesFolder/}}}) 
   * at the end of the geocoding there is a doc-web.kml file in the picture folder
@@ -24,4 +24,6 @@ To view your pictures and track in Google Maps:
   * center the map and chose the viewing mode you like (map,hybrid,satellite)
   * click on "Link to this map" to have a URL you can use on your webpages
 
-Know issue: if you have lots of pictures and your gpx is big Google Maps may not display the track-log and all the pictures. I'm not sure what is exactly the limit and if it depends also of the availability of the Google Maps server.
+When you click on a camera icon you'll see a 'thumbnail' of the picture. If you click on it the full size version will appear in your browser. A good idea is to click with the middle button of your mouse so it will appear in a separate tab in Firefox or IE7 (you won't have to reload your Google Map each time).
+
+Known issue: if you have lots of pictures and your gpx is big Google Maps may not display the track-log and all the pictures. I'm not sure what is exactly the limit and if it depends also of the availability of the Google Maps server.

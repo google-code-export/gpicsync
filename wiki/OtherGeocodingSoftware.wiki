@@ -1,4 +1,4 @@
-A list of other geocoding software. If you know of other software (preferably Open Source or freeware) and what is interesting or particular about them please let me know so I can add them to the list.
+A list of other geocoding software. If you know another software (preferably Open Source or freeware) and what is interesting or particular about them please let me know so I can add them to the list.
 
   * [http://www.carto.net/projects/photoTools/gpsPhoto/ gpsPhoto] (Linux command line tool, GPL, written in Perl, also use Exiftool library)
     

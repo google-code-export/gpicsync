@@ -26,4 +26,8 @@ To view your pictures and track in Google Maps:
 
 When you click on a camera icon you'll see a 'thumbnail' of the picture. If you click on it the full size version will appear in your browser. A good idea is to click with the middle button of your mouse so it will appear in a separate tab in Firefox or IE7 (you won't have to reload your Google Map each time).
 
-Known issue: if you have lots of pictures and your gpx is big Google Maps may not display the track-log and all the pictures. I'm not sure what is exactly the limit and if it depends also of the availability of the Google Maps server.
+*Known issue:*
+
+If you have lots of pictures and your gpx is big Google Maps may not display the track-log and all the pictures. I'm not sure what is exactly the limit and if it depends also of the availability of the Google Maps server.
+
+I've seen an example where a big tracklog is cut to smaller portions (I will probably add that in the next version).

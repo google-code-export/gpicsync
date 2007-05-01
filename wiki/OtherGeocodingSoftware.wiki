@@ -4,6 +4,8 @@ A list of other geocoding software. If you know another software (preferably Ope
     
   * [http://oregonstate.edu/~earlyj/gpsphotolinker/overview.php Gpsphotolinker] (Mac, freeware)
 
+  * [http://www.mmisoftware.co.uk/pages/photogpseditor.php PhotoGpsEditor] (Mac, freeware)
+
   * [http://www.robogeo.com/home/ Robogeo] (Windows, commercial, lots of features)
 
   * [http://wwmx.org/Download.aspx  WWMX from Microsoft] (Windows, freeware, need .Net 1.1)

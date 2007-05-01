@@ -7,6 +7,8 @@
 Create a Google Map with clickable pictures and track (enlarge the screenshot to better understand the main steps) .
 
 [http://maps.google.com/maps?f=q&hl=en&q=http://francois.schnell.free.fr/geo/25-03-07/doc-web.kml&layer=&ie=UTF8&z=12&ll=48.61952,7.806473&spn=0.094414,0.233459&t=h&om=1 a first example] (wait few seconds for the data to load despite the warning message)
+
+[http://maps.google.com/maps?f=q&hl=en&q=http://francois.schnell.free.fr/geo/29avr07/doc-web2.kml&layer=&ie=UTF8&z=12&ll=48.516604,8.150482&spn=0.102338,0.233459&t=h&om=1  29th of april bike ride]
 === Steps ===
 
 Before geocoding in GPicSync:

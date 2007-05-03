@@ -9,7 +9,7 @@ Create a Google Map with clickable pictures and track (enlarge the screenshot to
 
 *Examples:*
 
- [http://maps.google.com/maps?f=q&hl=en&q=http%3A%2F%2Ffrancois.schnell.free.fr%2Fgeo%2F29avr07%2Fdoc-web.kml&ie=UTF8&t=h&om=1&ll=48.540478,8.120956&spn=0.048645,0.10025&z=13  29th of april bike ride]
+ [http://maps.google.com/maps?f=q&hl=en&q=http%3A%2F%2Ffrancois.schnell.free.fr%2Fgeo%2F29Apr07%2Fdoc-web.kml&ie=UTF8&ll=48.520925,8.146706&spn=0.102329,0.233459&t=h&z=12&om=1  29th of april bike ride]
 
      [http://maps.google.com/maps?f=q&hl=en&q=http%3A%2F%2Ffrancois.schnell.free.fr%2Fgeo%2F29avr07%2Fdoc-web3.kml&ie=UTF8&t=h&om=1&ll=48.539277,8.094848&spn=0.001499,0.003648&z=18 Oberkirch Castle]
 

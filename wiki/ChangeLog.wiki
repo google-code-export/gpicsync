@@ -3,7 +3,7 @@
 Better Google Map export:
 
   * creates now thumbnails (in a "thumbs" folder)
-  * cut big tracks in smaller parts to be sure it will display well on Google Maps (with a "Track folder" in the doc-web.kml)
+  * cut big tracks into smaller parts to be sure it will display well on Google Maps (with a "Track folder" in the doc-web.kml)
   * photos are now in a "Photos folder" in the doc-web.kml
 
    

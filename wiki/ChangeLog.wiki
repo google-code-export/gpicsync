@@ -1,3 +1,13 @@
+=== Version 0.93 (may 5 2007) ===
+
+Better Google Map export:
+
+- creates now thumbnails (in a "thumbs" folder)
+- cut big tracks in smaller parts to be sure it will display well on Google Maps 
+(with a "Track folder" in the doc-web.kml)
+- photos are now in a "Photos folder" in the doc-web.kml
+
+   
 === Version 0.92 (may 1st 2007) ===
 
   * [GoogleMapsExport Google Maps export with clikable photos + track log] (thanks to Marc Nozell for his feature request)

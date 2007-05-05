@@ -2,10 +2,11 @@
 
 Better Google Map export:
 
-  * creates now thumbnails (in a "thumbs" folder)
-  * cut big tracks into smaller parts to be sure it will display well on Google Maps (with a "Track folder" in the doc-web.kml)
+  * creates now thumbnails in a "thumbs" folder
+  * cut big tracks into smaller parts (500 points maximum each) to be sure it will display well on Google Maps (with a "Track folder" in the doc-web.kml)
   * photos are now in a "Photos folder" in the doc-web.kml
 
+Thanks to "johnlevandowski" for the feature request for thumbnails (issue 10)
    
 === Version 0.92 (may 1st 2007) ===
 

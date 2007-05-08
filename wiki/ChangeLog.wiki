@@ -13,10 +13,14 @@ It is useful if:
 GPicSync is now internationalized and can be easily translated.
 Version 0.94 supports English and French (and Italian should come soon).
 
-if you wish to translate GPicSync in your own language  please tell me ! :)
+If you wish to translate GPicSync in your own language  please tell me so I can guide you :)
+
 Basically it is one file to translate (filling the ' msgstr "" '):
 http://gpicsync.googlecode.com/svn/trunk/gpicsync-GUI.pot
 
+3) UTC Offset is now a floating point number (not an integer anymore for our friends of South Australia)
+
+4) Fixed an inversion issue in the "Local Time Correction" option. 
 
 === Version 0.93 (may 5 2007) ===
 

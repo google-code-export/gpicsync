@@ -1,24 +1,27 @@
 === Version 0.94 (may 8 2007) ===
 
+[http://sourceforge.net/project/showfiles.php?group_id=191804&package_id=225534&release_id=506905 New releases must be downloaded on Sourceforge]
+(no more space on code.google downloads and impossible to delete an old release...)
+
 1) Interpolation option
 
 The interface has now an "interpolation" checkbox (uncheked by default).
-It is useful if:
+It gives more accurate results if:
 
-  * you take pictures while moving from a car or a plane
+  * you take pictures while moving in a car or a plane
   * you have a GPS setting with an important duration between each GPS trackpoint record
 
-2) Translation
+2) Translations
 
 GPicSync is now internationalized and can be easily translated.
 Version 0.94 supports English and French (and Italian should come soon).
 
-If you wish to translate GPicSync in your own language  please tell me so I can guide you :)
+If you wish to translate GPicSync in your own language  please tell me know so I can guide you :)
 
 Basically it is one file to translate (filling the ' msgstr "" '):
 http://gpicsync.googlecode.com/svn/trunk/gpicsync-GUI.pot
 
-3) UTC Offset is now a floating point number (not an integer anymore for our friends of South Australia)
+3) UTC Offset is now a floating point number (not an integer anymore for our friends of South Australia...)
 
 4) Fixed an inversion issue in the "Local Time Correction" option. 
 

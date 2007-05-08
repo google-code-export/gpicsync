@@ -1,3 +1,13 @@
+=== Version 0.94 (may 9 2007) ===
+
+1) Interpolation option
+
+The interface has now an "interpolation" checkbox (uncheked by default).
+It is useful if:
+
+  * you take pictures while moving from a car or a plane
+  * you have a GPS setting with an important duration between each GPS trackpoint record
+
 === Version 0.93 (may 5 2007) ===
 
 Better Google Map export:

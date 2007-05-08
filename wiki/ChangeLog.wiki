@@ -1,4 +1,4 @@
-=== Version 0.94 (may 9 2007) ===
+=== Version 0.94 (may 8 2007) ===
 
 1) Interpolation option
 
@@ -7,6 +7,16 @@ It is useful if:
 
   * you take pictures while moving from a car or a plane
   * you have a GPS setting with an important duration between each GPS trackpoint record
+
+2) Translation
+
+GPicSync is now internationalized and can be easily translated.
+Version 0.94 supports English and French (and Italian should come soon).
+
+if you wish to translate GPicSync in your own language  please tell me ! :)
+Basically it is one file to translate (filling the ' msgstr "" '):
+http://gpicsync.googlecode.com/svn/trunk/gpicsync-GUI.pot
+
 
 === Version 0.93 (may 5 2007) ===
 

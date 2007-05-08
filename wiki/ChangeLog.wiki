@@ -5,23 +5,27 @@ The project 100 Mo quota on code.google is reached and I discovered it is forbid
 
 1) Interpolation option
 
-The interface has now an "interpolation" checkbox (uncheked by default).
+The interface has now an "interpolation" checkbox (unchecked by default).
 It gives more accurate results if:
 
   * you take pictures while moving in a car or a plane
   * you have a GPS setting with an important duration between each GPS trackpoint record
+
+(Thanks to T-Bon3 and harry.gps for the feature requests) 
 
 2) Translations
 
 GPicSync is now internationalized and can be easily translated.
 Version 0.94 supports English and French (and Italian should come soon).
 
-If you wish to translate GPicSync in your own language  please tell me know so I can guide you :)
+If you wish to translate GPicSync in your own language  please let me know so I can guide you :)
 
-Basically it is one file to translate (filling the ' msgstr "" '):
+Basically it is one file to translate (filling the double quotes) in:
 http://gpicsync.googlecode.com/svn/trunk/gpicsync-GUI.pot
 
-3) UTC Offset is now a floating point number (not an integer anymore for our friends of South Australia...)
+3) UTC Offset is now a floating point number (not an integer anymore for our friends of South Australia with special time zones)
+
+(Thanks to harry.gps for the feature request)
 
 4) Fixed an inversion issue in the "Local Time Correction" option. 
 

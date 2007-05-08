@@ -1,8 +1,7 @@
 === Version 0.94 (may 8 2007) ===
 
-[http://sourceforge.net/project/showfiles.php?group_id=191804  New releases must be downloaded on Sourceforge]
-
-(my 100 Mo quota on code.google is full and impossible to delete old releases...)
+[http://sourceforge.net/project/showfiles.php?group_id=191804  New releases must be downloaded on Sourceforge.]
+The project 100 Mo quota on code.google is reached and I discovered it is forbidden to delete old releases :( 
 
 1) Interpolation option
 

@@ -16,7 +16,10 @@ It gives more accurate results if:
 2) Translations
 
 GPicSync is now internationalized and can be easily translated.
-Version 0.94 supports English and French (and Italian should come soon).
+Version 0.94 supports English and French and Italian should come soon.
+
+
+When you launch GPicSync it try to find an existing translation based on the language of your operating system. You can also change the language in the menu "Options">"Language".  
 
 If you wish to translate GPicSync in your own language  please let me know so I can guide you :)
 

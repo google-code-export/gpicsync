@@ -1,7 +1,6 @@
 === Version 0.94 (may 8 2007) ===
 
 [http://sourceforge.net/project/showfiles.php?group_id=191804&package_id=225534&release_id=506905 New releases must be downloaded on Sourceforge]
-
 (no more space on code.google downloads and impossible to delete an old release...)
 
 1) Interpolation option

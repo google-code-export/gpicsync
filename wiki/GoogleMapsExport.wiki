@@ -1,6 +1,5 @@
 #labels Featured
 
-
 [http://farm1.static.flickr.com/171/478403489_7621c88dd2_o.jpg http://farm1.static.flickr.com/171/478403489_9d9dfb435d.jpg]
 
 === Goals ===
@@ -11,7 +10,8 @@ Create a Google Map with clickable pictures and track (enlarge the screenshot to
 
  [http://maps.google.com/maps?f=q&hl=en&q=http%3A%2F%2Ffrancois.schnell.free.fr%2Fgeo%2F29Apr07%2Fdoc-web.kml&ie=UTF8&ll=48.520925,8.146706&spn=0.102329,0.233459&t=h&z=12&om=1  29th of april bike ride]
 
-
+[http://maps.google.com/maps?f=q&hl=en&q=http%3A%2F%2Ffrancois.schnell.free.fr%2Fgeo%2F6may07%2Fdoc-web.kml&ie=UTF8&ll=48.533629,8.192282&spn=0.011282,0.029182&t=h&z=15&om=1
+Stroll around a water fall in Germany (6 may 07)]
 === Steps ===
 
 Before geocoding in GPicSync:

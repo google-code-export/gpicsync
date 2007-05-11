@@ -2,8 +2,11 @@
 
   * Elevation data (altitude)
     * add elevation data in the EXIF header if these informations are present in the gpx file
-    * You can check this elevation data with Tools > GPX Inspector or Tools > EXIF reader
-  * Fixed a bug when the app wasn't closed with the "Quit" button: the window was reloading
+    * You can check this elevation data with Tools > GPX Inspector and Tools > EXIF reader (all metadata)
+  * Fixed a bug when the app wasn't closed with the "Quit" button (the window was reloading)
+
+Thanks to "ChristophMaggioni" and Two Lenses for the altitude feature request. 
+Thanks to Jaeshin Soh for reporting the closing app problem.
 
 === Version 0.94 (may 8 2007) ===
 

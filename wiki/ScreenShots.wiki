@@ -1,4 +1,9 @@
 #labels Featured
+
+*Version 0.95*
+
+[http://farm1.static.flickr.com/220/494076867_f6d1da9607_o.jpg http://farm1.static.flickr.com/220/494076867_1e236ce310.jpg]
+
 *Version 0.92*
 
 Google Maps export and Google Earth:

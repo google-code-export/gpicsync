@@ -1,4 +1,4 @@
-=== Version 0.95 (may 11 2007) ===
+=== Version 0.95 (may 12 2007) ===
 
   * Elevation data (altitude)
     * add elevation data in the EXIF header if these informations are present in the gpx file

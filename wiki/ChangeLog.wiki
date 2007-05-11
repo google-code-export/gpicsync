@@ -1,3 +1,11 @@
+
+=== Version 0.95 (may 11 2007) ===
+
+  * Use now also elevation data
+    * add elevation data in the EXIF header if these informations are present in the gpx file
+    * You can check this elevation data with Tools > GPX Inspector or Tools > EXIF reader
+  * Fixed a bug when the app wasn't closed with the "Quit" button: the window was reloading
+
 === Version 0.94 (may 8 2007) ===
 
 [http://sourceforge.net/project/showfiles.php?group_id=191804  New releases must be downloaded on Sourceforge.]

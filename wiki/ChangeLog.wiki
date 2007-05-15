@@ -2,6 +2,8 @@
 
 This version address an issue when the option "dates must match" is used with early morning or late evenings photos in regions with an important UTC Offset. (  [http://code.google.com/p/gpicsync/issues/detail?id=6 1] , [http://groups.google.com/group/gpicsync/browse_thread/thread/fd7fcd5e57cb1928 2] ).
 
+It is labeled "alpha" because many changes has been done in the synchronization process and I didn't have time to test it on lots of data. If you encounter any problem thanks to let me know!
+
 
 === Version 0.95 (may 12 2007) ===
 

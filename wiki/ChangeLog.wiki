@@ -4,6 +4,7 @@ This version address an issue when the option "dates must match" is used with ea
 
 It is labeled "alpha" because many changes has been done in the synchronization process and I didn't have time to test it on lots of data. If you encounter any problem thanks to let me know!
 
+Thanks to "peterdcrees" and leszekp for reporting this issue.
 
 === Version 0.95 (may 12 2007) ===
 

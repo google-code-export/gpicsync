@@ -1,3 +1,8 @@
+=== Version 0.96-alpha (may 13 2007) ===
+
+This version address an issue when the option "dates must match" is used with early morning or late evenings photos in regions with an important UTC Offset. (  [http://code.google.com/p/gpicsync/issues/detail?id=6 1] , [http://groups.google.com/group/gpicsync/browse_thread/thread/fd7fcd5e57cb1928 2] ).
+
+
 === Version 0.95 (may 12 2007) ===
 
   * Elevation data (altitude)

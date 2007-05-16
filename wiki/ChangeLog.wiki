@@ -1,4 +1,4 @@
-=== Version 0.97 (development version, soon available yet as an executable)
+=== Version 0.97 (development version, soon available yet as an executable) ===
 
   * For the "backup" option a directory "originals_backup" is now created in the picture folder and it keeps the original names of the pictures.
   * GPicSync remembers now the last picture folder selected inside a session

@@ -1,6 +1,6 @@
 === Version 0.97 (upcoming version, status) ===
 
-  * For the "backup" option a directory "originals_backup" is now created in the picture folder and it keeps the original names of the pictures.
+  * For the "backup" option a directory "originals_backup" is now created in the pictures folder (backup pictures keeps their original names).
   * GPicSync remembers now the last picture folder selected inside a session
   * A configuration file is now present where you can set main preferences as default (like the UTCOffset, gmaps base URL, etc)
 

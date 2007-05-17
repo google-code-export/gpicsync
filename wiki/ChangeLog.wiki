@@ -1,9 +1,9 @@
-=== Version 0.97 (upcoming version, status) ===
+=== Version 0.97 (may 17 2007) ===
 
   * For the "backup" option a directory "originals_backup" is now created in the pictures folder (backup pictures keeps their original names).
   * GPicSync remembers now the last picture folder selected inside a session
-  * A configuration file is now present where you can set main preferences as default (like the UTCOffset, gmaps base URL, etc)
-  * the local time correction tool remembers the last correction in the session and show a status message in the main window. The "apply correction" button leave now the window visible, to leave it hit the new "quit" button.  
+  * A configuration file is now present where you can set main preferences as default (like the UTCOffset, gmaps base URL, etc). It's name is gpicsync.conf and it is located in the installation folder. You can edit it with an editor (like notepad for example) and change default values here (when GPicSync starts it reads this configuration file).I'll add a graphical interface from GPicSync in a future version.
+  * the local time correction tool remembers now the last correction in the session and show a status message in the main window. The "apply correction" button leave now the window visible, to leave or hide it hit the new "quit" button.  
 
 
 === Version 0.96-alpha (may 13 2007) ===

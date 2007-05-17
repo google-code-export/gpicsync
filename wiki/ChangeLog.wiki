@@ -3,7 +3,7 @@
   * For the "backup" option a directory "originals_backup" is now created in the pictures folder (backup pictures keeps their original names).
   * GPicSync remembers now the last picture folder selected inside a session
   * A configuration file is now present where you can set main preferences as default (like the UTCOffset, gmaps base URL, etc)
-  * the local time correction tool remembers the last correction and show a status message in the main window. The "apply correction" button leave the window visible, to leave it hit the new "quit" button.  
+  * the local time correction tool remembers the last correction in the session and show a status message in the main window. The "apply correction" button leave now the window visible, to leave it hit the new "quit" button.  
 
 
 === Version 0.96-alpha (may 13 2007) ===

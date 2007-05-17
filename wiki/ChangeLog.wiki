@@ -1,7 +1,5 @@
 === Version 0.97 (may 17 2007) ===
 
-GPicSync 0.97 is available:
-
 - For the "backup" option, a directory "originals_backup" is now
 created in the pictures folder (backup pictures keeps their original
 names).

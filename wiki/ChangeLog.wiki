@@ -5,7 +5,7 @@
   * A configuration file is now present where you can set main preferences as default (like the UTCOffset, gmaps base URL, etc). It's name is gpicsync.conf and it is located in the installation folder. You can edit it with an editor (like notepad for example) and change default values here (when GPicSync starts it reads this configuration file).I'll add a graphical interface from GPicSync in a future version.
   * the local time correction tool remembers now the last correction in the session and show a status message in the main window. The "apply correction" button leave now the window visible, to leave or hide it hit the new "quit" button.  
 
-Thanks to Blomberg, leszekp, anwi and davidoh69 for feature requests and feedback.
+Thanks to Blomberg, leszekp, anwi, marc and davidoh69 for feature requests and feedback.
 
 === Version 0.96-alpha (may 13 2007) ===
 

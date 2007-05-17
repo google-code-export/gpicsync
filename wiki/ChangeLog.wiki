@@ -9,7 +9,7 @@ names).
 - A configuration file is now present where you can set main
 preferences as default (like the UTCOffset, Google Map base URL, etc).
 It's name is "gpicsync.conf" and it is located in the installation
-folder (normally program files/GPicSync) .
+folder (normally "program files/GPicSync" on Windows) .
 You can edit it with an editor (like notepad for example) and change
 default values here (when GPicSync starts it reads this configuration
 file).I'll add a graphical interface from GPicSync in a future

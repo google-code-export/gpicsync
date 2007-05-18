@@ -11,8 +11,7 @@ Example:
 
 [http://maps.google.com/maps?f=q&hl=en&q=http%3A%2F%2Ffrancois.schnell.free.fr%2Fgeo%2F6may07%2Fdoc-web.kml&ie=UTF8&ll=48.533629,8.192282&spn=0.011282,0.029182&t=h&z=15&om=1 Stroll around a water fall in Germany,6 may 07]
 
-[http://local.google.com/maps?f=q&hl=en&q=http%3A%2F%2Ffrancois.schnell.free.fr%2Fgeo%2F13mai07%2Fdoc-web.kml&ie=UTF8&ll=48.598522,8.201551&spn=0.006301,0.014591&t=h&z=16&om=1 
-Around Mummelsee lac in Black Forest, Germany]
+[http://local.google.com/maps?f=q&hl=en&q=http%3A%2F%2Ffrancois.schnell.free.fr%2Fgeo%2F13mai07%2Fdoc-web.kml&ie=UTF8&ll=48.598522,8.201551&spn=0.006301,0.014591&t=h&z=16&om=1 Around Mummelsee lac in Black Forest]
 === Steps ===
 
 Before geocoding in GPicSync:

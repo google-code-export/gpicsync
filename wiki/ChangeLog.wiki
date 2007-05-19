@@ -4,11 +4,11 @@
 
 (BIG THANKS to bartman from [http://x50v.it/ x50v.it] for this great translation !)
 
-- Fixed a bug when "Interpolation" is checked and that the timestamp of  a picture if not in the time interval of the tracklog.
+- Fixed a bug when "Interpolation" is checked and when the timestamp of a picture is not in the time interval of the tracklog.
 
 (Thanks to Graham from UK for reporting the problem on the google group!)
 
-- Fixed a problem when retrieving geonames. If one geoname doesn't exist it is ignored and the others are used (had a problem for some UK data where the region metadata wasn't available in geonames.org database).  
+- Fixed a problem when retrieving some geonames. If one geoname doesn't exist it is ignored and the others are used now (had a problem for some UK data where the region metadata wasn't available in geonames.org database).  
 
 === Version 0.97 (may 17 2007) ===
 

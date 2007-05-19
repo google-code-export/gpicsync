@@ -1,3 +1,15 @@
+=== Version 0.98 (may 20 2007) ===
+
+- Apart from English and French, GPicSync is now available in Italian (menu "Options">"Language").
+
+(BIG THANKS to bartman from [http://x50v.it/ x50v.it] for this translation !)
+
+- Fixed a bug when "Interpolation" is checked and that the timestamp of  a picture if not in the time interval of the tracklog.
+
+(Thanks to Graham from UK for reporting the problem on the google group!)
+
+- Fixed a problem when retrieving geonames. If one geoname doesn't exist it is ignored and the others are used (had a problem for some UK data where the region metadata wasn't available in geonames.org database).  
+
 === Version 0.97 (may 17 2007) ===
 
 - For the "backup" option, a directory "originals_backup" is now

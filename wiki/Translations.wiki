@@ -13,6 +13,54 @@ If you wish to contribute a new language for GPicSync you're very welcome ! :)
 
 Here's how to precede:
 
-Save this text file on your computer: [http://gpicsync.googlecode.com/svn/trunk/gpicsync-GUI.pot gpicsync-GUI.pot] (make a right click and "save as")
+1) Save this text file on your computer: [http://gpicsync.googlecode.com/svn/trunk/gpicsync-GUI.pot gpicsync-GUI.pot] (make a right click and "save link as")
 
- 
+This is a text file with a ".pot" extension. The best is to edit in text editor (like notepad for example). In any case it mustn't be saved as a "binary" file in a word processor. 
+
+The file look like:
+{{{
+#: ..\..\..\gpicsync-GUI.py:66
+msgid "Local time correction"
+msgstr ""
+
+#: ..\..\..\gpicsync-GUI.py:67
+msgid "&Options"
+msgstr ""
+
+#: ..\..\..\gpicsync-GUI.py:69
+msgid "About..."
+msgstr "" 
+}}}
+
+(lines beginning with # are just comments)
+
+The goal is to fill the double quote in msgstr "" with your translation of the English  line above).
+
+For example in French it will look like this:
+
+{{{
+#: ..\..\..\gpicsync-GUI.py:66
+msgid "Local time correction"
+msgstr "Correction temporelle"
+
+#: ..\..\..\gpicsync-GUI.py:67
+msgid "&Options"
+msgstr "&Options"
+
+#: ..\..\..\gpicsync-GUI.py:69
+msgid "About..."
+msgstr "A propos..."
+
+#: ..\..\..\gpicsync-GUI.py:71
+msgid "&Tools"
+msgstr "&Outils"
+}}}
+
+When you've filled all of them you can send the file back to me. I will compile it and add it to the software.
+
+Few guidelines:
+
+- Try not to be longer than the English string even if you have to be less precise in the meaning (some strings have limited spaces like in buttons for example)
+- Keep the spaces you can find in the string
+
+THANKS ! :)

@@ -1,9 +1,8 @@
-
 === Version 0.98-1 (may 21 2007) ===
 
 Fixed a bug in the KML which wasn't well formed if the GPS file didn't have any elevation data. If you are in this case, please upgrade to this version and don't hesitate to give me some feedback if you encounter any problem.
 
-Thanks to "Mr. Comentand" for bringing some data showing the issue.
+Thanks to "Mr. Comentand" for bringing some data showing the issue on the [http://groups.google.com/group/gpicsync GPicSync Google Group].
 
 === Version 0.98 (may 20 2007) ===
 

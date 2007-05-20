@@ -11,11 +11,11 @@ To change the language in the software go in "Options">"Language" and select you
 
 If you wish to contribute a new language for GPicSync you're very welcome ! :)
 
-Here's how to precede:
+Here's how to proceed:
 
 1) Save this text file on your computer: [http://gpicsync.googlecode.com/svn/trunk/gpicsync-GUI.pot gpicsync-GUI.pot] (make a right click and "save link as")
 
-This is a text file with a ".pot" extension. The best is to edit in text editor (like notepad for example). In any case it mustn't be saved as a "binary" file in a word processor. 
+This is a text file with a ".pot" extension. The best way is to use to use text editor (like notepad for example). You mustn't save it as "binary" file in a word processor. 
 
 The file look like:
 {{{
@@ -34,7 +34,7 @@ msgstr ""
 
 (lines beginning with # are just comments)
 
-The goal is to fill the double quote in msgstr "" with your translation of the English  line above).
+The goal is to fill the double quotes in msgstr "" with your translation of the English  line above.
 
 For example in French it will look like this:
 
@@ -51,12 +51,9 @@ msgstr "&Options"
 msgid "About..."
 msgstr "A propos..."
 
-#: ..\..\..\gpicsync-GUI.py:71
-msgid "&Tools"
-msgstr "&Outils"
 }}}
 
-When you've filled all of them you can send the file back to me. I will compile it and add it to the software.
+When you've filled all of them you can send the file back to me. I will compile it and add it to the software. Tell me also the name/first name (or pseudo) you want to see in the credit.
 
 Few guidelines:
 

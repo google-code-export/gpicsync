@@ -3,7 +3,7 @@
   * *English* (default)
   * *French*
   * *Italian* (thanks to bartman from [http://www.x50v.it/ x50v.it])
-  * soon German (thanks to anwi proposition)
+  * *soon German* (thanks to anwi proposition)
 
 To change the language in the software go in "Options">"Language" and select your language. the next time you launch the software it will be in the language you have selected.
 

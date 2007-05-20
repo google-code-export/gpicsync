@@ -58,6 +58,6 @@ When you've filled all of them you can send the file back to me. I will compile 
 *Few guidelines:*
 
   * Try not to be longer than the English string even if you have to be less precise in the meaning (some strings have limited spaces like in buttons for example)
-  * Keep the spaces you can find in the string
+  * Keep the spaces you can find eventually at the beginning or the end of a string
 
 THANKS ! :)

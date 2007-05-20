@@ -6,3 +6,13 @@ GPicSync is available in:
   * soon German (thanks to anwi proposition)
 
 To change the language in the software go in "Options">"Language" and select your language. the next time you launch the software it will be in the language you have selected.
+
+===How to contribute a new translation.===
+
+If you wish to contribute a new language for GPicSync you're very welcome ! :)
+
+Here's how to precede:
+
+Save this text file on your computer: [http://gpicsync.googlecode.com/svn/trunk/gpicsync-GUI.pot gpicsync-GUI.pot] (make a right click and "save as")
+
+ 

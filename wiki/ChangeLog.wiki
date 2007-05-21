@@ -1,3 +1,11 @@
+=== Version 0.98-2 (may 22 2007) ===
+
+This version address issue 22 "No match found when UTC time crosses 0000 hrs" for negative UTC offset and with "dates must check" checked.It most likely affected US West coast users.
+
+If you are in this case, please upgrade to this version and don't hesitate to give me some feedback if you encounter any problem.
+
+Thanks to davidoh69 for reporting the issue.
+
 === Version 0.98-1 (may 21 2007) ===
 
 Fixed a bug in the KML which wasn't well formed if the GPS file didn't have any elevation data. If you are in this case, please upgrade to this version and don't hesitate to give me some feedback if you encounter any problem.

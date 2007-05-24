@@ -1,0 +1,15 @@
+=== Goals ===
+
+Automatically associate audio or video files to geolocalized pictures in Google Earth and Google Maps.
+
+This is usefull if you records descriptions of your pictures with an audio device or take videos with your camera for example. It gives more "life" to your geolocalized trips.
+
+This is the first implementation of this feature in GPicSync-0.99 and it will evolve with your inputs in the GPicSync Google Group. Thanks to David Veeneman for [http://groups.google.com/group/gpicsync/browse_thread/thread/a5a5d08bffa33b97 his feature request and inputs].
+
+===
+
+
+ 
+
+
+

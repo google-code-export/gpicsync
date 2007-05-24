@@ -6,10 +6,14 @@ This is usefull if you records descriptions of your pictures with an audio devic
 
 This is the first implementation of this feature in GPicSync-0.99 and it will evolve with your inputs in the GPicSync Google Group. Thanks to David Veeneman for [http://groups.google.com/group/gpicsync/browse_thread/thread/a5a5d08bffa33b97 his feature request and inputs].
 
-===
+=== Example ===
 
+A  [http://local.google.com/maps?f=q&hl=en&q=http%3A%2F%2Ffrancois.schnell.free.fr%2Fgeo%2Faudio-test%2Fdoc-web.kml&ie=UTF8&ll=48.534056,8.189406&spn=0.011708,0.029182&t=h&z=15&om=1  test example] 
+
+When you see a "Play Audio" link use the middle button of the mouse to avoid to "loose" the map for now.
+
+=== Usage ===
 
  
-
 
 

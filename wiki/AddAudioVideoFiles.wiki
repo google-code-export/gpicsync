@@ -14,6 +14,15 @@ When you see a "Play Audio" link use the middle button of the mouse to avoid to 
 
 === Usage ===
 
- 
+Put audio or video files in your pictures folder they must have the same name as the picture you want it to link to.
 
+If it's an audio file a "Play audio" will appear in the picture description in Google Earth and Maps (and "Play video" if it's a video file).
+ 
+Audio extensions the application is looking for: ".mp3",".wma",".ogg",".wav"
+Video extensions the application is looking for: ".wmv",".mov",".avi"
+
+You can also add an additional description to the picture: just add in the picture folder a text file (.txt with the name of the picture) and you can use HTML tags in it.
+
+Some feedback, inputs, ideas ---> [http://groups.google.com/group/gpicsync GPicSync Group]
+ 
 

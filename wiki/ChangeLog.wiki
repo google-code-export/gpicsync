@@ -1,3 +1,13 @@
+=== Version 0.99 (may 25 2007) ===
+
+  * German translation added (see the [http://code.google.com/p/gpicsync/wiki/Translations translation page])
+
+(Thanks to Michael, alias anwi in the GPicSync group for the main translation with the review and help from Konrad Bauckmeier )
+
+  * [http://code.google.com/p/gpicsync/wiki/AddAudioVideoFiles Automatically associate audio or video files to geolocalized pictures in Google Earth and Google Maps].
+
+(Thanks to David Veeneman for his feature request)   
+
 === Version 0.98-2 (may 22 2007) ===
 
 This version address issue 22 "No match found when UTC time crosses 0000 hrs" for negative UTC offset and with "dates must check" checked.It most likely affected US West coast users.

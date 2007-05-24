@@ -2,11 +2,13 @@
 
   * German translation added (see the [http://code.google.com/p/gpicsync/wiki/Translations translation page])
 
-(Thanks to Michael, alias anwi in the GPicSync group for the main translation with the review and help from Konrad Bauckmeier )
+(Thanks to Michael, alias anwi in the GPicSync group for the main translation and the review and help from Konrad Bauckmeier )
 
   * [http://code.google.com/p/gpicsync/wiki/AddAudioVideoFiles Automatically associate audio or video files to geolocalized pictures in Google Earth and Google Maps].
 
-(Thanks to David Veeneman for his feature request)   
+(Thanks to David Veeneman for [http://groups.google.com/group/gpicsync/browse_thread/thread/a5a5d08bffa33b97 his feature request])   
+
+If you encounter any problem thanks to report it.
 
 === Version 0.98-2 (may 22 2007) ===
 

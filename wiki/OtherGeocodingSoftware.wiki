@@ -28,6 +28,8 @@ Konrad Bauckmeier from Germany sent me an impressive list of other geocoding sof
 
   * [http://www.panorado.com/en/index.htm?PanoradoFlyer.htm panorado flyer] (free, contextual tool  from right click on a image and open coordinates in Google earth or tag coordinates from there)
 
+  * [http://www.grazer.de/ Grazer ] (freeware)
+
   * [http://www.fodysseus.com/de/software.htm Fodysseus]  (commercial, 25EUR)
 
   * [http://www.topofusion.com/photofusion.php TopoFusion]  (commercial, $40/ $70)

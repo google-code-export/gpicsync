@@ -24,10 +24,9 @@ Konrad Bauckmeier from Germany sent me an impressive list of other geocoding sof
  
   * [http://www.picopolo.de/ Picopolo]  (freeware, also for Image-Management)
  
-  * [http://www.mmisoftware.co.uk/pages/photogpseditor.php GPSFotoEditor]  for Mac
-(Donationware)
+  * [http://www.mmisoftware.co.uk/pages/photogpseditor.php GPSFotoEditor]  for Mac (Donationware)
 
-And commercial solutions:
+  * And commercial solutions:
 
   * [http://www.fodysseus.com/de/software.htm Fodysseus]  (25EUR)
   * [http://www.topofusion.com/photofusion.php TopoFusion]  ($40/ $70)

@@ -28,11 +28,11 @@ A list of other geocoding software. If you know another software (preferably Ope
 
   * [http://www.grazer.de/ Grazer ] (freeware)
 
-  * [http://www.fodysseus.com/de/software.htm Fodysseus]  (commercial, 25EUR)
+  * [http://www.fodysseus.com/de/software.htm Fodysseus]  (German?, commercial, 25EUR)
 
   * [http://www.topofusion.com/photofusion.php TopoFusion]  (commercial, $40/ $70)
 
   * [http://www.ttqv.com/main.php?content=14 Touratec]   (commercial, 100-150 EUR)    
 
-  * [http://www.gartrip.de/index_d.htm Gartrip]  (commercial, German only?, 30EUR)
+  * [http://www.gartrip.de/index.htm Gartrip]  (commercial, German only?, 30EUR)
   

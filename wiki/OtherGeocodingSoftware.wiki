@@ -20,7 +20,7 @@ A list of other geocoding software. If you know another software (preferably Ope
  
   * [http://www.gps-freeware.de/ GPS Freeware]  (freeware, german only, editing also tracks)
  
-  * [http://software.copiks.se/photomapper/ COPIKS Photo Mapper]  (freeware)
+  * [http://software.copiks.se/photomapper/index.php?lang=EN COPIKS Photo Mapper]  (freeware)
  
   * [http://www.picopolo.de/ Picopolo]  (freeware, also for Image-Management)
  

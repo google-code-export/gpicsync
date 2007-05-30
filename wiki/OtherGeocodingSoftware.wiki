@@ -24,8 +24,6 @@ A list of other geocoding software. If you know another software (preferably Ope
  
   * [http://www.picopolo.de/index_e.htm Picopolo]  (freeware, also for Image-Management)
  
-  * [http://www.mmisoftware.co.uk/pages/photogpseditor.php GPSFotoEditor]  for Mac (Donationware)
-
   * [http://www.panorado.com/en/index.htm?PanoradoFlyer.htm panorado flyer] (free, contextual tool  from right click on a image and open coordinates in Google earth or tag coordinates from there)
 
   * [http://www.grazer.de/ Grazer ] (freeware)

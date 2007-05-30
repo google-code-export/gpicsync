@@ -2,6 +2,9 @@ Thanks to all people contributing feedback, bugs report, patches, suggestions...
 
 In particular:
 
+
+*Michael*, alias anwi and *Konrad Bauckmeier* for the german translation.
+
 * Bartman *
 
 From [http://x50v.it/ x50v.it] for the full Italian translation !

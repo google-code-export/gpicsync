@@ -26,10 +26,11 @@ Konrad Bauckmeier from Germany sent me an impressive list of other geocoding sof
  
   * [http://www.mmisoftware.co.uk/pages/photogpseditor.php GPSFotoEditor]  for Mac (Donationware)
 
-  * And commercial solutions:
+  * [http://www.fodysseus.com/de/software.htm Fodysseus]  (commercial, 25EUR)
 
-    * [http://www.fodysseus.com/de/software.htm Fodysseus]  (25EUR)
-    * [http://www.topofusion.com/photofusion.php TopoFusion]  ($40/ $70)
-    * [http://www.ttqv.com/main.php?content=14 Touratec]   (100-150 EUR)
-    * [http://www.gartrip.de/index_d.htm Gartrip]  (German only?, 30EUR)
+  * [http://www.topofusion.com/photofusion.php TopoFusion]  (commercial, $40/ $70)
+
+  * [http://www.ttqv.com/main.php?content=14 Touratec]   (commercial, 100-150 EUR)   * 
+
+  * [http://www.gartrip.de/index_d.htm Gartrip]  (commercial, German only?, 30EUR)
   

@@ -12,6 +12,7 @@ A list of other geocoding software. If you know another software (preferably Ope
 
   * [http://wwmx.org/Download.aspx  WWMX from Microsoft] (Windows, freeware, needs .Net 1.1)
 
+
 *Thanks to Konrad Bauckmeier from Germany for sending me an impressive list of other geocoding software:*
 
   * [http://www.vipros.com/photo/gps2Photo/ GPS2Foto] (freeware, perl script, without gui)

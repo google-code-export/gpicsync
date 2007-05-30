@@ -22,7 +22,7 @@ A list of other geocoding software. If you know another software (preferably Ope
  
   * [http://software.copiks.se/photomapper/index.php?lang=EN COPIKS Photo Mapper]  (freeware)
  
-  * [http://www.picopolo.de/ Picopolo]  (freeware, also for Image-Management)
+  * [http://www.picopolo.de/index_e.htm Picopolo]  (freeware, also for Image-Management)
  
   * [http://www.mmisoftware.co.uk/pages/photogpseditor.php GPSFotoEditor]  for Mac (Donationware)
 

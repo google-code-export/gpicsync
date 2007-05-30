@@ -26,11 +26,13 @@ Konrad Bauckmeier from Germany sent me an impressive list of other geocoding sof
  
   * [http://www.mmisoftware.co.uk/pages/photogpseditor.php GPSFotoEditor]  for Mac (Donationware)
 
+  * [http://www.panorado.com/en/index.htm?PanoradoFlyer.htm panorado flyer] (free, contextual tool  from right click on a image and open coordinates in Google earth or tag coordinates from there)
+
   * [http://www.fodysseus.com/de/software.htm Fodysseus]  (commercial, 25EUR)
 
   * [http://www.topofusion.com/photofusion.php TopoFusion]  (commercial, $40/ $70)
 
-  * [http://www.ttqv.com/main.php?content=14 Touratec]   (commercial, 100-150 EUR)   * 
+  * [http://www.ttqv.com/main.php?content=14 Touratec]   (commercial, 100-150 EUR)    
 
   * [http://www.gartrip.de/index_d.htm Gartrip]  (commercial, German only?, 30EUR)
   

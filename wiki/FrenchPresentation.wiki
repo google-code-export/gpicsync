@@ -5,12 +5,13 @@
 
 *25 mai 2007*: Version 0.99 disponible (voir ChangeLog )
 
-GPicSync insère automatiquement les coordonnées latitude/longitude dans les métadonnées de de vos photos qui peuvent alors aussi être utilisées par tout logiciel sachant lire ces informations comme Picasa/Google Earth, Flickr, loc.alize.us, etc.
+GPicSync insère automatiquement les coordonnées latitude/longitude/altitude dans les métadonnées de de vos photos qui peuvent alors aussi être utilisées par tout logiciel sachant lire ces informations comme Picasa/Google Earth, Flickr, loc.alize.us, etc.
 
 *Caractéristiques:*
 
   * geocode automatiquement vos photos JPG ou RAW (en-tête EXIF)
   * utilise n'importe quel parcours GPS (track log) au format universel  [http://www.topografix.com/gpx_for_users.asp GPX]
+  * ajout de l'altitude si présent dans le fichier GPS
   * créez un fichier Google Earth KML pour directement visualiser vos photos et le parcours GPS dans Google Earth
   * créez un export Google Maps à publier sur un site web
   * associez automatiquement des fichiers audio et vidéo à des photos géolocalisées 

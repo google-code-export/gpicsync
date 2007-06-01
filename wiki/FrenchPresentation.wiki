@@ -1,4 +1,4 @@
-[http://www.flickr.com/photo_zoom.gne?id=451406044&size=o http://farm1.static.flickr.com/251/451406044_62d5ae804f.jpg]
+[http://farm1.static.flickr.com/220/494076867_f6d1da9607_o.jpg http://farm1.static.flickr.com/220/494076867_1e236ce310.jpg]
 
 ( [Debuter] ) ( ScreenShots ) ( ChangeLog ) ( [http://code.google.com/p/gpicsync English version] )
 
@@ -25,10 +25,12 @@ GPicSync signifie G:GPS Pic:Pictures Sync:Synchronization et est un logiciel lib
 
 *Quelques exemples de photos géolocalisées avec GPicSync:*
 
-  * Une de mes [http://loc.alize.us/#/user:Francois%20Schnell/geo:48.58412,7.76409,17,k/ pause sandwich  géolocalisée] (vue dans loc.alize.us qui utilise Flickr et Google maps)
-  * Une [http://www.flickr.com/photos/frenchy/sets/72157600057036260/map/ sortie vélo dans le vignoble alsacien] (via Yahoo maps - Flickr)
-  * [http://maps.google.com/maps/ms?ie=UTF8&hl=en&z=9&ll=48.443778,7.597046&spn=0.668648,1.867676&t=h&om=1&msid=100273353392671595172.00000111f1333a196b094&msa=0 Export kmz via Picassa de certaines ballades rassemblées sur une carte 'My maps'] (voir [http://code.google.com/p/gpicsync/wiki/PicasaVersKmz tutorial])
-  * Un export Google Earth [http://francois.schnell.free.fr/geo/testGpicsync.kmz KMZ autour de Strasbourg] (généré par GPicSync via 'Tools' -> 'KMZ Generator')  
-  * [http://loc.alize.us/#/user:Francois%20Schnell/geo:48.45095,7.03726,13,k/ Un premier test en VTT] (vue dans loc.alize.us)
+  * Ajout de fichier audios: [http://local.google.com/maps?f=q&hl=en&q=http%3A%2F%2Ffrancois.schnell.free.fr%2Fgeo%2Faudio-test%2Fdoc-web.kml&ie=UTF8&ll=48.534056,8.189406&spn=0.011708,0.029182&t=h&z=15&om=1 un premier test] 
+  * Export Google Maps depuis GPicSync: [http://maps.google.com/maps?f=q&hl=en&q=http%3A%2F%2Ffrancois.schnell.free.fr%2Fgeo%2F29Apr07%2Fdoc-web.kml&ie=UTF8&ll=48.520925,8.146706&spn=0.102329,0.233459&t=h&z=12&om=1  une ballade vélo] (voir GoogleMapsExport)
+  * Une sortie vélo dans le vignoble alsacien [http://www.flickr.com/photos/frenchy/sets/72157600057036260/map/ vu dans Yahoo maps / Flickr] ou  [http://francois.schnell.free.fr/geo/8-avr-07-riquewhir.kmz le fichier kmz exporté depuis Picasa] (à ouvrir dans Google Earth)
+  * Pause de midi [http://loc.alize.us/#/user:Francois%20Schnell/geo:48.58412,7.76409,17,k/ géolocalisée ] (visualisée dans loc.alize.us qui utilise Flickr et Google maps)
+  * [http://maps.google.com/maps/ms?ie=UTF8&hl=en&z=9&ll=48.443778,7.597046&spn=0.668648,1.867676&t=h&om=1&msid=100273353392671595172.00000111f1333a196b094&msa=0 utilisation dans 'My maps'](voir [http://code.google.com/p/gpicsync/wiki/PicasaToKmz tutorial])
+  * A fichier Google Earth [http://francois.schnell.free.fr/geo/testGpicsync.kmz KMZ ] autour de Strasbourg (généré via l'outil 'KMZ Generator' de GPicSync)  
+  * [http://loc.alize.us/#/user:Francois%20Schnell/geo:48.45095,7.03726,13,k/ Tout premier test lors d'une sortie VTT] (visualisée dans loc.alize.us)
 
-Merci à tous [http://code.google.com/p/gpicsync/wiki/Contributions pour les contributions et feedback.]
+Merci pour [http://code.google.com/p/gpicsync/wiki/Contributions les contributions et feedback.]

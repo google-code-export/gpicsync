@@ -1,5 +1,5 @@
 #labels french
-(Page in French)
+(Page in French)([http://code.google.com/p/gpicsync/ version anglaise plus complète du site).
 
 = Débuter avec GPicSync =
 

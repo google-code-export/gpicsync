@@ -1,3 +1,19 @@
+
+=== Version 1.00 (3rd of june 2007) ===
+
+1) Google Earth "with TimeStamp" option
+
+There is a new option for the Google Earth file called "with TimeStamp" directly in the interface. Google Earth will then show a time sliders (you can modify the width with your mouse) and pictures will appear only if they are in the time frame.
+You can also use the play button to the right of the slider to see your pictures appearing as time pass.
+
+Thanks mlos100 for the feature request.
+
+2) GPicSync is now translated in traditional and simplified Chinese ("options">"language" ).
+
+Huge thanks to Paul lu from [http://digital.xy.hk/ digital.xy.hk] for this great  contributions :)   
+
+3) Begin to correct few typos (thanks marc and terry)
+
 === Version 0.99 (may 25 2007) ===
 
   * German translation added (see the [http://code.google.com/p/gpicsync/wiki/Translations translation page])

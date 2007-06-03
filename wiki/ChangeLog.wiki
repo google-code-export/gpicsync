@@ -1,3 +1,4 @@
+
 === Version 1.00 (3rd of june 2007) ===
 
 1) Google Earth "with TimeStamp" option
@@ -8,7 +9,7 @@ Google Earth will show a time sliders (you can modify the width with your mouse)
 
 You can use the play button (to the right of the slider) to see your pictures appearing as time pass and you can change the time settings by clicking on the watch (on the left of the slider).
 
-Warning: If your camera was set to the local time you will have to click on "UTC" in the time setting (otherwise Google Earth will add another offset). This problem will be solved in the next version of GPicSync available in few days.
+Warning: If your camera was set to the local time you will have to click on "UTC" in the time setting (otherwise Google Earth will add a second time the offset). I'll see if I can do something about that in the next version.
 
 Thanks mlos100 for this cool feature request.
 

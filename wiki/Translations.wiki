@@ -4,7 +4,7 @@
   * *French*
   * *Italian* (thanks to bartman from [http://www.x50v.it/ x50v.it])
   * *German* (Thanks to Michael, alias anwi for the main translation and the review and help from Konrad Bauckmeier )
-  * soon *Chinese* from Paul lu ([http://digital.xy.hk digital.xy.hk])
+  * *Chinese* from Paul lu ([http://digital.xy.hk digital.xy.hk])
 
 To change the language in the software go in "Options">"Language" and select your language. The next time you launch the software it will be in the language you have selected.
 

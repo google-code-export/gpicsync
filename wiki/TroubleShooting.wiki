@@ -1,3 +1,4 @@
+#labels Featured
   * 1)If no indications of localization appears check first your .gpx file
   * 2)If you have an error MSVCP71.dll was not found (or another dll file).
 

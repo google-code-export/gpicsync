@@ -1,3 +1,12 @@
+=== Upcoming 1.01 development version (will be released soon) ===
+
+1) GPSbabel integration and NMEA support
+
+GPicSync integrate now the great GPSbabel tool in his back-end. The first new format to be supported is NMEA. Just select your GPS file and select the NMEA filter (a gpx file will be created in your picture folder and will be automatically used when you'll launch the geocoding process).
+
+ 
+
+
 === Version 1.00 (3rd of june 2007) ===
 
 1) Google Earth "with TimeStamp" option

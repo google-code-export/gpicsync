@@ -2,20 +2,22 @@
 
 1) GPSbabel integration and NMEA support
 
-GPicSync integrate now the great GPSbabel tool in his back-end. The first new format to be supported is NMEA. Just select your GPS file and select the NMEA filter (a gpx file will be created in your picture folder and will be automatically used when you'll launch the geocoding process).
+GPicSync integrate now the great GPSbabel tool in his back-end. The first new format to be supported is NMEA. Just select your GPS file and select the NMEA file filter (a gpx file will be created in your picture folder and will be automatically used when you'll launch the geocoding process).
 
 (thanks "bazarophile" and Paul lu for the feature request and data)  
  
 2) Configuration file
 
-For security reasons the configuration file is now in the user home folder (for example in windows: "C:\Documents and Settings\username\gpicsync.conf").
+The configuration file is now in the user home folder (for example in windows: "C:\Documents and Settings\username\gpicsync.conf").
 On GPicSync (Windows) you can now access and  modify this file directly from GPicSync: "Options">"Configuration File" will open the file in notepad (if you make some modifications you must save and restart GPicSync for the changes to take effect).
 
-(thanks H-J Fett for making me aware of the problem and for the feature request)
+(thanks H-J Fett for making me aware of the problem and the feature request)
 
 3) Windows file modification date
 
-The file modification date is now unchanged a GPicSync geocoding. The idea is that you can still directly see the date you took the photo in your operating system file browser (without the need to look at the EXIF). I'll probably add the possibility to change this as an option in the configuration file.
+The file modification date is now unchanged by a GPicSync geocoding. The idea is that you can still directly see the date you took the photo in your operating system file browser (without the need to look at the EXIF). I'll probably soon add the possibility to change this as an option in the configuration file.
+
+(thanks Paul lu for the feature request)
 
 4) Backup
 

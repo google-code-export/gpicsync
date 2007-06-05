@@ -17,6 +17,17 @@ On GPicSync (Windows) you can now access and  modify this file directly from GPi
 
 The file modification date is now unchanged a GPicSync geocoding. The idea is that you can still directly see the date you took the photo in your operating system file browser (without the need to look at the EXIF). I'll probably add the possibility to change this as an option in the configuration file.
 
+4) Backup
+
+If you re-use the backup option it will first check if the picture has been saved a first time (is so it will keep the first backup)
+
+5) EXIF Tool reader
+
+Added the full name and path of the file being inspected as an information in the main text window.
+
+(thanks Terry for the feature request)
+
+
 
 === Version 1.00 (3rd of june 2007) ===
 

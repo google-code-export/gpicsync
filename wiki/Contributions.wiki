@@ -13,6 +13,10 @@ From [http://x50v.it/ x50v.it] for the Italian translation.
 
 For his great [http://www.sno.phy.queensu.ca/~phil/exiftool/ EXIFTool] library that use to read/write in the EXIF part of pictures.
 
+* Robert Lipe*
+
+For his great [http://www.gpsbabel.org/ GPSbabel tool]
+
 *Marc Nozell*
 
 For his patch on geoexif.py to use EXIFTool with windows and linux

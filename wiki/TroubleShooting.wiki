@@ -1,8 +1,13 @@
 #labels Featured
-  * 1)If no indications of localization appears check first your .gpx file
-  * 2)If you have an error MSVCP71.dll was not found (or another dll file).
+  * 1)If you have an error MSVCP71.dll and/or MSVCR71.dll was not found (or another dll file).
+  * 2)If no indications of localization appears check first your .gpx file
 
-*1) If no indications of localization appears check first your .gpx file:* 
+
+*1)If you have an error MSVCP71.dll and/or MSVCR71.dll was not found (or another dll file).  *
+
+This dll should be installed by default on Windows XP.  You can Google the name of the file and you'll find plenty of sites where you can download the dll.
+
+*2) If no indications of localization appears check first your .gpx file:* 
 
 A .gpx file is a "XML" file. You can open it and modify it easily in a text editor: it has plenty of tags (<tag> .... </tag>)
 
@@ -33,6 +38,5 @@ Use "Tools"->"GPX Inspector" to quickly see the data GPicSync finds in it.
 If your gpx file seems fine use "Tools"->"EXIF Reader" and check if your photos contain a 'Date/Time Original' field like (Date/Time Original : 2007:04:06 14:41:02). Some image processing software erase metadata (Picassa for example keeps the metadata).
 
  
-*2)If you have an error MSVCP71.dll was not found (or another dll file).  *
 
-Google the name of the file. You'll find plenty of sites where you can download the dll.
+ 

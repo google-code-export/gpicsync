@@ -5,11 +5,11 @@
 
 *1)If you have an error MSVCP71.dll and/or MSVCR71.dll was not found (or another dll file).  *
 
-This dll(s) should be installed by default on Windows XP.  You can Google the name of the file and you'll find plenty of sites where you can download the dll (like .dll-files.com).
+This dll(s) should be installed by default on Windows XP. You can Google their name and download them on specialized site like "dll-files.com".
 
-Follow their instructions to install the dll(s). Basically, you can put them in the GPicSync installation folder or better in the system directory (on Windows XP it is C:\Windows\System32\)
+Basically, you can put them in the GPicSync installation folder or better in the system directory (on Windows XP it is C:\Windows\System32\)
 
-It seems that MSVCP71.dll and MSVCR71.dll are linked together. Si if you have a missing message for one be sure you also have the other one.
+It seems that MSVCP71.dll and MSVCR71.dll work together so if you have a missing message for one be sure you also have the other one.
 
 If after that you still have a  problem try to install the Microsoft .Net framework. 
 

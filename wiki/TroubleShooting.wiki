@@ -11,6 +11,8 @@ Basically, you can put them in the GPicSync installation folder or better in the
 
 It seems that MSVCP71.dll and MSVCR71.dll work together so if you have a missing message for one be sure you also have the other one.
 
+If it's still doesn't work please contact me.
+
 If after that you still have a  problem try to install the Microsoft .Net framework. 
 
 *2) If no indications of localization appears check first your .gpx file:* 

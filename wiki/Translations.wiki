@@ -2,9 +2,9 @@
 
   * *English* (default)
   * *French*
-  * *Italian* (thanks to bartman from [http://www.x50v.it/ x50v.it])
-  * *German* (Thanks to Michael, alias anwi for the main translation and the review and help from Konrad Bauckmeier )
-  * *Traditional Chinese* and *Simplified Chinese* from Paul lu ([http://digital.xy.hk digital.xy.hk])
+  * *Italian* by bartman from [http://www.x50v.it/ x50v.it]
+  * *German* by Michael, alias anwi for the main translation and the review and help from Konrad Bauckmeier
+  * *Traditional Chinese* and *Simplified Chinese* by Paul lu ([http://digital.xy.hk digital.xy.hk])
   * soon *Catalan* and *Spanish* by Oriol Garrote ([http://www.skimountaineering.org/ skimountaineering.org])
   * soon *Polish* by Dominik Wójcik ([http://www.biegacze.pl/ www.biegacze.pl]) 
 

@@ -1,3 +1,54 @@
+=== Version 1.02 (June 9th) ===
+
+1) New translations
+
+Added Spanish and Catalan by Oriol Garrote (skimountaineering.org).Thanks to him!
+
+2) Geonames fine tune
+
+In the configuration file you can now decide of the Geonames you want to search for (nearest place, region, country, summary).
+Also you can add a generic message with the geonames (your name and/or copyright for example) with the "geoname_userdefine" parameter in the configuration file.
+
+(Thanks Blomberg and davidoh69 for the feature request)
+
+3) New configuration file and "Quit and save settings" button
+
+The configuration file is better organized and commented.
+When the application start is will search first for this parameters if they exist.
+When you close GPicSync you have two choices:
+- "Quit" button as usual
+- new "Quit and save settings" button
+
+In the latter case the configuration will be rewritten with all the settings of the current session (UTC Offset, etc.).
+In particular when you will use next time the "Pictures folder" it will prompt at the latest directory you've been too.
+
+Warning: If you make some changes to the configuration file while GPicSync is running you should quit GPicSync with the "Quit" button (to avoid to overwrite your changes).
+
+(Thanks davidoh69, Terry and probably others for the feature request)
+
+4) Backup folder name
+
+By default a backup of your original pictures was made in an 'originals-backup' folder in your pictures folder.
+A suffix is now  added with the name of your pictures folder ('originals-backup-yourpicturesfolder').
+
+This is to provide a unique name and a better search of your pictures in your hard-disk.
+
+(Thanks Terry for the feature request)
+
+5) Fixed the Offset problem for Google Earth for "with timeStamp" option
+
+I've now added the offset information in the time stamps of the placemarks in the kml (so the time you'll see will directly be the time of your pictures).
+
+(Thanks Pawel Nabe for explaining me how this time format worked)
+
+
+6) Google Earth kml improvements
+
+- Like for the web version the placemarks are now gathered in a "Photos" folder.
+- The track is now in one chuck (it is cut in 500 points in the Google Maps version to be sure it will display with Google Maps).
+
+(Thanks Peter and Terry for the feature requests)
+
 === Version 1.01 (June 5th) ===
 
 1) GPSbabel integration and NMEA support

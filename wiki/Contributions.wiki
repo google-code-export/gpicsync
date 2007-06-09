@@ -9,6 +9,8 @@ In particular:
 
 *Paul lu* for the two Chinese translations (http://digital.xy.hk/  digital.xy.hk)
 
+*Oriol Garrote* for the *Catalan* and *Spanish* translations ([http://www.skimountaineering.org/ skimountaineering.org])
+
 *Phil Harvey*
 
 For his great [http://www.sno.phy.queensu.ca/~phil/exiftool/ EXIFTool] library that use to read/write in the EXIF part of pictures.

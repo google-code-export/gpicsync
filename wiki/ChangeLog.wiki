@@ -2,7 +2,7 @@
 
 1) New translations
 
-Added Spanish and Catalan by Oriol Garrote (skimountaineering.org).Thanks to him!
+Added Spanish and Catalan by Oriol Garrote ([http://skimountaineering.org/ skimountaineering.org]).Thanks to him!
 
 2) Geonames fine tune
 

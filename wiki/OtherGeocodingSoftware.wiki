@@ -4,7 +4,7 @@ Geolocalization of medias (or also geocoding or geotagging) is I believe a fasci
  
 If GPicSync doesn't suit your needs or want to explore other paths here is a list of other geocoding sofware.
 
-If you know another software (preferably Open Source or freeware) and what is interesting or particular about them please let me know so I can add them to the list. Thanks to Konrad Bauckmeier for sending an impressive list already. Note that I didn't test most of this software test them carefully and make backups. Thanks for any feedback.
+If you know another software (preferably Open Source or freeware) and what is interesting or particular about them please let me know so I can add them to the list. Thanks to Konrad Bauckmeier for sending an impressive list already. Note that I didn't test most of these software so test them carefully and make backups. Thanks for any feedback.
 
 In alphabetical order:
 

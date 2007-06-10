@@ -8,8 +8,6 @@ If you know others (preferably Open Source or freeware) and what is interesting 
 
 In alphabetical order:
 
-  * [http://software.copiks.se/photomapper/index.php?lang=EN COPIKS Photo Mapper]  (Open Source, GPL)
-
   * [http://www.digikam.org/?q=about/features09x digiKam] (Linux, Open Source)
 
   * [http://www.fodysseus.com/de/software.htm Fodysseus]  (Windows, German only?, commercial)
@@ -27,6 +25,8 @@ In alphabetical order:
   * [http://happycamel.sourceforge.net/ Happy Camel] (Linux command line tool, GPL)
 
   * [http://www.panorado.com/en/index.htm?PanoradoFlyer.htm Panorado flyer] (Windows Freeware, don't use GPS files but manual geocoding or via GE)
+
+  * [http://software.copiks.se/photomapper/index.php?lang=EN  Photo Mapper from COPIKS]  (Open Source, GPL)
 
   * [http://www.picopolo.de/index_e.htm Picopolo]  (Windows freeware, also for Image-Management)
 

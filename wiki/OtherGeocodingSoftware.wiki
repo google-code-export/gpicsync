@@ -6,19 +6,13 @@ If GPicSync doesn't suit your needs or you want to explore other paths you'll fi
 
 If you know others (preferably Open Source or freeware) and what is interesting or particular about them please let me know so I can add them to the list. Thanks to Konrad Bauckmeier for sending an impressive list already. Note that I didn't test most of them so use them carefully and make backups. Thanks for any feedback.
 
-In alphabetical order:
+In alphabetical order, available at least in English:
 
   * [http://www.digikam.org/?q=about/features09x digiKam] (Linux, Open Source)
-
-  * [http://www.fodysseus.com/de/software.htm Fodysseus]  (Windows, German only?, commercial)
-
-  * [http://astellar.googlepages.com/geotagging GEOTaggingTool]  (Windows, Russian only?)
 
   * [http://www.grazer.de/ Grazer ] (Windows, freeware)
 
   * [http://www.vipros.com/photo/gps2Photo/ GPS2Foto] (Open Source, Perl script, command line)
-
-  * [http://www.gps-freeware.de/ GPS Freeware]  (Windows Freeware, German only, edit also tracks)
 
   * [http://www.carto.net/projects/photoTools/gpsPhoto/ gpsPhoto] (multiplateforme command line tool, Open Source)
     
@@ -41,4 +35,12 @@ In alphabetical order:
   * [http://www.ttqv.com/main.php?content=14 Touratec]   (Windows, commercial)  
 
   * [http://wwmx.org/Download.aspx  WWMX from Microsoft] (Windows, Freeware, needs .Net 1.1)
-  
+
+In alphabetical order (not in English):
+
+   * [http://www.fodysseus.com/de/software.htm Fodysseus]  (Windows, German only?, commercial)
+
+  * [http://astellar.googlepages.com/geotagging GEOTaggingTool]  (Windows, Russian only?)
+
+  * [http://www.gps-freeware.de/ GPS Freeware]  (Windows Freeware, German only, edit also tracks)
+

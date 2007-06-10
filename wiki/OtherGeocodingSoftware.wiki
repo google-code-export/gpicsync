@@ -1,4 +1,4 @@
-I began developing GPicSync as I didn't find any Open Source geocoding software with a graphical interface.
+I began developing GPicSync as I didn't find an Open Source geocoding software with a graphical interface.
 
 Geolocalization of medias (or also geocoding or geotagging) is I believe a fascinating new phenomenom which is growing quickly.
  

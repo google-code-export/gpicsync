@@ -6,7 +6,7 @@
   * *German* by Michael, alias anwi for the main translation and the review and help from Konrad Bauckmeier
   * *Traditional Chinese* and *Simplified Chinese* by Paul lu ([http://digital.xy.hk digital.xy.hk])
   * *Catalan* and *Spanish* by Oriol Garrote ([http://www.skimountaineering.org/ skimountaineering.org])
-  * soon *Polish* by Dominik Wójcik ([http://www.biegacze.pl/ www.biegacze.pl]) 
+  * *Polish* by Dominik Wójcik ([http://www.biegacze.pl/ www.biegacze.pl]) 
 
 To change the language in the software go in "Options">"Language" and select your language. The next time you launch the software it will be in the language you have selected.
 

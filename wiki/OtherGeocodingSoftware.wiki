@@ -18,15 +18,15 @@ In alphabetical order:
 
   * [http://www.gps-freeware.de/ GPS Freeware]  (Windows Freeware, German only, edit also tracks)
 
-  * [http://www.carto.net/projects/photoTools/gpsPhoto/ gpsPhoto] (multiplateforme command line tool, GPL)
+  * [http://www.carto.net/projects/photoTools/gpsPhoto/ gpsPhoto] (multiplateforme command line tool, Open Source)
     
   * [http://oregonstate.edu/~earlyj/gpsphotolinker/overview.php Gpsphotolinker] (Mac, Freeware)
 
-  * [http://happycamel.sourceforge.net/ Happy Camel] (Linux command line tool, GPL)
+  * [http://happycamel.sourceforge.net/ Happy Camel] (Linux command line tool, Open Source)
 
   * [http://www.panorado.com/en/index.htm?PanoradoFlyer.htm Panorado flyer] (Windows Freeware, don't use GPS files but manual geocoding or via GE)
 
-  * [http://software.copiks.se/photomapper/index.php?lang=EN  Photo Mapper from COPIKS]  (Open Source, GPL)
+  * [http://software.copiks.se/photomapper/index.php?lang=EN  Photo Mapper from COPIKS]  (Open Source, Open Source)
 
   * [http://www.picopolo.de/index_e.htm Picopolo]  (Windows freeware, also for Image-Management)
 

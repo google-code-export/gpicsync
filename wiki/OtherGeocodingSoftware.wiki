@@ -1,6 +1,6 @@
 I began developing GPicSync as I didn't find any Open Source geocoding software with a graphical interface.
 
-Geolocalization of medias (or also geocoding or geotagging) is I believe a fascinating new phenomenom.
+Geolocalization of medias (or also geocoding or geotagging) is I believe a fascinating new phenomenom which is growing quickly.
  
 If GPicSync doesn't suit your needs or you want to explore other paths you'll find here a a list of other geocoding sofware.
 
@@ -16,17 +16,17 @@ In alphabetical order:
 
   * [http://www.grazer.de/ Grazer ] (Windows, freeware)
 
-  * [http://www.vipros.com/photo/gps2Photo/ GPS2Foto] (freeware, perl script, without gui)
+  * [http://www.vipros.com/photo/gps2Photo/ GPS2Foto] (Open Source, Perl script, command line)
 
-  * [http://www.gps-freeware.de/ GPS Freeware]  (freeware, german only, editing also tracks)
+  * [http://www.gps-freeware.de/ GPS Freeware]  (Windows Freeware, German only, edit also tracks)
 
-  * [http://www.carto.net/projects/photoTools/gpsPhoto/ gpsPhoto] (multiplateforme command line tool, GPL, also use Exiftool library)
+  * [http://www.carto.net/projects/photoTools/gpsPhoto/ gpsPhoto] (multiplateforme command line tool, GPL)
     
-  * [http://oregonstate.edu/~earlyj/gpsphotolinker/overview.php Gpsphotolinker] (Mac, freeware)
+  * [http://oregonstate.edu/~earlyj/gpsphotolinker/overview.php Gpsphotolinker] (Mac, Freeware)
 
-  * [http://happycamel.sourceforge.net/ Happy Camel] (command line tool for Linux, GPL)
+  * [http://happycamel.sourceforge.net/ Happy Camel] (Linux command line tool, GPL)
 
-  * [http://www.panorado.com/en/index.htm?PanoradoFlyer.htm Panorado flyer] (free, contextual tool  from right click on a image and open coordinates in Google earth or tag coordinates from there)
+  * [http://www.panorado.com/en/index.htm?PanoradoFlyer.htm Panorado flyer] (Windows Freeware, don't use GPS files but manual geocoding or via GE)
 
   * [http://www.picopolo.de/index_e.htm Picopolo]  (freeware, also for Image-Management)
 

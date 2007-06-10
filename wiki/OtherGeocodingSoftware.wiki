@@ -1,4 +1,26 @@
-A list of other geocoding software. If you know another software (preferably Open Source or freeware) and what is interesting or particular about them please let me know so I can add them to the list.
+I began developing GPicSync as I didn't find any Open Source geocoding software with a graphical interface.
+
+Geolocalization of medias (or also geocoding or geotagging) is I believe a fascinating new phenomenom.
+ 
+If GPicSync doesn't suit your needs or want to explore other paths here is a list of other geocoding sofware.
+
+If you know another software (preferably Open Source or freeware) and what is interesting or particular about them please let me know so I can add them to the list. Thanks to Konrad Bauckmeier for sending an impressive list already. Note that I didn't test most of this software test them carefully.
+
+In alphabetical order:
+
+  * [http://software.copiks.se/photomapper/index.php?lang=EN COPIKS Photo Mapper]  (freeware)
+
+  * [http://www.digikam.org/?q=about/features09x digiKam] (for Linux, Freeware, RAW)
+
+  * [http://www.fodysseus.com/de/software.htm Fodysseus]  (German?, commercial, 25EUR)
+
+  * [http://www.gartrip.de/index.htm Gartrip]  (commercial, German only?, 30EUR)
+
+  * [http://www.grazer.de/ Grazer ] (freeware)
+
+  * [http://www.vipros.com/photo/gps2Photo/ GPS2Foto] (freeware, perl script, without gui)
+
+  * [http://www.gps-freeware.de/ GPS Freeware]  (freeware, german only, editing also tracks)
 
   * [http://www.carto.net/projects/photoTools/gpsPhoto/ gpsPhoto] (multiplateforme command line tool, GPL, also use Exiftool library)
     
@@ -6,34 +28,17 @@ A list of other geocoding software. If you know another software (preferably Ope
 
   * [http://happycamel.sourceforge.net/ Happy Camel] (command line tool for Linux, GPL)
 
+  * [http://www.panorado.com/en/index.htm?PanoradoFlyer.htm Panorado flyer] (free, contextual tool  from right click on a image and open coordinates in Google earth or tag coordinates from there)
+
+  * [http://www.picopolo.de/index_e.htm Picopolo]  (freeware, also for Image-Management)
+
   * [http://www.mmisoftware.co.uk/pages/photogpseditor.php PhotoGpsEditor] (Mac, freeware)
 
   * [http://www.robogeo.com/home/ Robogeo] (Windows, commercial, lots of features)
 
-  * [http://wwmx.org/Download.aspx  WWMX from Microsoft] (Windows, freeware, needs .Net 1.1)
-
-
-*Thanks to Konrad Bauckmeier from Germany for sending me an impressive list of other geocoding software:*
-
-  * [http://www.vipros.com/photo/gps2Photo/ GPS2Foto] (freeware, perl script, without gui)
- 
-  * [http://www.digikam.org/?q=about/features09x digiKam] (for Linux, Freeware, RAW)
- 
-  * [http://www.gps-freeware.de/ GPS Freeware]  (freeware, german only, editing also tracks)
- 
-  * [http://software.copiks.se/photomapper/index.php?lang=EN COPIKS Photo Mapper]  (freeware)
- 
-  * [http://www.picopolo.de/index_e.htm Picopolo]  (freeware, also for Image-Management)
- 
-  * [http://www.panorado.com/en/index.htm?PanoradoFlyer.htm panorado flyer] (free, contextual tool  from right click on a image and open coordinates in Google earth or tag coordinates from there)
-
-  * [http://www.grazer.de/ Grazer ] (freeware)
-
-  * [http://www.fodysseus.com/de/software.htm Fodysseus]  (German?, commercial, 25EUR)
-
   * [http://www.topofusion.com/photofusion.php TopoFusion]  (commercial, $40/ $70)
 
-  * [http://www.ttqv.com/main.php?content=14 Touratec]   (commercial, 100-150 EUR)    
+  * [http://www.ttqv.com/main.php?content=14 Touratec]   (commercial, 100-150 EUR)  
 
-  * [http://www.gartrip.de/index.htm Gartrip]  (commercial, German only?, 30EUR)
+  * [http://wwmx.org/Download.aspx  WWMX from Microsoft] (Windows, freeware, needs .Net 1.1)
   

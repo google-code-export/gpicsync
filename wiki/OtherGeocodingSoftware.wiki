@@ -12,6 +12,8 @@ In alphabetical order:
 
   * [http://www.fodysseus.com/de/software.htm Fodysseus]  (Windows, German only?, commercial)
 
+  * [http://astellar.googlepages.com/geotagging GEOTaggingTool]  (Windows, Russian only?)
+
   * [http://www.grazer.de/ Grazer ] (Windows, freeware)
 
   * [http://www.vipros.com/photo/gps2Photo/ GPS2Foto] (Open Source, Perl script, command line)
@@ -26,7 +28,7 @@ In alphabetical order:
 
   * [http://www.panorado.com/en/index.htm?PanoradoFlyer.htm Panorado flyer] (Windows Freeware, don't use GPS files but manual geocoding or via GE)
 
-  * [http://software.copiks.se/photomapper/index.php?lang=EN  Photo Mapper from COPIKS]  (Open Source, Open Source)
+  * [http://software.copiks.se/photomapper/index.php?lang=EN  Photo Mapper from COPIKS]  (Windows, Open Source)
 
   * [http://www.picopolo.de/index_e.htm Picopolo]  (Windows freeware, also for Image-Management)
 

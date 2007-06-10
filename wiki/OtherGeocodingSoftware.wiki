@@ -28,15 +28,15 @@ In alphabetical order:
 
   * [http://www.panorado.com/en/index.htm?PanoradoFlyer.htm Panorado flyer] (Windows Freeware, don't use GPS files but manual geocoding or via GE)
 
-  * [http://www.picopolo.de/index_e.htm Picopolo]  (freeware, also for Image-Management)
+  * [http://www.picopolo.de/index_e.htm Picopolo]  (Windows freeware, also for Image-Management)
 
   * [http://www.mmisoftware.co.uk/pages/photogpseditor.php PhotoGpsEditor] (Mac, freeware)
 
   * [http://www.robogeo.com/home/ Robogeo] (Windows, commercial, lots of features)
 
-  * [http://www.topofusion.com/photofusion.php TopoFusion]  (commercial, $40/ $70)
+  * [http://www.topofusion.com/photofusion.php TopoFusion]  (Windows, commercial)
 
-  * [http://www.ttqv.com/main.php?content=14 Touratec]   (commercial, 100-150 EUR)  
+  * [http://www.ttqv.com/main.php?content=14 Touratec]   (Windows, commercial)  
 
-  * [http://wwmx.org/Download.aspx  WWMX from Microsoft] (Windows, freeware, needs .Net 1.1)
+  * [http://wwmx.org/Download.aspx  WWMX from Microsoft] (Windows, Freeware, needs .Net 1.1)
   

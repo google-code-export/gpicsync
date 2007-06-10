@@ -1,3 +1,13 @@
+=== Version 1.03 (June 9th) ===
+
+This is a translation update.
+
+GPicSync is now available in 9 languages thanks to the addition of Polish by ([http://www.biegacze.pl/ Dominik Wójcik]). 
+Updated also the French translation.
+
+Thanks to him and all the translators!
+http://code.google.com/p/gpicsync/wiki/Translations 
+
 === Version 1.02 (June 9th) ===
 
 1) New translations

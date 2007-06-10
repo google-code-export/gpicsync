@@ -44,5 +44,4 @@ If you know others (preferably Open Source or freeware) and what is interesting 
 
   * [http://www.gps-freeware.de/ GPS Freeware]  (Windows Freeware, German only, edit also tracks)
 
-  * [http://www.gpspassion.com/forumsen/topic.asp?TOPIC_ID=86959 GPX2KMZ]  (Windows, French, Open Source, doesn't write in EXIF but creates great KMZ from GPX)
-
+  * [http://www.gpspassion.com/forumsen/topic.asp?TOPIC_ID=86959 GPX2KMZ]  (Windows, French, Open Source, doesn't write in EXIF but creates nice KMZ from GPX)

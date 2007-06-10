@@ -1,4 +1,4 @@
-=== Version 1.03 (June 9th) ===
+=== Version 1.03 (June 10th) ===
 
 This is a translation update.
 

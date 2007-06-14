@@ -7,6 +7,7 @@
   * *Traditional Chinese* and *Simplified Chinese* by Paul lu ([http://digital.xy.hk digital.xy.hk])
   * *Catalan* and *Spanish* by Oriol Garrote ([http://www.skimountaineering.org/ skimountaineering.org])
   * *Polish* by Dominik Wójcik ([http://www.biegacze.pl/ www.biegacze.pl]) 
+  * soon in *Dutch* from Gijs van Elzakker
 
 To change the language in the software go in "Options">"Language" and select your language. The next time you launch the software it will be in the language you have selected.
 

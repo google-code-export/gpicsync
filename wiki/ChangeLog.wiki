@@ -1,3 +1,11 @@
+=== Upcoming development version (soon to be released) ===
+
+1) EXIF Writer tool
+
+You can now manually insert latitude and longitude in the pictures EXIF with the new "EXIF Writer" tool in the tools menu. You must use the decimal degrees format (whatever the precision you give) and you can apply your coordinates to one or more pictures (use the "Ctrl" button to select more than one picture). For example the statue of Liberty would be latitude=40.6894 and longitude=-74.0447
+
+2) Translations updates (mainly Spanish and Catalan)
+
 === Version 1.03 (June 10th) ===
 
 This is a translation update.

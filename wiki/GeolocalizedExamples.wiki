@@ -1,5 +1,6 @@
 This page is available to share examples of geolocalized pictures. Please feel free to send  one or many links to share.
 
-  * An impressive KMZ file made by [http://groups.google.com/group/gpicsync/browse_thread/thread/33bd9efa0c45707e Peter] to show the Country Blue Tour in Hungry:
-      * The KMZ file: http://www.kektura.eu/OKT.kmz 
+  * An impressive KMZ file made by [http://groups.google.com/group/gpicsync/browse_thread/thread/33bd9efa0c45707e Peter] showing a first part of the Countrywide Blue Tour in Hungry:
+      * The KMZ file (check for updates): http://www.kektura.eu/OKT.kmz 
       * Wikipedia article: http://en.wikipedia.org/wiki/Countrywide_Blue_Tour_in_Hungary
+      * [http://kektura.eu/ The author site] (dedicated to the Countrywide Blue Tour)

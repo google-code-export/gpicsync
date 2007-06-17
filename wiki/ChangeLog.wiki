@@ -1,4 +1,4 @@
-=== Upcoming development version (soon to be released) ===
+=== Version 1.04 (June 17th) ===
 
 1) EXIF Writer tool
 

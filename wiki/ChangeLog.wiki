@@ -1,4 +1,4 @@
-=== Version 1.04 (June 17th) ===
+=== Version 1.04 (June 18th) ===
 
 1) EXIF Writer tool
 
@@ -6,7 +6,11 @@ You can now manually insert latitude and longitude in the pictures EXIF with the
 
 (Thanks to Konrad Bauckmeier for the feature request)
 
-2) Translations updates (Spanish, Catalan and French)
+2) Translations
+
+GPicSync is now available in 10 languages thank to the translation in Dutch from [http://www.vanelzakker.nl/ Gijs van Elzakker]. Thanks to him!
+
+Updated translation in Spanish and Catalan (thanks to Oriol Garrote) and French.
 
 === Version 1.03 (June 10th) ===
 

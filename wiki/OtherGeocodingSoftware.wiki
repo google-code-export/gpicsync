@@ -28,6 +28,8 @@ If you know others (preferably Open Source or freeware) and what is interesting 
 
   * [http://www.robogeo.com/home/ Robogeo] (Windows, commercial, lots of features)
 
+  * [http://creativetech.inn.leedsmet.ac.uk/software/EGT/ TagMyJpgs] (Windows, freeware, manual and Google Maps embedded geotaging, GPX feature announced soon) 
+
   * [http://www.topofusion.com/photofusion.php TopoFusion]  (Windows, commercial)
 
   * [http://www.ttqv.com/main.php?content=14 Touratec]   (Windows, commercial)  

@@ -8,6 +8,8 @@ If you know others (preferably Open Source or freeware) and what is interesting 
 
   * [http://www.digikam.org/?q=about/features09x digiKam] (Linux, Open Source)
 
+  * [http://www.locr.com/downloads.php locr GPS Photo (Windows, freeware, also propose web hosting through Google Maps)
+
   * [http://www.vipros.com/photo/gps2Photo/ GPS2Foto] (Open Source, Perl script, command line)
 
   * [http://www.carto.net/projects/photoTools/gpsPhoto/ gpsPhoto] (multiplateforme command line tool, Open Source)
@@ -28,7 +30,7 @@ If you know others (preferably Open Source or freeware) and what is interesting 
 
   * [http://www.robogeo.com/home/ Robogeo] (Windows, commercial, lots of features)
 
-  * [http://creativetech.inn.leedsmet.ac.uk/software/EGT/ TagMyJpgs] (Windows, freeware, manual and Google Maps embedded geotaging, GPX feature announced soon) 
+  * [http://creativetech.inn.leedsmet.ac.uk/software/EGT/ TagMyJpgs] (Windows, freeware, manual and Google Maps embedded geotaging, GPX feature should come soon) 
 
   * [http://www.topofusion.com/photofusion.php TopoFusion]  (Windows, commercial)
 

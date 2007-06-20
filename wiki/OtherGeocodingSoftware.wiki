@@ -8,13 +8,13 @@ If you know others (preferably Open Source or freeware) and what is interesting 
 
   * [http://www.digikam.org/?q=about/features09x digiKam] (Linux, Open Source)
 
-  * [http://www.locr.com/downloads.php locr GPS Photo (Windows, freeware, also propose web hosting through Google Maps)
-
   * [http://www.vipros.com/photo/gps2Photo/ GPS2Foto] (Open Source, Perl script, command line)
 
   * [http://www.carto.net/projects/photoTools/gpsPhoto/ gpsPhoto] (multiplateforme command line tool, Open Source)
     
   * [http://oregonstate.edu/~earlyj/gpsphotolinker/overview.php Gpsphotolinker] (Mac, Freeware)
+
+  * [http://www.locr.com/downloads.php GPS Photo from locr] (Windows, freeware, also propose web hosting with Google Maps)
 
   * [http://www.grazer.de/ Grazer ] (Windows, freeware)
 

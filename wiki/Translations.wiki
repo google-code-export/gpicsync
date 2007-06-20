@@ -8,7 +8,7 @@
   * *Catalan* and *Spanish* by Oriol Garrote ([http://www.skimountaineering.org/ skimountaineering.org])
   * *Polish* by Dominik Wójcik ([http://www.biegacze.pl/ www.biegacze.pl]) 
   * *Dutch* from [http://www.vanelzakker.nl/ Gijs van Elzakker]
-  * soon "Czech* thanks to [http://polnjumen.wz.cz/index.html PolNjumen]
+  * soon *Czech* thanks to [http://polnjumen.wz.cz/index.html PolNjumen]
 
 To change the language in the software go in "Options">"Language" and select your language. The next time you launch the software it will be in the language you have selected.
 

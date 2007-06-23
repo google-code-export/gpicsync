@@ -8,7 +8,7 @@
   * *Catalan* and *Spanish* by Oriol Garrote ([http://www.skimountaineering.org/ skimountaineering.org])
   * *Polish* by Dominik Wójcik ([http://www.biegacze.pl/ www.biegacze.pl]) 
   * *Dutch* from [http://www.vanelzakker.nl/ Gijs van Elzakker]
-  * soon *Czech* thanks to [http://polnjumen.wz.cz/index.html PolNjumen]
+  * *Czech* thanks to [http://polnjumen.wz.cz/index.html PolNjumen]
 
 To change the language in the software go in "Options">"Language" and select your language. The next time you launch the software it will be in the language you have selected.
 
@@ -64,5 +64,14 @@ When you've filled all of them you can send the file back to me. I will compile 
 
   * Try not to be longer than the English string even if you have to be less precise in the meaning (some strings have limited spaces like in buttons for example)
   * Keep the spaces you can find eventually at the beginning or the end of a string
+
+===How to update an existing translation ?===
+
+Search for the corresponding .po file here:
+http://gpicsync.googlecode.com/svn/trunk/locale/
+
+When there is something new to translate you'll see a #### RECENTLY ADDED #### section with the new words to translate.
+
+Save this file, translate the new words and send it to me so I can compile it and update the po files. 
 
 THANKS :)

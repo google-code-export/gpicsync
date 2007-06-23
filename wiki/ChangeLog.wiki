@@ -1,4 +1,4 @@
-=== Development version (to be released soon) ===
+=== Version 1.05 (June 23th 07) ===
 
 1) Translations
 

@@ -16,7 +16,7 @@ The summarize looks like this:
 Latitude/Longitude=(48.444433 , 8.015170 )
 Near Geonames: Hinterohlsbach Baden-Württemberg Germany (Map link)
 
-Eventual string from  the geoname_userdefine option in the configuration file.
+Eventual string (can be HTML) from the geoname_userdefine option in the configuration file.
 }}}
 
 The link "Map Link" will open the geonames wiki/map at the position of the picture.

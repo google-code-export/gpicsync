@@ -23,7 +23,13 @@ The link "Map Link" will open the geonames wiki/map at the position of the pictu
 
 If you don't want this feature when you use geonames or geotagged go in the configuration file and set geoname_caption=False
 
-3) Multiple track logs selection
+Thanks to Marek for [http://groups.google.com/group/gpicsync/browse_thread/thread/7a2b99b9ba82812c the feature request].
+
+3) Multiple tracklogs selection
+
+You can now select multiple tracklogs for geocoding (use the "Ctrl" button to select more than one picture).
+
+Thanks to Marcus Schmidke and ChristophMaggioni for the feature request.
 
 === Version 1.04 (June 18th) ===
 

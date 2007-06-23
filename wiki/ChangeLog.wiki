@@ -1,11 +1,27 @@
-=== development version (to be released soon) ===
+=== Development version (to be released soon) ===
 
 1) Translations
 
 New Czech translation available thanks to [http://polnjumen.wz.cz/ PolNjumen]
+
 The German version has been updated thanks to Konrad Bauckmeier  
 
 2) IPTC caption feature
+
+When you check "add Geonames and geotagged" a summarize will also be written by default in the IPTC caption metadata of the picture. Website like Flickr will automatically add it to the description below the picture (if you allow metadata to be read in your profile).
+
+The summarize looks like this:
+
+{{{
+Latitude/Longitude=(48.444433 , 8.015170 )
+Near Geonames: Hinterohlsbach Baden-Württemberg Germany (Map link)
+
+Eventual string from  the geoname_userdefine option in the configuration file.
+}}}
+
+The link "Map Link" will open the geonames wiki/map at the position of the picture.
+
+If you don't want this feature when you use geonames or geotagged go in the configuration file and set geoname_caption=False
 
 3) Multiple track logs selection
 

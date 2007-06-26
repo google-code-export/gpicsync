@@ -1,3 +1,9 @@
+=== Version 1.05.1 (June 26th 07) ===
+
+1) Translation updates: simplified and traditional Chinese (thanks to Paul lu) and Catalan and Spanish (thanks to Oriol Garrote)
+
+2) Bug fix: If a GPX file has elevation tags but without anything in them the KML "path" is now formed properly (thanks to Nicolas Moyroud for pointing to the problem) 
+ 
 === Version 1.05 (June 23th 07) ===
 
 1) Translations

@@ -1,3 +1,11 @@
+=== Version 1.06 (July 2nd 07) ===
+
+1) It is now also possible to manually write elevation (with latitude and longitude) in the EXIF writer tool (thanks "M@O" for the feature request).
+
+2) Fixed the "GPX Inspector" tool which didn't show anymore data since version 1.05 (thanks "M@O" for the feature request).
+
+3) Translation update in Dutch (thanks to Gijs van Elzakker) and French.
+
 === Version 1.05.1 (June 26th 07) ===
 
 1) Translation updates: simplified and traditional Chinese (thanks to Paul lu) and Catalan and Spanish (thanks to Oriol Garrote)

@@ -20,6 +20,8 @@ If you know others (preferably Open Source or freeware) and what is interesting 
 
   * [http://happycamel.sourceforge.net/ Happy Camel] (Linux command line tool, Open Source)
 
+  * [http://gpssharing.com/help/index.php?help=ndwgeotag NDWGeoTag] (Windows, freeware) 
+
   * [http://www.panorado.com/en/index.htm?PanoradoFlyer.htm Panorado flyer] (Windows Freeware, don't use GPS files but manual geocoding or via GE)
 
   * [http://software.copiks.se/photomapper/index.php?lang=EN  Photo Mapper from COPIKS]  (Windows, Open Source)

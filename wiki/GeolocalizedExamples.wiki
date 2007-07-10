@@ -13,3 +13,5 @@ This page is available to share examples of geolocalized pictures with GPicSync.
   * A walk in the Jura, France, from Rik Vanderhelm
      * [http://maps.google.com/maps?f=q&hl=en&geocode=&q=http%3A%2F%2Fjura.vanderhelm.org%2Fdoc8.kml&ie=UTF8&z=8&om=1 Google Map export of the walk]
      * [http://jura.vanderhelm.org/ Pictures album]
+
+  * A [http://irace.net/index.php/2007/07/02/geocoding-easier-than-you-think/ blog post with a mini-tutorial and example] in Portland USA  by Will Irace

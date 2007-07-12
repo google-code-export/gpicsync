@@ -1,12 +1,16 @@
 === Version 1.07 (July 12th 07) ===
 
-1) Better elevation support for Google Earth KML especially for pictures taken during flight. Different mods can be selected directly form the interface(clamp to the ground, floating track and placemarks, extrude track)
+1) Better elevation support for Google Earth KML especially for pictures taken during flight. Different mods can be selected directly form the interface(clamp to the ground, floating track and placemarks, extrude track).
+
+(Thanks to Ricardo Silva for his feature request, suggestions and data.) 
 
 2) An image preview is now displayed when geocoding or when using the EXIF reader tool. The graphical interface layout has been slightly changed. 
 
-3) It is possible to select two Geonames mods from the interface where you can decide if you want to add the HTML summarize in the IPTC caption field (useful for Flickr). Other mods like XMP and IPTC specific field should come soon.
+3) Possibility to select two Geonames mods from the interface where you can decide if you want to add the HTML summarize in the IPTC caption (useful for Flickr). Other mods like XMP and IPTC specific field should come soon.
 
 4) Portuguese is now available in the translations.
+
+(Thanks to Manuel Antunes  and review from Ricardo Silva for this translation!)
 
 === Version 1.06 (July 2nd 07) ===
 

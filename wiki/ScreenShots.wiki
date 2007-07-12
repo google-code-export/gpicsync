@@ -1,4 +1,8 @@
 #labels Featured
+*Version 1.07
+
+[http://farm2.static.flickr.com/1309/780629458_6e21c96ac5_o.jpg
+http://farm2.static.flickr.com/1309/780629458_535628537b.jpg]
 
 *Version 0.95*
 

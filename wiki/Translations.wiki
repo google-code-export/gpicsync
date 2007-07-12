@@ -9,6 +9,7 @@
   * *Polish* by Dominik Wójcik ([http://www.biegacze.pl/ www.biegacze.pl]) 
   * *Dutch* from [http://www.vanelzakker.nl/ Gijs van Elzakker]
   * *Czech* thanks to [http://polnjumen.wz.cz/index.html PolNjumen]
+  * *Portuguese* thanks to [http://m-antunes.blogspot.com/ Manuel Antunes] and review from Ricardo Silva
 
 To change the language in the software go in "Options">"Language" and select your language. The next time you launch the software it will be in the language you have selected.
 

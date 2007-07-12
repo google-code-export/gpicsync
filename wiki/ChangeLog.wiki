@@ -1,6 +1,6 @@
-=== Version 1.07 (July 12th 07) ===
+ === Version 1.07 (July 12th 07) ===
 
-1) Better elevation support for Google Earth KML especially for pictures taken during flight. Different mods can be selected directly form the interface(clamp to the ground, floating track and placemarks, extrude track).
+1) Better elevation support for Google Earth KML especially for pictures taken during flight. Different mods can be selected directly form the interface (clamp to the ground, floating track and placemarks, extrude track).
 
 (Thanks to Ricardo Silva for his feature request, suggestions and data.) 
 
@@ -10,7 +10,7 @@
 
 4) Portuguese is now available in the translations.
 
-(Thanks to Manuel Antunes  and review from Ricardo Silva for this translation!)
+(Big thanks to Manuel Antunes and review from Ricardo Silva)
 
 === Version 1.06 (July 2nd 07) ===
 

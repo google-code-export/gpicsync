@@ -1,11 +1,11 @@
 #labels Featured
 = Getting started with GPicSync =
 
-  * 1) Set your GPS receiver (GPSr)
-  * 2) Set your camera
-  * 3) Go outside and shoot
-  * 4) Come back home and sync
-  * 5) Enjoy your geolocalized pictures
+  * 1) Set your GPS receiver and your camera
+  * 2) Go outside and shoot
+  * 3) Come back home and sync
+  * 4) Enjoy your geolocalized pictures
+  * 5) Configuration file and optional tools
 
 ===1) Set your GPSr and camera===
 
@@ -106,6 +106,12 @@ To create your own Google Maps check [http://code.google.com/p/gpicsync/wiki/Goo
 You can also automatically associate audio or video files to geolocalized pictures in Google Earth and Google Maps (a link will appear below the picture).
 
 For this you must put your audio or video file in your pictures directory and give them the same name as the picture. 
+
+===4) Configuration file and optional tools ===
+
+A configuration file is available to set main preferences as default (like the UTCOffset, Google Map base URL, Geonames, etc). You can edit it and save it from "Options" -> "Configuration file". The "Quit and save settings" button of GPicSync will also write in this file.
+
+A certain number of tools are available in "Tools" -> "Options".
 
 WARNING:
 GPicSync is beta software. Please report any bug or problem and remember there's no guarantee : don't use it for critical missions and always check on maps if the results are correct.

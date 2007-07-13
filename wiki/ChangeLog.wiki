@@ -6,7 +6,7 @@
 
 2) An image preview is now displayed when geocoding or when using the EXIF reader tool. The graphical interface layout has been slightly changed. 
 
-3) Possibility to select two Geonames mods from the interface where you can decide if you want to add the HTML summarize in the IPTC caption (useful for Flickr). Other mods like XMP and IPTC specific field should come soon.
+3) Possibility to select from between two Geonames mods from the interface where you can decide if you want to add the HTML summarize in the IPTC caption (useful for Flickr). Other mods like XMP and IPTC specific fields should come soon.
 
 4) Portuguese is now available in the translations.
 

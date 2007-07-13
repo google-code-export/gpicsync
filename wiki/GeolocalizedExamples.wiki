@@ -6,7 +6,7 @@ This page is available to share examples of geolocalized pictures with GPicSync.
       * [http://en.wikipedia.org/wiki/Countrywide_Blue_Tour_in_Hungary Wikipedia article]
 
   * A great aerial KMZ from Ricardo Silva showing pictures taken from Portugal sky.
-     * [http://gpicsync.googlegroups.com/web/Ricardo-Silva-Flight-Example.kmz?gda=mLETglEAAACSRhkeSvaBSZS09zL_UBAfcw04bOi1LxheyxF2wFBm_WG1qiJ7UbTIup-M2XPURDTz92TrXmc0WZkrtlxqjpVYPBm_KNXybUFI7UW9hE4bZxwRHAC5L6ES4dYN7mtEMNg KMZ file] (track and pictures)
+     * [http://gpicsync.googlegroups.com/web/Ricardo-Silva-Flight-Example.kmz?gda=mLETglEAAACSRhkeSvaBSZS09zL_UBAfcw04bOi1LxheyxF2wFBm_WG1qiJ7UbTIup-M2XPURDTz92TrXmc0WZkrtlxqjpVYPBm_KNXybUFI7UW9hE4bZxwRHAC5L6ES4dYN7mtEMNg KMZ file] (track and pictures, 946 Ko)
 
   * A walk on the Portuguese coast 20 km south of Lisbon by Manuel Antunes (Portugal)
     * [http://maps.google.com/maps?f=q&hl=en&geocode=&q=http:%2F%2Fmantunes.planetaclix.pt%2FAVTTS%2Fdoc-web.kml&ie=UTF8&t=h&om=1&ll=38.47664,-8.996687&spn=0.025735,0.058365&z=14 Google Maps Export of the walk] 

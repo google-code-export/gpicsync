@@ -32,11 +32,11 @@ Take your GPSr with you and make sure that it is recording a track log. Keep you
 ===3) Come back home and sync===
 
 Put the  pictures you want to geolocalize in a folder.
-With the software of your choice (for example [http://www.easygps.com/ EasyGPS] on Windows) retrieve the track log as a .gpx file (a [http://www.topografix.com/gpx_resources.asp list of GPX capable software]). Put the .gpx file preferably in the folder containing the pictures.
+With the software of your choice (for example [http://www.easygps.com/ EasyGPS] on Windows) retrieve the track log as a .gpx file (a [http://www.topografix.com/gpx_resources.asp list of GPX capable software]). Put the .gpx file preferably in the folder containing the pictures. You can also use a NMEA track (give a .txt extension) instead of the GPX file.
 
-Install GPicSync (see downloads tab of the site):
+Install GPicSync from Sourceforge:
   * download the .exe installer on Windows.
-  * download the tar.gz file on Linux. Read the readme.txt file (for Ubuntu "Feisty Fawn"  see [http://nozell.com/blog/2007/04/28/gpicsync-on-ubuntufeisty/ Marc Nozell post] )  
+  * download the tar.gz file on Linux if available (or directly make a SVN checkout). Read the readme.txt file (for Ubuntu "Feisty Fawn"  see [http://nozell.com/blog/2007/04/28/gpicsync-on-ubuntufeisty/ Marc Nozell post] )  
 
 Launch GPicSync:
   * select the pictures folder

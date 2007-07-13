@@ -66,7 +66,7 @@ If there's no location showing:
 If you forgot to set the local time for your camera you can take this into account in "Options" -> "Locale time correction".
 
 
-===4) Use your localized pictures===
+===4) Use your geolocalized pictures===
 
 You can directly view your pictures and track log in Google Earth by clicking on "View in Google Earth" button at the end of synchronization. A doc.kml file has been created in your pictures folder so you can also directly launch Google Earth by double clicking on it.
 
@@ -82,14 +82,16 @@ When you upload your pictures you will see a "map" link near each picture to ope
 
 If you prefer google maps you can use this neat [http://www.flickr.com/groups/geotagging/discuss/72157594165549916/ geocoding bookmarklet] which will point to the location in [http://loc.alize.us/ loc.alize.us webiste] which uses google maps.
 
-If you've checked "add geonames and geotags" your pictures will have also the following keywords metadata:
+If you've checked "add geonames and geotags" your pictures will also have the following keywords metadata:
 
   * geonames: country, region, nearest place with distance (in Km)
   * goetags: "geotagged", "geo:lat=48.167358", "geo:lon=7.294641"...
 
-When you upload to Flickr the tags will appear in the tags section of the photo (zoom in the [http://www.flickr.com/photos/frenchy/465037997/ example]).
+When you upload your pictures to Flickr the tags will appear in the tags section of the photo(zoom in the [http://www.flickr.com/photos/frenchy/465037997/ example]).
 
-You mustn't allow Flickr Uloadr tool to resize your pictures before uploading (your geonames/geotags won't be kept, If needed you could resize them before with Picasa for example). 
+You mustn't allow Flickr Uloadr tool to resize your pictures before uploading (your geonames/geotags won't be kept, If needed you could resize them before with Picasa for example).
+
+By default there is also an HTML summarize which is written in the IPTC caption of the picture. The summarize shows the latitude/longitude and the nearest Geoname and country with a link to the Geonames map. Flickr will show the summarize in the description of your picture. If you don't want this use change the geonames options in the interface.
 
 ====b) Picasa / Google Earth====
 
@@ -100,6 +102,10 @@ If you select your pictures with picasa you can ask to show them on Google Earth
 To create your own Google Maps check [http://code.google.com/p/gpicsync/wiki/GoogleMapsExport this tutorial].
 
 ====d) Audio and Video localization ====
+
+You can also automatically associate audio or video files to geolocalized pictures in Google Earth and Google Maps (a link will appear below the picture).
+
+For this you must put your audio or video file in your pictures directory and give them the same name as the picture. 
 
 WARNING:
 GPicSync is beta software. Please report any bug or problem and remember there's no guarantee : don't use it for critical missions and always check on maps if the results are correct.

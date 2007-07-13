@@ -95,7 +95,7 @@ By default there is also an HTML summarize which is written in the IPTC caption 
 
 ====b) Picasa / Google Earth====
 
-If you select your pictures with picasa you can ask to show them on Google Earth (in Picasa : something like "Tools">"Geolocalize">"Display in Google Earth".
+If you select your pictures with picasa you can ask to show them on Google Earth (in Picasa : something like "Tools">"Geolocalize">"Display in Google Earth").
 
 ====c) Google Maps ====
 
@@ -107,7 +107,7 @@ You can also automatically associate audio or video files to geolocalized pictur
 
 For this you must put your audio or video file in your pictures directory and give them the same name as the picture. 
 
-===4) Configuration file and optional tools ===
+===5) Configuration file and optional tools ===
 
 A configuration file is available to set main preferences as default (like the UTCOffset, Google Map base URL, Geonames, etc). You can edit it and save it from "Options" -> "Configuration file". The "Quit and save settings" button of GPicSync will also write in this file.
 

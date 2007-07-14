@@ -28,7 +28,7 @@ Avec un logiciel de votre choix (par exemple le freeware [http://www.easygps.com
 
 Téléchargez GPicSync [http://sourceforge.net/project/showfiles.php?group_id=191804 depuis Sourceforge]:
   * Windows: télécharger le .exe 
-  * Linux: télécharger le tar.gz si présent ou faites directement un [http://code.google.com/p/gpicsync/source SVN Checkout]
+  * Linux: télécharger le tar.gz si présent ou faites directement un [http://code.google.com/p/gpicsync/source SVN Checkout]et lisez readme.txt
   * pour une utilisation en français allez dans "options">"langages" (sélectionnez "français" et relancer le logiciel)
   * sélectionnez le dossier contenant vos photos
   * sélectionnez votre [AideGpx fichier .gpx] ou NMEA
@@ -57,11 +57,12 @@ Si la date de votre appareil photo était fausse décochez "vérifier le dates" 
 
 ===5) Utiliser vos photos géolocaliseés===
 
-Comme indiqué précédemment vous pouvez en fin de synchronisation vérifier vos photos dans Google Earth en cliquant sur "Voir dans Google Earth). Un fichier doc.kml a été créer dans votre dossier photo sur lequel vous pouvez aussi double cliquer pour lancer la visualisation.
-
 Vous pouvez maintenant utiliser vos photos avec n'importe quel logiciel ou site web capable de lire les méta-données de géolocalisation.
 
-Par exemple:
+Vous pouvez directement visualiser le résultat dans Google Earth en cliquant sur "Voir dans Google Earth (un fichier doc.kml a été créer dans votre dossier photo sur lequel vous pouvez aussi double cliquer pour lancer la visualisation).
+
+Vous pouvez exporter vos photos et le parcours sous la forme d'une archive unique KMZ à diffuser : "Outils" > "Générateur KMZ"
+
 
 ====a) Flickr====
 
@@ -70,6 +71,8 @@ Dans les options de votre compte vous devez autoriser Flickr à lire les informa
 Quand vous uploadez vos photos vous verrez ensuite un lien "map" près de chaque photo qui montre la photo sur les cartes Yahoo Maps.
 
 Si vous préférez Google maps (plus précises en France que Yahoo maps) vous pouvez utilisez ce [http://www.flickr.com/groups/geotagging/discuss/72157594165549916/ geocoding bookmarklet] qui utilise le site [http://loc.alize.us/ loc.alize.us] lui-même basé sur les cartes Yahoo et les photos Flickr.
+
+Pour conserver les métadonnées Geonames vous ne devez pas laisser l'outil Flickr Uploadr redimentionner vos images. 
 
 ====b) Picassa / Google Earth====
 

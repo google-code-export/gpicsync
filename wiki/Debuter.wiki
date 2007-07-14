@@ -9,6 +9,7 @@ Pour une version la plus à jour du site consulter [http://code.google.com/p/gpi
   * 4) De retour, synchronisez le tout avec GPicSync
   * 5) Visualisez et partagez vos photos géolocaliseés
 
+
 [http://farm2.static.flickr.com/1309/780629458_6e21c96ac5_o.jpg http://farm2.static.flickr.com/1309/780629458_535628537b.jpg]
 
 ===1) Initialisez votre GPS===

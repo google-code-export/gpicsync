@@ -1,5 +1,5 @@
 #labels french
-Pour une version la plus à jour du site consulter [http://code.google.com/p/gpicsync/ la version anglaise].
+Pour une version plus complète et la plus à jour du site consulter [http://code.google.com/p/gpicsync/ la version anglaise].
 
 = Débuter avec GPicSync =
 
@@ -24,18 +24,20 @@ Prenez votre GPS avec vous et assurez vous qu'il enregistre bien votre parcours 
 ===4) De retour, synchronisez le tout avec GPicSync ===
 
 Mettez les photos que vous voulez géolocaliser dans un dossier.
-Avec un logiciel de votre choix (par exemple le freeware [http://www.easygps.com/ EasyGPS]) récupérez le "track log" et enregistrez le sous la forme d'un fichier ".gpx". Mettez ce fichier .gpx dans le dossier contenant les photos par exemple.
+Avec un logiciel de votre choix (par exemple le freeware [http://www.easygps.com/ EasyGPS]) récupérez le "track log" et enregistrez le sous la forme d'un fichier ".gpx". Mettez ce fichier .gpx dans le dossier contenant les photos par exemple. Vous pouvez à la place utiliser un parcours NMEA (extension .txt). 
 
-Installez et lancez [http://code.google.com/p/gpicsync/downloads/list GPicSync]:
+[http://sourceforge.net/project/showfiles.php?group_id=191804 Téléchargez GPicSync] depuis Sourceforge:
+  * Windows: télécharger le .exe 
+  * Linux: télécharger le tar.gz si présent ou faites directement un [http://code.google.com/p/gpicsync/source SVN Checkout]
   * pour une utilisation en français allez dans "options">"langages" (sélectionnez "français" et relancer le logiciel)
-  * sélectionnez le dossier contenant vos photos (bouton "pictures folder")
-  * sélectionnez votre [AideGpx fichier .gpx] (bouton "GPS file .gpx")
+  * sélectionnez le dossier contenant vos photos
+  * sélectionnez votre [AideGpx fichier .gpx] ou NMEA
   * indiquez l'UTC Offset, c'est à dire le fuseau horaire (+1 in France heure d'hivers et +2 heure d'été)
   * appuyez sur le bouton "synchronize !"
 
-Si tout se passe bien vous devriez voir rapidement une ligne d'information (par photo trouvée) avec la localisation qui vient d'être inscrite dans les informations EXIF de celle-ci. 
+Si tout se passe bien vous verrez une ligne d'information (par photo trouvée) avec la localisation géographique qui vient d'être inscrite dans les informations EXIF de celle-ci. 
 
-Il y a aussi une indication sur l'écart en seconde entre votre photo et le point du "track log" le plus proche. En fonction des réglages de votre GPS vous devriez voir quelques secondes de différences (au delà d'une centaine de seconde il y a probablement une erreur dans votre timing). En particulier vérifiez que vous indiquez bien le bon "UTC Offset"(fuseau horaire = 1 pour la France et 2 à l'heure d'été).  
+Il y a aussi une indication sur l'écart temporel entre votre photo et le point du "track log" le plus proche. Au delà d'une centaine de seconde il y a probablement une erreur dans votre timing. En particulier vérifiez que vous indiquez bien le bon "UTC Offset"(fuseau horaire = 1 pour la France et 2 à l'heure d'été.   
 
 Par défaut GPicSync ne geocode pas les photos dont la différence de temps est supérieure à 120 secondes. Vous pouvez ajuster cette limite directement dans l'interface ("Géocode seulement si l'écart au point le plus proche est inférieur à(seconds)=").
 

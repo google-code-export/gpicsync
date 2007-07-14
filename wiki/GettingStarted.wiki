@@ -85,7 +85,7 @@ If you've checked "add geonames and geotags" your pictures will also have the fo
   * geonames: country, region, nearest place with distance (in Km)
   * goetags: "geotagged", "geo:lat=48.167358", "geo:lon=7.294641"...
 
-When you upload your pictures to Flickr the tags will appear in the tags section of the photo(zoom in the [http://www.flickr.com/photos/frenchy/465037997/ example]).
+When you upload your pictures to Flickr the tags will appear in the tags section of the photo.
 
 You mustn't allow Flickr Uloadr tool to resize your pictures before uploading (your geonames/geotags won't be kept, If needed you could resize them before with Picasa for example).
 

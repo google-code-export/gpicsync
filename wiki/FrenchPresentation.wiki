@@ -3,9 +3,9 @@
 ( [Debuter] ) ( ScreenShots ) ( ChangeLog ) ( [http://code.google.com/p/gpicsync English version] )
 
 
-*23 juin 2007*: Version 1.05 disponible (voir ChangeLog)
+*12 juillet 2007*: Version 1.07 disponible (voir ChangeLog)
 
-Pour une version la plus à jour du site consultez [http://code.google.com/p/gpicsync/ la version anglaise].
+Pour une version la plus à jour du site consulter [http://code.google.com/p/gpicsync/ la version anglaise].
 
 GPicSync insère automatiquement les coordonnées latitude/longitude/altitude dans les métadonnées de de vos photos qui peuvent alors aussi être utilisées par tout logiciel ou site sachant lire ces informations comme Picasa/Google Earth, Flickr, loc.alize.us, etc.
 
@@ -13,15 +13,15 @@ GPicSync insère automatiquement les coordonnées latitude/longitude/altitude da
 
   * geocode automatiquement vos photos JPG ou RAW (en-tête EXIF)
   * utilise n'importe quels parcours GPS (track log) au format universel  [http://www.topografix.com/gpx_for_users.asp GPX] ou NMEA
-  * ajout de l'altitude si présent dans le fichier GPS
-  * créez un fichier Google Earth KML pour directement visualiser vos photos et le parcours GPS dans Google Earth
-  * créez un export Google Maps à publier sur un site web
-  * associez automatiquement des fichiers audio et vidéo à des photos géolocalisées 
-  * créez une archive Google Earth KMZ (contenant vos photos gélocalisées ainsi que le parcours).
-  * ajoutez des métadonnées supplémentaires geonames (pays, région, lieu le plus proche...) et "geotagged" 
+  * gestion de l'altitude si présent dans le fichier GPS et modes aviation
+  * visualisation directe des photos et parcours dans Google Earth (fichier KML)
+  * export Google Maps possible pour publication sur un site web
+  * association automatiquement de fichiers audio et vidéo à vos photos 
+  * possibilité de créer une archive Google Earth KMZ
+  * support de métadonnées supplémentaires geonames (pays, région, lieu le plus proche...) et "geotagged" 
   * possibilité d'inscrire  manuellement les coordonnées géographiques
-  * utilisez les utilitaires intégrés (correction temporelle, lecteur EXIF, inspecteur GPX, géo-renommage de photos, etc.)
-  * logiciel en Anglais traduit dans plus de dix langues (Français, Espagnol, Catalan, Italien, Allemand, Polonais, Néerlandais, Tchèque, Chinois simplifié et Chinois traditionnel)
+  * utilitaires (correction temporelle, lecteur EXIF, inspecteur GPX, géo-renommage de photos, etc.)
+  * logiciel en Anglais traduit dans plus de dix langues (Français, Espagnol, Catalan, Italien, Allemand, Polonais, Néerlandais, Tchèque, Portugais, Chinois simplifié et Chinois traditionnel)
 
 *Prêt à géocoder vos photos?* [Debuter]
 
@@ -36,5 +36,7 @@ GPicSync signifie G:GPS Pic:Pictures Sync:Synchronization et est un logiciel lib
   * [http://maps.google.com/maps/ms?ie=UTF8&hl=en&z=9&ll=48.443778,7.597046&spn=0.668648,1.867676&t=h&om=1&msid=100273353392671595172.00000111f1333a196b094&msa=0 utilisation dans 'My maps'](voir [http://code.google.com/p/gpicsync/wiki/PicasaToKmz tutorial])
   * A fichier Google Earth [http://francois.schnell.free.fr/geo/testGpicsync.kmz KMZ ] autour de Strasbourg (généré via l'outil 'KMZ Generator' de GPicSync)  
   * [http://loc.alize.us/#/user:Francois%20Schnell/geo:48.45095,7.03726,13,k/ Tout premier test lors d'une sortie VTT] (visualisée dans loc.alize.us)
+
+[http://code.google.com/p/gpicsync/wiki/GeolocalizedExamples Des exemples d'utilisation] par des utilisateurs de GPicSync.
 
 Merci pour [http://code.google.com/p/gpicsync/wiki/Contributions les contributions et feedback.]

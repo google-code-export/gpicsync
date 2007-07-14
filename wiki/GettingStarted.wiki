@@ -80,8 +80,6 @@ In the setting of your account you must first authorize the use of this informat
 
 When you upload your pictures you will see a "map" link near each picture to open Yahoo Maps which will point to the location.
 
-If you prefer google maps you can use this neat [http://www.flickr.com/groups/geotagging/discuss/72157594165549916/ geocoding bookmarklet] which will point to the location in [http://loc.alize.us/ loc.alize.us webiste] which uses google maps.
-
 If you've checked "add geonames and geotags" your pictures will also have the following keywords metadata:
 
   * geonames: country, region, nearest place with distance (in Km)
@@ -92,6 +90,8 @@ When you upload your pictures to Flickr the tags will appear in the tags section
 You mustn't allow Flickr Uloadr tool to resize your pictures before uploading (your geonames/geotags won't be kept, If needed you could resize them before with Picasa for example).
 
 By default there is also an HTML summarize which is written in the IPTC caption of the picture. The summarize shows the latitude/longitude and the nearest Geoname and country with a link to the Geonames map. Flickr will show the summarize in the description of your picture. If you don't want this use change the geonames options in the interface.
+
+If you prefer to see your Flickr pictures on google maps you can use this neat [http://www.flickr.com/groups/geotagging/discuss/72157594165549916/ geocoding bookmarklet] which will point to the location in [http://loc.alize.us/ loc.alize.us webiste] which uses google maps.
 
 ====b) Picasa / Google Earth====
 

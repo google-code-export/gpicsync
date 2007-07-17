@@ -1,6 +1,9 @@
 === Version 1.08 (July 17th 07) ===
 
-1) Translations updated in Simplified and Traditional Chinese (thanks to Paul lu), Catalan and Spanish (thanks to Oriol Garrote), Portuguese (thanks to Manuel Antunes and Ricardo Silva) and Czech (thanks to PolNjumen)  
+1) Translations updated in Simplified and Traditional Chinese (thanks to Paul lu), Catalan and Spanish (thanks to Oriol Garrote), Portuguese (thanks to Manuel Antunes and Ricardo Silva) and Czech (thanks to "PolNjumen")  
+
+2) Particular GPX reading bug fix. If some spaces were present inside the double quotes values for latitude or longitude  (in the GPX ) the EXIF writing didn't work (in the picture). This is now fixed. Thanks to Alex.b for his data on this problem. 
+
 
 === Version 1.07 (July 12th 07) ===
 

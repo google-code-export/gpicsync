@@ -1,3 +1,10 @@
+
+=== Version 1.09 (July 18th 07) ===
+
+1) Fixed a bug affecting geocoding of some RAW pictures formats in versions 1.07/1.08 (geocoding didn't happened or was very slow).
+
+2) Updated the German translation (thanks to Konrad Bauckmeier).
+
 === Version 1.08 (July 17th 07) ===
 
 1) Translations updated in Simplified and Traditional Chinese (thanks to Paul lu), Catalan and Spanish (thanks to Oriol Garrote), Portuguese (thanks to Manuel Antunes and Ricardo Silva) and Czech (thanks to "PolNjumen")  

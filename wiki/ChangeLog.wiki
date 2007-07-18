@@ -1,7 +1,6 @@
-
 === Version 1.09 (July 18th 07) ===
 
-1) Fixed a bug affecting geocoding of some RAW pictures formats in versions 1.07/1.08 (geocoding didn't happened or was very slow).
+1) Fixed a bug affecting geocoding of some RAW pictures formats in versions 1.07/1.08: geocoding didn't happened or was very slow (Thanks to Michal Ohrablo for reporting the problem and for his DNG data).
 
 2) Updated the German translation (thanks to Konrad Bauckmeier).
 

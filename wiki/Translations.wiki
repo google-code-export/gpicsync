@@ -3,7 +3,7 @@
   * *English* (default)
   * *French*
   * *Italian* by bartman from [http://www.x50v.it/ x50v.it]
-  * *German* by Michael, alias anwi for the main translation and the review and help from Konrad Bauckmeier
+  * *German* by Michael (anwi) and Konrad Bauckmeier
   * *Traditional Chinese* and *Simplified Chinese* by Paul lu ([http://digital.xy.hk digital.xy.hk])
   * *Catalan* and *Spanish* by Oriol Garrote ([http://www.skimountaineering.org/ skimountaineering.org])
   * *Polish* by Dominik Wójcik ([http://www.biegacze.pl/ www.biegacze.pl]) 

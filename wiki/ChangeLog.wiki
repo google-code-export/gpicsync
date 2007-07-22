@@ -1,3 +1,8 @@
+
+=== Version 1.10 (July 22th 07) ===
+
+Bug fix: In recent versions GPicSync stopped if it encountered a picture at a different date than the GPX with "dates must match". Same symptom if the GPX didn't have any trackpoint (now an information message appear).Thanks to Michal Ohrablo for reporting the problem.
+
 === Version 1.09 (July 18th 07) ===
 
 1) Fixed a bug affecting geocoding of some RAW pictures formats in versions 1.07/1.08: geocoding didn't happened or was very slow (Thanks to Michal Ohrablo for reporting the problem and for his DNG data).

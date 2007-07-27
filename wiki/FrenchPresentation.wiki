@@ -20,7 +20,9 @@ GPicSync insère automatiquement les coordonnées latitude/longitude/altitude da
   * possibilité de créer une archive Google Earth KMZ
   * support de métadonnées supplémentaires geonames (pays, région, lieu le plus proche...) et "geotagged" 
   * possibilité d'inscrire  manuellement les coordonnées géographiques
+  * configuration fine et enregistrement des se préférences dans un fichier de configuration
   * utilitaires (correction temporelle, lecteur EXIF, inspecteur GPX, géo-renommage de photos, etc.)
+  * possibilité de faire une exploration spatio-temporelle dans Google Earth ("TimeStamp")
   * logiciel en Anglais traduit dans plus de dix langues (Français, Espagnol, Catalan, Italien, Allemand, Polonais, Néerlandais, Tchèque, Portugais, Chinois simplifié et Chinois traditionnel)
 
 *Prêt à géocoder vos photos?* [Debuter]

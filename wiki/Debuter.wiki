@@ -76,18 +76,19 @@ Par défaut un résumé est également inscrit dans la photo (IPTC caption) et a
 
 Si vous téléchargez vos photos avec l'oultil Uloadr de Flickr attention à ne pas lui permettre de redimensionner les photos pour ne pas perdre ces métadonnées.
 
-Si vous préférez Google maps (plus précises en France que Yahoo maps) vous pouvez utilisez ce [http://www.flickr.com/groups/geotagging/discuss/72157594165549916/ geocoding bookmarklet] qui utilise le site [http://loc.alize.us/ loc.alize.us] lui-même basé sur les cartes Yahoo et les photos Flickr.
+Si vous préférez Google maps (plus précises en France que Yahoo maps) vous pouvez utilisez ce [http://www.flickr.com/groups/geotagging/discuss/72157594165549916/ geocoding bookmarklet] qui utilise le site [http://loc.alize.us/ loc.alize.us] lui-même basé sur les cartes Google et les photos Flickr.
 
 
 ====b) Picassa / Google Earth====
 
-Si vous visualisez vos photos avec Picassa allez dans le  menu "Outils">"Géolocaliser">"Afficher dans Google Earth".
+Si vous visualisez vos photos avec Picasa allez dans le  menu "Outils">"Géolocaliser">"Afficher dans Google Earth".
 
-Voir aussi [http://code.google.com/p/gpicsync/wiki/KMZavecPicassaEtGE ce tutoriel] pour créer un fichier kmz avec le parcours GPS pour le distribuer facilement sur le web ou par mail.
+Voir aussi [http://code.google.com/p/gpicsync/wiki/KMZavecPicassaEtGE ce tutoriel] pour créer un fichier kmz légé avec le parcours GPS pour le distribuer facilement sur le web ou par mail.
 
 ====c) Google Maps ====
 
 Vous pouvez créer un export Google Maps à exporter sur un serveur. Cochez "Google Maps export" et indiquez l'url du dossier photo sur le serveur. Transférez ensuite votre dossier photo par FTP.
+Un tutoriel en anglais est [GoogleMapsExport disponible ici].
 
 ATTENTION:
 

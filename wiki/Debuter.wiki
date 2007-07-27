@@ -8,6 +8,7 @@ Pour une version plus complète et la plus à jour du site consulter [http://cod
   * 3) Faites votre ballade et prenez des photos !
   * 4) De retour, synchronisez le tout avec GPicSync
   * 5) Visualisez et partagez vos photos géolocaliseés
+  * 6) Utilisation avancée (fichier de configuration et outils optionnels)
 
 
 [http://farm2.static.flickr.com/1266/840388084_877191980b_o.jpg http://farm2.static.flickr.com/1266/840388084_f8c9c29586.jpg]
@@ -87,8 +88,19 @@ Voir aussi [http://code.google.com/p/gpicsync/wiki/KMZavecPicassaEtGE ce tutorie
 
 ====c) Google Maps ====
 
-Vous pouvez créer un export Google Maps à exporter sur un serveur. Cochez "Google Maps export" et indiquez l'url du dossier photo sur le serveur. Transférez ensuite votre dossier photo par FTP.
+Vous pouvez créer un export Google Maps à placer ensuite sur un serveur. Cochez "Google Maps export" et indiquez l'URL du dossier photo sur le serveur. Transférez ensuite votre dossier photo par FTP.
 Un tutoriel en anglais est [GoogleMapsExport disponible ici].
+
+===6) Utilisation avancée, fichier de configuration et outils optionnels===
+
+De nombreuses autres options sont disponibles. Par exemple:
+
+- des modes de visualisation spécifique pour l'aviation (voir boîte option).
+- des modes pour l'exploration spation-temporelle avec Google Earth (cocher "with TimeStamp") et jouez avec la barre de navigation temporelle qui apparaîtra dans Google Earth. 
+
+Un fichier de configuration (menu "Options"->"Fichier de configuration") permet de régler finement certains paramètres comme les geonames et de conserver ses préférences.
+
+Une collection de petits outils pratiques est disponible dans le menu "Outils"
 
 ATTENTION:
 

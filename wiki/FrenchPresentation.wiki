@@ -3,9 +3,9 @@
 ( [Debuter] ) ( ScreenShots ) ( ChangeLog ) ( [http://code.google.com/p/gpicsync English version] )
 
 
-*12 juillet 2007*: Version 1.07 disponible (voir ChangeLog)
+*22 juillet 2007*: Version 1.10 disponible (voir ChangeLog)
 
-Pour une version la plus à jour du site consulter [http://code.google.com/p/gpicsync/ la version anglaise].
+Pour une version la plus à jour du site consultez [http://code.google.com/p/gpicsync/ la version anglaise].
 
 GPicSync insère automatiquement les coordonnées latitude/longitude/altitude dans les métadonnées de de vos photos qui peuvent alors aussi être utilisées par tout logiciel ou site sachant lire ces informations comme Picasa/Google Earth, Flickr, loc.alize.us, etc.
 

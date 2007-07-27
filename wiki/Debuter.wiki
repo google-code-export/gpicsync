@@ -95,8 +95,8 @@ Un tutoriel en anglais est [GoogleMapsExport disponible ici].
 
 De nombreuses autres options sont disponibles. Par exemple:
 
-- des modes de visualisation spécifique pour l'aviation (voir boîte option).
-- des modes pour l'exploration spation-temporelle avec Google Earth (cocher "with TimeStamp") et jouez avec la barre de navigation temporelle qui apparaîtra dans Google Earth. 
+  * des modes de visualisation spécifique pour l'aviation (voir boîte option).
+  * des modes pour l'exploration spation-temporelle avec Google Earth (cocher "with TimeStamp") et jouez avec la barre de navigation temporelle qui apparaîtra dans Google Earth. 
 
 Un fichier de configuration (menu "Options"->"Fichier de configuration") permet de régler finement certains paramètres comme les geonames et de conserver ses préférences.
 

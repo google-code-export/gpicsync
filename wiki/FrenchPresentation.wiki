@@ -42,3 +42,4 @@ GPicSync signifie G:GPS Pic:Pictures Sync:Synchronization et est un logiciel lib
 [http://code.google.com/p/gpicsync/wiki/GeolocalizedExamples Des exemples d'utilisation] par des utilisateurs de GPicSync.
 
 Merci pour [http://code.google.com/p/gpicsync/wiki/Contributions les contributions et feedback.]
+GPicSync intègre également deux excellents outils libres: [http://www.sno.phy.queensu.ca/~phil/exiftool/ EXIFTool] et [http://www.gpsbabel.org/ GPSBabel] (merci à leurs auteurs!)

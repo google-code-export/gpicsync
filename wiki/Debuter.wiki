@@ -1,5 +1,6 @@
 #labels french
 Pour une version plus complète et la plus à jour du site consulter [http://code.google.com/p/gpicsync/ la version anglaise].
+
 La fiche de description du logiciel en français est [FrenchPresentation disponible ici].
 
 = Débuter avec GPicSync =

@@ -11,12 +11,12 @@ GPicSync insère automatiquement les coordonnées latitude/longitude/altitude da
 
 *Caractéristiques:*
 
-  * geocode automatiquement vos photos JPG ou RAW (en-tête EXIF)
+  * geocode automatiquement vos photos JPG ou RAW (en-tête EXIF et IPTC)
   * utilise n'importe quels parcours GPS (track log) au format universel  [http://www.topografix.com/gpx_for_users.asp GPX] ou NMEA
   * gestion de l'altitude si présent dans le fichier GPS et modes aviation
   * visualisation directe des photos et parcours dans Google Earth (fichier KML)
   * export Google Maps possible pour publication sur un site web
-  * association automatiquement de fichiers audio et vidéo à vos photos 
+  * association automatique de fichiers audio et vidéo à vos photos géolocalisées
   * possibilité de créer une archive Google Earth KMZ
   * support de métadonnées supplémentaires geonames (pays, région, lieu le plus proche...) et "geotagged" 
   * possibilité d'inscrire  manuellement les coordonnées géographiques

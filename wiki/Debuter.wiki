@@ -59,7 +59,7 @@ Si la date de votre appareil photo était fausse décochez "vérifier le dates" 
 
 Vous pouvez maintenant utiliser vos photos avec n'importe quel logiciel ou site web capable de lire les méta-données de géolocalisation.
 
-Vous pouvez directement visualiser le résultat dans Google Earth en cliquant sur "Voir dans Google Earth (un fichier doc.kml a été créer dans votre dossier photo sur lequel vous pouvez aussi double cliquer pour lancer la visualisation).
+Vous pouvez directement visualiser le résultat dans Google Earth en cliquant sur "Voir dans Google Earth (un fichier doc.kml a été créer dans votre dossier photo sur lequel vous pouvez aussi double-cliquer pour lancer la visualisation).
 
 Vous pouvez exporter vos photos et le parcours sous la forme d'une archive unique KMZ à diffuser : "Outils" > "Générateur KMZ"
 
@@ -70,9 +70,14 @@ Dans les options de votre compte vous devez autoriser Flickr à lire les informa
 
 Quand vous uploadez vos photos vous verrez ensuite un lien "map" près de chaque photo qui montre la photo sur les cartes Yahoo Maps.
 
+Si vous avez coché l'option "geonames et geotagged" vos photos auront des métadonnées supplémentaires (pays, région, endroit le plus proche, etc) qui apparaîtront directement comme des tags dans Flickr.
+
+Par défaut un résumé est également inscrit dans la photo (IPTC caption) et apparaîtra dans la description de la photo en ligne.
+
+Si vous téléchargez vos photos avec l'oultil Uloadr de Flickr attention à ne pas lui permettre de redimensionner les photos pour ne pas perdre ces métadonnées.
+
 Si vous préférez Google maps (plus précises en France que Yahoo maps) vous pouvez utilisez ce [http://www.flickr.com/groups/geotagging/discuss/72157594165549916/ geocoding bookmarklet] qui utilise le site [http://loc.alize.us/ loc.alize.us] lui-même basé sur les cartes Yahoo et les photos Flickr.
 
-Pour conserver les métadonnées Geonames vous ne devez pas laisser l'outil Flickr Uploadr redimentionner vos images. 
 
 ====b) Picassa / Google Earth====
 

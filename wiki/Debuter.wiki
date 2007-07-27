@@ -28,24 +28,24 @@ Avec un logiciel de votre choix (par exemple le freeware [http://www.easygps.com
 
 Téléchargez GPicSync [http://sourceforge.net/project/showfiles.php?group_id=191804 depuis Sourceforge]:
   * Windows: télécharger le .exe 
-  * Linux: télécharger le tar.gz si présent ou faites directement un [http://code.google.com/p/gpicsync/source SVN Checkout]et lisez readme.txt
+  * Linux: Faites directement un [http://code.google.com/p/gpicsync/source SVN Checkout]et lisez le fichier readme.txt
   * pour une utilisation en français allez dans "options">"langages" (sélectionnez "français" et relancer le logiciel)
   * sélectionnez le dossier contenant vos photos
   * sélectionnez votre [AideGpx fichier .gpx] ou NMEA
   * indiquez l'UTC Offset, c'est à dire le fuseau horaire (+1 in France heure d'hivers et +2 heure d'été)
-  * appuyez sur le bouton "synchronize !"
+  * lancez la synchronisation
 
-Si tout se passe bien vous verrez une ligne d'information (par photo trouvée) avec la localisation géographique qui vient d'être inscrite dans les informations EXIF de celle-ci. 
+Si tout se passe bien vous verrez une ligne d'information (par photo trouvée) avec la localisation géographique qui vient d'être inscrite dans l'entête de la photo.
 
-L'écart temporel entre votre photo et le point du "track log" le plus proche est inidiqué. Au delà d'une centaine de seconde il y a probablement une erreur dans votre timing. En particulier vérifiez que vous indiquez bien le bon "UTC Offset"(fuseau horaire = 1 pour la France et 2 à l'heure d'été.   
+L'écart temporel entre votre photo et le point du "track log" le plus proche est indiqué. Au delà d'une centaine de seconde il y a probablement une erreur dans votre timing. En particulier vérifiez que vous indiquez bien le bon "UTC Offset"(fuseau horaire = 1 pour la France et 2 à l'heure d'été).   
 
-Par défaut GPicSync ne geocode pas les photos dont la différence de temps est supérieure à 300 secondes. Vous pouvez ajuster cette limite directement dans l'interface ("Géocode seulement si l'écart au point le plus proche est inférieur à(seconds)="), utile pour certains GPS qui n'enregistrent plus de points si vous ne bougez plus pendant une certaine durée. 
+Par défaut GPicSync ne geocode pas les photos dont la différence de temps est supérieure à 300 secondes. Vous pouvez ajuster cette limite directement dans l'interface ("Géocode seulement si l'écart au point le plus proche est inférieur à(seconds)="); Ceci est utile pour certains GPS qui n'enregistrent plus de points si vous ne bougez plus pendant une certaine durée. 
 
-Vous pouvez directement en fin de synchronisation vérifier  vos photos et le parcours GPS dans Google Earth (en cliquant sur le bouton "Voir dans Google Eath" à l'invite).
+Vous pouvez directement en fin de synchronisation vérifier  vos photos et votre parcours dans Google Earth (en cliquant sur le bouton "Voir dans Google Eath" à l'invite).
 
 Vous avez aussi la possibilité de créer un rapport des opérations effectuées dans le dossier des photos en cochant "créer un fichier de log". A noter que pour éviter tout problème éventuel une copie de chaque photo est réalisée par défaut.
 
-Si vous souhaitez ajoutez des métadonnées supplémentaires (pays, région, endroit le plus poches, "geotagged", etc) cochez "ajout geonames et geotagged" avant de lancer la geolocalisation (il vous faudra une connexion internet pour que le logiciel puisse récupérer ces informations sur le site geonames.org). Plusieurs modes Geonames sont disponibles directement depuis l'interface.
+Si vous souhaitez ajoutez des métadonnées supplémentaires (pays, région, endroit le plus poche, données "geotagged", etc) cochez "ajout geonames et geotagged" avant de lancer la geolocalisation (il vous faudra une connexion internet pour que le logiciel puisse récupérer ces informations sur le site geonames.org). Plusieurs modes Geonames sont disponibles directement depuis l'interface.
 
 Si les informations de localisation n'apparaissent pas vérifiez:
   *  votre fichier GPX (utilisez "Tools"->"GPX Inspector" pour voir les données que voit GPicSync dans le fichier)

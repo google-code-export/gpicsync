@@ -1,4 +1,7 @@
 
+=== Upcoming version to be release soon (probably 15th October 2007) ===
+Major bug fixes if you had sync or gpx problems (new sync engine, new GPX reading).
+
 === Version 1.10 (July 22th 07) ===
 
 Bug fix: In recent versions GPicSync stopped if it encountered a picture at a different date than the GPX with "dates must match". Same symptom if the GPX didn't have any trackpoint (now an information message appear).Thanks to Michal Ohrablo for reporting the problem.

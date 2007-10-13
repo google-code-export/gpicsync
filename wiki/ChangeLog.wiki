@@ -5,7 +5,7 @@ Bug fixes release
 
 - Fixed the reading of some GPX files with particular tags
 
-- Fixed the hang-on when a picture without date/time was provided (a warning information is now shown and GPicSync jump to the next picture)
+- Fixed the hang-on when a picture without date/time was provided (a warning information is now shown and GPicSync jumps to the next picture)
 
 - You can now again use decimal value for the UTC Offset (expl "2.4") 
 

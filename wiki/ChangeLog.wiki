@@ -1,5 +1,6 @@
 === Version 1.20 (13th October 2007) ===
 Bug fixes release
+
 - Fixed some syncing with data crossing UTC=0 which wasn't working properly
 
 - Fixed the reading of some GPX files with particular tags

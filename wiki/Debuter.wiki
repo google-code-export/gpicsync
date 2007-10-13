@@ -19,7 +19,7 @@ La fiche de description du logiciel en français est [FrenchPresentation disponi
 Si ce n'est pas déjà le cas mettez votre GPS à l'heure locale du pays.
 
 ===2)  Initialisez votre APN===
-Rentrez la même heure dans votre APN que celle indiquée par votre GPS (à la seconde près). Profitez en pour régler la date si nécessaire.
+Rentrez la même heure dans votre APN que celle indiquée par votre GPS (à la seconde près). N'oubliez pas de régler la date si nécessaire.
 
 ===3) Faites votre ballade et prenez des photos ! ===
 Prenez votre GPS avec vous et assurez vous qu'il enregistre bien votre parcours ("track log" ON). Laissez le GPS allumé durant toute la ballade et prenez vos photos comme d'habitude.

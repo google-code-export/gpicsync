@@ -1,6 +1,10 @@
-
-=== Upcoming version to be release soon (probably 15th October 2007) ===
-Major bug fixes if you had sync or gpx problems (new sync engine, new GPX reading).
+=== Version 1.20 (13th October 2007) ===
+Bug fixes release
+- Fixed some syncing with data crossing UTC=0 which wasn't working properly
+- Fixed the reading of some GPX files with particular tags
+- Fixed the hang-on when a picture without date/time was provided (a warning information is now shown and GPicSync jump to the next picture)
+- You can now again use decimal value for the UTC Offset (expl "2.4") 
+ 
 
 === Version 1.10 (July 22th 07) ===
 

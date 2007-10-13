@@ -1,14 +1,18 @@
 === Version 1.20 (13th October 2007) ===
 Bug fixes release
 
-- Fixed some syncing with data crossing UTC=0 which wasn't working properly
+- Fixed some syncing with data crossing UTC=0 which wasn't working properly (Ninjas in missions across UTC=0 should have perfect sync now :) )
 
 - Fixed the reading of some GPX files with particular tags
 
 - Fixed the hang-on when a picture without date/time was provided (a warning information is now shown and GPicSync jump to the next picture)
 
 - You can now again use decimal value for the UTC Offset (expl "2.4") 
- 
+
+Thanks to all the people who provided bug reports with their data.
+
+The way the syncing and the GPX reading works has been completely redone: hopefully it should work now in all possible situations. If you experience any problem thanks in advance for sending a report with some test data! 
+
 
 === Version 1.10 (July 22th 07) ===
 

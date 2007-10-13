@@ -19,12 +19,11 @@ Set the time of your camera to GMT. You can see the actual GMT time at the botto
 
 [http://wwp.greenwichmeantime.com/]
 
-Setting your camera to GMT is practical since you won't have problems for summer/winter time or when you travel through time zones. Also check set the camera date if necessary. 
+Setting your camera to GMT is practical since you won't have problems for summer/winter time or when you travel through time zones. Also set the camera date if necessary. 
 
 *b) Local way*
 
-Set the local time of the camera precisely to the same local time indicated by the GPSr. Also check the camera date if necessary.
-
+Set the local time of the camera precisely to the same local time indicated by the GPSr. Also set the camera date if necessary. 
 
 ===2) Go outside and shoot===
 Take your GPSr with you and make sure that it is recording a track log. Keep your GPSr ON during all the time you take pictures.
@@ -56,8 +55,6 @@ By default GPicSync doesn't Geocode photos if the time difference is above 300 s
 You can directly verify your photos in Google Earth (just click the "View in Google Eath" button at the end of the process).
 
 By default a backup of you pictures is made in your pictures folder. 
-
-If the date on your camera was wrong uncheck "dates must match" before synchronizing.
 
 If there's no location showing:
   * use "Tools"->"GPX Inspector" to quickly see the data GPicSync finds in it.

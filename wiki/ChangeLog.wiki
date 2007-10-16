@@ -1,6 +1,6 @@
 === Version 1.21 (16th October 2007) ===
 
-Multi-day GPX Bug fix: in certain conditions geocoding could take place if the GPX had  trackpoints more than 86400 seconds (24 hours) away from  the picture.
+Multi-day GPX Bug fix: in some conditions geocoding could take place if the GPX had  trackpoints more than 86400 seconds (24 hours) away from  the picture.
 
 Thanks to Luka Logar for reporting the bug, spotting the faulty line of code + correction.
   

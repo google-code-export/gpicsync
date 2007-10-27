@@ -1,13 +1,5 @@
-#summary One-sentence summary of this page.
+You can find here a list of RAW formats supported by GPicSync.
 
-= Introduction =
-
-Add your content here.
+Since GPicSync use EXIFTool in its backend, RAW formats for which EXIFTool have read/write capabilities could be added to GPicSync.
 
 
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages

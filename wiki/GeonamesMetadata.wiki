@@ -1,8 +1,30 @@
-
 GPicSync can automatically retrieve geonames from www.geonames.org and add it to your EXIF metadata and a customized summary to your IPTC section. 
 
 Many software can read this metadata and a site like Flickr will use them to automatically add them as tags or description of the picture (IPTC summary).
 
 To use the default settings check "add geonames and geotagged" in the interface and select either "Geonames in EXIF keywords + HTML sumarize in IPTC caption" or "Geonames in Keywords".
 
+* Customizing the geonames via the configuration file *
 
+You can further customize the geonames by editing and saving your configuration file:
+- in GPicSync "Options"->"Configuration files"
+- edit, save your modification and quit your text editor
+- click on the "quit" button of GPicSync
+- reload PicSync for the modification to take effect
+
+This is the relevant section in the configuration file:
+
+{{{
+#Add geonames and geotagged in EXIF by default (True or False) and select the ones you want
+geonamestags=True
+geoname_nearbyplace=True
+geoname_region=True
+geoname_country=True
+geoname_summary=True
+geoname_userdefine=
+
+#Add summary in IPTC with the following variables (if you use quotes escape them: \"  ):
+#{LATITUDE} {LONGITUDE} {DISTANCETO} {NEARBYPLACE} {REGION} {COUNTRY}
+geoname_caption=True
+geoname_IPTCsummary=Taken at Latitude/Longitude:{LATITUDE}/{LONGITUDE} Near {NEARBYPLACE} {REGION} {COUNTRY} <a href=\"http://www.geonames.org/maps/google_{LATITUDE}_{LONGITUDE}.html\"> (Map link)</a>
+}}}

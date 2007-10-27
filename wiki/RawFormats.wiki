@@ -8,17 +8,18 @@ RAW formats which should work for geocoding are:
  * Nikon NEF
  * Pentax PEF
  * Digital Negative DNG 
+ * Samsung and Fuji RAWs ?
  * From version 1.22 of GPicSync:
    * Panasonic RAW
    * Olympus ORF
    * Minolta MRW
    * Mamiya Electronic Format MEF
 
+
+
 Please not that the preview thumbnail in GPicSync interface is not available for RAW formats.
 
 If you have an issue or question about RAW format you can send me a mail [http://francois.schnell.free.fr/fxschnellgmail.png here] with one of your picture for testing (up to 20 Mo per mail).
-
-
 
 
 

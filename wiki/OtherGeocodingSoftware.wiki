@@ -6,7 +6,7 @@ If you know others (preferably Open Source or freeware) and what is interesting 
 
 *In alphabetical order, available at least in English:*
 
-  * [http://sourceforge.net/projects/dgmanager-net/ DGManager](Windows, .Net, Open Source,)
+  * [http://sourceforge.net/projects/dgmanager-net/ DGManager](Windows, .Net, Open Source, Google Maps Integrated)
 
   * [http://www.digikam.org/?q=about/features09x digiKam] (Linux, Open Source)
 

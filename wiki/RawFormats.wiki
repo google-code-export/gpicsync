@@ -1,5 +1,28 @@
-You can find here a list of RAW formats supported by GPicSync.
+You can find here a list of supported RAW formats.
 
-Since GPicSync use EXIFTool in its backend, RAW formats for which EXIFTool have read/write capabilities could be added to GPicSync.
+Since GPicSync use [http://www.sno.phy.queensu.ca/~phil/exiftool/ EXIFTool] in its backend, RAW formats for which EXIFTool have read/write capabilities are (or could be) added to GPicSync.
+
+RAW formats which should work for geocoding are:
+
+ * Canon CR2 CRW
+ * Nikon NEF
+ * Pentax PEF
+ * Digital Negative DNG 
+ * From version 1.22 of GPicSync:
+   * Panasonic RAW
+   * Olympus ORF
+   * Minolta MRW
+   * Mamiya Electronic Format MEF
+
+Please not that the preview thumbnail in GPicSync interface is not available for RAW formats.
+
+If you have an issue or question about RAW format you can send me a mail [http://francois.schnell.free.fr/fxschnellgmail.png here] with one of your picture for testing (up to 20 Mo per mail).
+
+
+
+
+
+
+
 
 

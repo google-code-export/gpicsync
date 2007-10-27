@@ -1,6 +1,7 @@
 #labels Featured
   * 1)If you have an error MSVCP71.dll and/or MSVCR71.dll was not found (or another dll file).
   * 2)If no indications of localization appears check first your .gpx file
+  * 3)If GPicSync says geocoding went fine (and Google Earth file is OK) but the position wasn't written in the picture metadata 
 
 
 *1)If you have an error MSVCP71.dll and/or MSVCR71.dll was not found (or another dll file).  *
@@ -45,6 +46,6 @@ Gpx files have one or more <trkseg> ... </trkseg>  which contain plenty of track
 Use "Tools"->"GPX Inspector" to quickly see the data GPicSync finds in it. 
 If your gpx file seems fine use "Tools"->"EXIF Reader" and check if your photos contain a 'Date/Time Original' field like (Date/Time Original : 2007:04:06 14:41:02). Some image processing software erase metadata (Picassa for example keeps the metadata).
 
- 
+* 3)If GPicSync says geocoding went fine (and Google Earth file is OK) but the position wasn't written in the picture metadata *
 
  

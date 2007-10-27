@@ -9,6 +9,7 @@ If you know others (preferably Open Source or freeware) and what is interesting 
   * [http://www.digikam.org/?q=about/features09x digiKam] (Linux, Open Source)
 
   * [http://www.vipros.com/photo/gps2Photo/ GPS2Foto] (Open Source, Perl script, command line)
+  * [http://gpstools.sourceforge.net/ GPSdings] (Open Source, Java, command-line)
 
   * [http://www.carto.net/projects/photoTools/gpsPhoto/ gpsPhoto] (multiplateforme command line tool, Open Source)
     

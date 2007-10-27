@@ -1,3 +1,12 @@
+=== Development version () ===
+
+- Added Russian translation from Evgeny Tyazhev
+
+- Added more RAW file formats, see RawFormats
+
+- Updated EXIFTool to version 7.00 in backend
+
+
 === Version 1.21 (16th October 2007) ===
 
 Multi-day GPX Bug fix: in some conditions geocoding could take place if the GPX had  trackpoints more than 86400 seconds (24 hours) away from  the picture.

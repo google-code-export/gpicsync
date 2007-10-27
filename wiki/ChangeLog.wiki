@@ -4,6 +4,8 @@
 
 - Added more RAW file formats, see RawFormats
 
+- Possibility to customize your IPTC sumarize field from  the configuration file with variables LATITUDE, LONGITUDE, NEARBYPLACE, DISTANCETO, REGION, COUNTRY
+
 - Updated EXIFTool to version 7.00 in backend
 
 

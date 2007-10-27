@@ -1,7 +1,7 @@
 #labels Featured
   * 1)If you have an error MSVCP71.dll and/or MSVCR71.dll was not found (or another dll file).
-  * 2)If no indications of localization appears check first your .gpx file
-  * 3)If GPicSync says geocoding went fine (and Google Earth file is OK) but the position wasn't written in the picture metadata 
+  * 2)If GPicSync says geocoding went fine (and Google Earth file is OK) but the position wasn't written in the picture metadata
+  * 3)If no indications of localization appears check first your .gpx file 
 
 
 *1)If you have an error MSVCP71.dll and/or MSVCR71.dll was not found (or another dll file).  *
@@ -16,7 +16,15 @@ If it's still doesn't work please contact me.
 
 If after that you still have a  problem try to install the Microsoft .Net framework. 
 
-*2) If no indications of localization appears check first your .gpx file:* 
+* 2)If GPicSync says geocoding went fine (and Google Earth file is OK) but the position wasn't written in the picture metadata *
+
+Another software you've used may have altered or "corrupted" the picture metadata in a way that EXIFtool (library used by GPicSync) can't deal with anymore.
+
+Few tips to workaround this (whatever the software you used):
+http://groups.google.com/group/gpicsync/browse_thread/thread/1258406a030ff7c6
+
+
+*3) If no indications of localization appears check first your .gpx file:* 
 
 A .gpx file is a "XML" file. You can open it and modify it easily in a text editor: it has plenty of tags (<tag> .... </tag>)
 
@@ -46,6 +54,6 @@ Gpx files have one or more <trkseg> ... </trkseg>  which contain plenty of track
 Use "Tools"->"GPX Inspector" to quickly see the data GPicSync finds in it. 
 If your gpx file seems fine use "Tools"->"EXIF Reader" and check if your photos contain a 'Date/Time Original' field like (Date/Time Original : 2007:04:06 14:41:02). Some image processing software erase metadata (Picassa for example keeps the metadata).
 
-* 3)If GPicSync says geocoding went fine (and Google Earth file is OK) but the position wasn't written in the picture metadata *
+
 
  

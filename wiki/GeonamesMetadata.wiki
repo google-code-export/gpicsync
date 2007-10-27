@@ -1,4 +1,4 @@
-GPicSync can automatically retrieve geonames from www.geonames.org and add it to your EXIF metadata and a customized summary to your IPTC section. 
+GPicSync can automatically retrieve geonames from [http://www.geonames.org www.geonames.org] and add them to the EXIF metadata and a customized summary to the IPTC section. 
 
 Many software can read this metadata and a site like Flickr will use them to automatically add them as tags or description of the picture (IPTC summary).
 

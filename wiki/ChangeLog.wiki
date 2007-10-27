@@ -1,6 +1,6 @@
 === Version 1.22 (27th of October 2007) ===
 
-- Added Russian translation thanks to Evgeny Tyazhev
+- Added Russian translation thanks to Evgeny Tyazhev (thanks to him!)
 
 - Added more RAW file formats (see RawFormats)
 

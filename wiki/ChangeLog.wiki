@@ -1,8 +1,8 @@
 === Version 1.22 (27th of October 2007) ===
 
-- Added Russian translation from Evgeny Tyazhev
+- Added Russian translation thanks to Evgeny Tyazhev
 
-- Added more RAW file formats, see RawFormats
+- Added more RAW file formats (see RawFormats)
 
 - Possibility to customize your IPTC sumarize field from  the configuration file with variables LATITUDE, LONGITUDE, NEARBYPLACE, DISTANCETO, REGION, COUNTRY (see GeonamesMetadata)
 

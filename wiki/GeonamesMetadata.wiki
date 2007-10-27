@@ -7,10 +7,14 @@ To use the default settings check "add geonames and geotagged" in the interface 
 * Customizing the geonames via the configuration file *
 
 You can further customize the geonames by editing and saving your configuration file:
-- in GPicSync "Options"->"Configuration files"
+
+- in GPicSync, "Options"->"Configuration file"
+
 - edit, save your modification and quit your text editor
+
 - click on the "quit" button of GPicSync
-- reload PicSync for the modification to take effect
+
+- reload GPicSync for the modification to take effect
 
 This is the relevant section in the configuration file:
 
@@ -28,3 +32,4 @@ geoname_userdefine=
 geoname_caption=True
 geoname_IPTCsummary=Taken at Latitude/Longitude:{LATITUDE}/{LONGITUDE} Near {NEARBYPLACE} {REGION} {COUNTRY} <a href=\"http://www.geonames.org/maps/google_{LATITUDE}_{LONGITUDE}.html\"> (Map link)</a>
 }}}
+

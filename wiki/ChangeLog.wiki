@@ -1,3 +1,8 @@
+=== Version 1.23 (29th of October 2007) ===
+
+Geonames bug fix (from version 1.22): when "adding geonames and geotadded" with "Geonames in EXIF keywords", the HTML summary was also added in IPTC caption. Also corrected a typo.
+(Thanks to Friedrich Huebler for spoting this bug)
+
 === Version 1.22 (27th of October 2007) ===
 
 - Added Russian translation thanks to Evgeny Tyazhev (thanks to him!)

@@ -20,6 +20,8 @@ If you know others (preferably Open Source or freeware) and what is interesting 
 
   * [http://www.locr.com/downloads.php GPS Photo from locr] (Windows, freeware, also propose web hosting with Google Maps)
 
+  * [http://www.geosetter.de/en/index.html GeoSetter ] (Windows, freeware, IPTC editor and Google maps)
+
   * [http://www.grazer.de/ Grazer ] (Windows, freeware)
 
   * [http://happycamel.sourceforge.net/ Happy Camel] (Linux command line tool, Open Source)

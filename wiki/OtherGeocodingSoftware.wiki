@@ -1,8 +1,8 @@
-Geolocalization of media files (or also geocoding or geotagging) is a fascinating new phenomenon which is growing quickly.
+Geolocalization of contents is a fascinating phenomenon which is now growing quickly.
  
-If GPicSync doesn't suit your needs or you want to explore other paths you'll find here a a list of other geocoding software.
+If GPicSync doesn't suit your needs or you want to explore other paths you'll find here a a list of other geocoding/geotagging software.
 
-If you know others (preferably Open Source or freeware) and what is interesting or particular about them please let me know so I can add them to the list (thanks to Konrad Bauckmeier for a first list). Note that I didn't test most of them so use them carefully and make backups. Thanks for any feedback.
+If you know others (preferably Open Source or freeware) and what is interesting or particular about them please let me know so I can add them to the list. Note that I didn't test most of them so use them carefully and make backups. 
 
 *In alphabetical order, available at least in English:*
 

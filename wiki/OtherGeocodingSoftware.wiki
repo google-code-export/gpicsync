@@ -22,6 +22,8 @@ If you know others (preferably Open Source or freeware) and what is interesting 
 
   * [http://www.geosetter.de/en/index.html GeoSetter ] (Windows, freeware, IPTC editor and Google maps)
 
+  * [http://freefoote.dview.net/linux_gpscorr.html GPSPhotoCorrelation] (Linux, OpenSource)  
+
   * [http://www.grazer.de/ Grazer ] (Windows, freeware)
 
   * [http://happycamel.sourceforge.net/ Happy Camel] (Linux command line tool, Open Source)

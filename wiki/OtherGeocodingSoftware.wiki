@@ -30,7 +30,7 @@ If you know others (preferably Open Source or freeware) and what is interesting 
 
   * [http://wiki.hsr.ch/Prog1Java/wiki.cgi?JPhotoGeoTagger JPhoto Geo Tagger] (Open Source, Java, command-line) 
 
-  * [http://gpssharing.com/help/index.php?help=ndwgeotag NDWGeoTag] (Windows, freeware) 
+  * [http://walks.ndrw.co.uk/help/index.php?help=ndwgeotag NDWGeoTag] (Windows, freeware) 
 
   * [http://www.panorado.com/en/index.htm?PanoradoFlyer.htm Panorado flyer] (Windows Freeware, don't use GPS files but manual geocoding or via GE)
 

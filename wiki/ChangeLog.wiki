@@ -1,6 +1,6 @@
 === Version 1.24 (20th January 2007) ===
 
-- Google Earth option: added an option to choose the picture's icons in the graphical interface (2 choices for now). By default the icons are now thumbnails of each picture with a slight rollover zoom. The second choice is the generic camera icon.  
+- Google Earth option: added the possibility to choose the picture's icons in the graphical interface (2 choices for now). By default the icons are now thumbnails of each picture with a slight rollover zoom. The second choice is the generic camera icon.  
 
 Big thanks to [http://blog.itsth.com/2007/12/20/googleearthtweaker-108/ Thomas Holz] for showing me this
 

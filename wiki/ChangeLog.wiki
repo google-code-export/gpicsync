@@ -4,7 +4,7 @@
 
 Big thanks to [http://blog.itsth.com/2007/12/20/googleearthtweaker-108/ Thomas Holz] for showing me this
 
-- The last version of Exiftool (7.13) from Phil Harvey is updated (see [http://www.sno.phy.queensu.ca/~phil/exiftool/history.html history])
+- The last version of Exiftool (7.13) from Phil Harvey is updated in the installer (see [http://www.sno.phy.queensu.ca/~phil/exiftool/history.html history])
 
 - Added RAF (Fujifilm RAW Format) to the [http://code.google.com/p/gpicsync/wiki/RawFormats list of RAW formats supported]
 

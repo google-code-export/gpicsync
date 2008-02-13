@@ -3,6 +3,7 @@
 From Marc Christensen e-mail:
 
 """
+||
 RPMs are currently available on the following platforms:
 
    * *Fedora_7*
@@ -30,6 +31,7 @@ install:
 http://software.opensuse.org/search?baseproject=openSUSE%3A10.3&p=1&q=gpicsync
 
 The one-click install buttons can be added to the project page.
-"""
+||
+}}}
 
 Thanks a lot to him :)

@@ -1,0 +1,35 @@
+==== GPicSync RPMs ====
+
+From Marc Christensen e-mail:
+
+"""
+RPMs are currently available on the following platforms:
+
+   * *Fedora_7*
+   * *Fedora_8*
+   * *Fedora_Extras_6*
+   * *openSUSE_10.2*
+   * *openSUSE_10.3*
+   * *openSUSE_Factory*
+   * *SLES_9*
+   * *SLE_10*
+   * *SUSE_Linux_10.1*
+   * *RHEL_5*
+   * *CentOS_5*
+
+The RPMs are in repositories which can be installed in YUM, Smart,
+zypper, etc. to accommodate automatic updates.  The full list of
+repositories is here:
+
+http://download.opensuse.org/repositories/home:/mchristensen1:/apps/
+
+A search for gpicsync on software.opensuse.org is here.  Select your
+distribution and you'll get a result for your platform with a one-click
+install:
+
+http://software.opensuse.org/search?baseproject=openSUSE%3A10.3&p=1&q=gpicsync
+
+The one-click install buttons can be added to the project page.
+"""
+
+Thanks a lot to him :)

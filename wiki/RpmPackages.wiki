@@ -1,4 +1,4 @@
-Marc Christensen have created GPicSync RPMs for many Linux distribution (thanks to him!).
+[http://blog.mecworks.com/ Marc Christensen] have created GPicSync RPMs for many Linux distribution (thanks to him!).
 
 Informations from his e-mail:
 

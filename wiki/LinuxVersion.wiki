@@ -1,8 +1,15 @@
+* GPicSync RPM packages:*
+
+Marc Christensen have created RPM packages for many Linux distributions. More informations for can be found here [RpmPackages here].
+
 If you're on Linux you can have the latest version by doing a SVN checkout in a shell:
 
 {{{svn checkout http://gpicsync.googlecode.com/svn/trunk/ gpicsync}}}
 
 Then read the README file to check for dependencies. 
+
+If you are 
+
 
 *Windows users?*
 

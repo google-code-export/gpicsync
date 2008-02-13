@@ -1,6 +1,6 @@
 * GPicSync RPM packages:*
 
-Marc Christensen have created RPM packages for many Linux distributions. More [RpmPackages  informations here].
+[http://blog.mecworks.com/ Marc Christensen] have created RPM packages for many Linux distributions. More [RpmPackages  informations here].
 
 * GPicSync from Source:*
 

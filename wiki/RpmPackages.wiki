@@ -1,8 +1,6 @@
-==== GPicSync RPMs ====
-
 Marc Christensen have created GPicSync RPMs for many Linux distribution (thanks to him!).
 
-Informations form his e-mail:
+Informations from his e-mail:
 
 """
 

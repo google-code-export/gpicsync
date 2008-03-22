@@ -1,3 +1,11 @@
+=== Version 1.26 (upcoming version) ===
+
+- Fixed a bug in the interpolation mode: in some cases some interpolated pictures wasn't geolocalized accurately (option especially useful if taking pictures while moving in a car or a plane). 
+
+Thanks very much to Xavier Kaiser from Belgium for spotting the problem and providing detailed data for testing.
+
+An alpha version build is [http://francois.schnell.free.fr/gpicsync/temp/latest-build/ available here].
+
 === Version 1.25 (28th January 2007) ===
 
 - This version is just adding a dll which were missing in the installer (which came from GPSBabel) to use nemea .txt files with GPIcSync

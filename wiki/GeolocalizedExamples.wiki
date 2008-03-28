@@ -1,5 +1,7 @@
 This page is available to share examples of geolocalized pictures with GPicSync. Please feel free to send  one or many links to share.
 
+
+  * [http://www.photoboxgallery.com/ Peter Asprey] has an astronomical number of [http://www.flickr.com/photos/dolphinpix/sets/ geolocalized pictures on Flickr] (superb dolphins, UK landscapes, etc)
   * An impressive KMZ file made by [http://groups.google.com/group/gpicsync/browse_thread/thread/33bd9efa0c45707e Peter] showing the Countrywide Blue Tour in Hungry:
       * [http://www.kektura.eu/OKT.kmz  The KMZ file] (check for updates regularly as Peter complete the tour)
       * [http://kektura.eu/ The author site kektura.eu] (dedicated to the Countrywide Blue Tour)

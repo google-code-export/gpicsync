@@ -1,11 +1,15 @@
 === Version 1.26 (upcoming version) ===
 
 - Fixed a bug in the interpolation mode: in some cases some interpolated pictures wasn't geolocalized accurately (option especially useful if taking pictures while moving in a car or a plane).
+
 - Improved/fixed GPX reading for certain files with "white spaces" in their latitude or longitude values  
+
 - Added support for negative altitude regions
 
 Thanks very much to:
+
 - Xavier Kaiser from Belgium for spotting the interpolation problem and providing detailed data for testing.
+
 - Peter Asprey for reporting and sending detailed feedback on the two other points
 
 An alpha version build is [http://francois.schnell.free.fr/gpicsync/temp/latest-build/ available here].

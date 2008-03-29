@@ -3,6 +3,7 @@
   * 1) Fixed a bug in the interpolation mode: in some cases some interpolated pictures wasn't geolocalized accurately (option especially useful if taking pictures while moving in a car or a plane).
   * 2) Improved/fixed GPX reading for certain files with "white spaces" in their latitude or longitude values  
   * 3) Added support for negative altitude regions
+  * 4) Added a GPicSync icon to the window icon
 
 Thanks very much to:
 

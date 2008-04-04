@@ -1,22 +1,22 @@
-=== Version 1.26 (upcoming version) ===
+=== Version 1.26 (april 4th 2008) ===
 
   * 1) Fixed a bug in the interpolation mode: in some cases some interpolated pictures wasn't geolocalized accurately (option especially useful if taking pictures while moving in a car or a plane).
   * 2) Improved/fixed GPX reading for certain files with "white spaces" in their latitude or longitude values  
   * 3) Added support for negative altitude regions
   * 4) Added a GPicSync icon to the window icon
 
-Thanks very much to:
+Thanks to:
 
   * Xavier Kaiser from Belgium for spotting the interpolation problem and providing detailed data for testing.
   * Peter Asprey for reporting and sending detailed feedback on points 2) and 3)
 
 An alpha version build is [http://francois.schnell.free.fr/gpicsync/temp/latest-build/ available here].
 
-=== Version 1.25 (28th January 2007) ===
+=== Version 1.25 (28th January 2008) ===
 
 - This version is just adding a dll which were missing in the installer (which came from GPSBabel) to use nemea .txt files with GPIcSync
 
-=== Version 1.24 (20th January 2007) ===
+=== Version 1.24 (20th January 2008) ===
 
 - Google Earth option: added the possibility to choose the picture's icons in the graphical interface (2 choices for now). By default the icons are now thumbnails of each picture with a slight rollover zoom. The second choice is the generic camera icon.  
 

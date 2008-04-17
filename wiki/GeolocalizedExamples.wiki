@@ -1,4 +1,4 @@
-This page is available to share examples of geolocalized pictures with GPicSync. Please feel free to send  one or many links to share.
+This page is available to share examples or experiences using GPicSync. Please feel free to send  one or many links to share.
 
   * Great [http://www.macameraclub.com/Geotagging.pdf tutorial (pdf)] from [http://www.turnspain.com/ Colin Spencer] where he describes his geotagging workflow using gpicsync and other software.
 

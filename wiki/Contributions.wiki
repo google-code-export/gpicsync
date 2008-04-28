@@ -3,7 +3,7 @@ Thanks to all people contributing feedback, bugs report, patches, suggestions...
 Code contributions: 
   
   * *Vladimir Vyskocil* for preliminary Mac OS X support and.xmp sidecar files support for Canon RAW images (.CRW and .CR2) [http://code.google.com/p/gpicsync/source/detail?r=865 r=865] 
-  * *Marc Nozell* For his patch on geoexif.py to use EXIFTool with windows and linux http://nozell.com/blog
+  * *Marc Nozell* For his patch on geoexif.py to use EXIFTool with windows and linux. [http://code.google.com/p/gpicsync/source/detail?r=213 r213] http://nozell.com/blog
 
 Translations:
 
@@ -15,7 +15,7 @@ Translations:
 External tools:
 
   * *Phil Harvey* For his great [http://www.sno.phy.queensu.ca/~phil/exiftool/ EXIFTool] library that GPicSync uses to read/write in the EXIF part of pictures.
-  * *Robert Lipe* For his great [http://www.gpsbabel.org/ GPSbabel tool]
+  * *Robert Lipe* For his great [http://www.gpsbabel.org/ GPSbabel tool] that GPicSync uses to transform NMEA files to GPX.
 
 
 

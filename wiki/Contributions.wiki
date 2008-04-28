@@ -1,35 +1,25 @@
 Thanks to all people contributing feedback, bugs report, patches, suggestions... (see also the ChangeLog and the [http://groups.google.com/group/gpicsync GPicSync Google Group])
 
-In particular:
+Code contributions: 
+  
+  * *Vladimir Vyskocil* for preliminary Mac OS X support and.xmp sidecar files support for Canon RAW images (.CRW and .CR2) [http://code.google.com/p/gpicsync/source/detail?r=865 r=865] 
+  * *Marc Nozell* For his patch on geoexif.py to use EXIFTool with windows and linux http://nozell.com/blog
+
+Translations:
+
+  * *Michael*, alias anwi and *Konrad Bauckmeier* for the german translation.
+  * *Bartman* from [http://x50v.it/ x50v.it] for the Italian translation.
+  * *Paul lu* for the two Chinese translations (http://digital.xy.hk/  digital.xy.hk)
+  * *Oriol Garrote* for the Catalan and Spanish translations ([http://www.skimountaineering.org/ skimountaineering.org]) 
+  
+External tools:
+
+  * *Phil Harvey* For his great [http://www.sno.phy.queensu.ca/~phil/exiftool/ EXIFTool] library that GPicSync uses to read/write in the EXIF part of pictures.
+  * *Robert Lipe* For his great [http://www.gpsbabel.org/ GPSbabel tool]
 
 
-*Michael*, alias anwi and *Konrad Bauckmeier* for the german translation.
 
-* Bartman * from [http://x50v.it/ x50v.it] for the Italian translation.
 
-*Paul lu* for the two Chinese translations (http://digital.xy.hk/  digital.xy.hk)
-
-*Oriol Garrote* for the Catalan and Spanish translations ([http://www.skimountaineering.org/ skimountaineering.org])
-
-*Phil Harvey*
-
-For his great [http://www.sno.phy.queensu.ca/~phil/exiftool/ EXIFTool] library that use to read/write in the EXIF part of pictures.
-
-* Robert Lipe*
-
-For his great [http://www.gpsbabel.org/ GPSbabel tool]
-
-*Marc Nozell*
-
-For his patch on geoexif.py to use EXIFTool with windows and linux
-
-http://nozell.com/blog
-
-*Jacques Taberlet*
-
-For testing the very first version and sending detailed reports and making amazing pictures of Africa:
-
-http://www.flickr.com/photos/7314364@N04/
 
 
   

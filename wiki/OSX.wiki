@@ -4,16 +4,16 @@
 1) From Source
 
  * Install the Python universal installer from Python.org:
-http://www.python.org/download/
+   * http://www.python.org/download/
 
  * Install "PIL" and "WxPython" library from Python Mac:
-http://pythonmac.org/packages/
+   * http://pythonmac.org/packages/
 
  * Install ExifTool OS X package:
-http://www.sno.phy.queensu.ca/~phil/exiftool/
+   * http://www.sno.phy.queensu.ca/~phil/exiftool/
 
  * Open a shell console and checkout GPicSync code in a folder:
- svn checkout http://gpicsync.googlecode.com/svn/trunk/
+   * svn checkout http://gpicsync.googlecode.com/svn/trunk/
 
  * In that folder type "python gpicsync-GUI.py" to launch the application
 

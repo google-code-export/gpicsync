@@ -12,6 +12,9 @@
  * Install ExifTool OS X package:
    * http://www.sno.phy.queensu.ca/~phil/exiftool/
 
+ * Install Google Earth in the application's folder:
+   * http://earth.google.com/download-earth.html
+
  * Open a shell console and checkout GPicSync code in a folder:
    * svn checkout http://gpicsync.googlecode.com/svn/trunk/
 

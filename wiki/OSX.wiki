@@ -1,7 +1,7 @@
 #labels OSX
- === OS X preliminary support ===
+ == OS X preliminary support ==
 
-1) From Source
+=== 1) From Source ===
 
  * Install the Python universal installer from Python.org:
    * http://www.python.org/download/
@@ -18,7 +18,7 @@
  * In that folder type "python gpicsync-GUI.py" to launch the application
 
 
-2) Binary package (to come)
+=== 2) Binary package (to come) ===
 
 
 Thanks to Vladimir Vyskocil for his preliminary Mac OS X port.

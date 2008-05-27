@@ -9,10 +9,3 @@ You can have the latest development version by doing a SVN checkout in a shell:
 {{{svn checkout http://gpicsync.googlecode.com/svn/trunk/ gpicsync}}}
 
 Then read the README file to check for dependencies. 
-
-
-*Windows users?*
-
-Windows exe are available here:
-
-http://sourceforge.net/project/showfiles.php?group_id=191804

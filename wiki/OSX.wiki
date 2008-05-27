@@ -1,5 +1,5 @@
 #labels OSX
- == OS X preliminary support ==
+_OS X preliminary support (source and binary)_
 
 === 1) From Source ===
 
@@ -21,7 +21,17 @@
  * In that folder type "python gpicsync-GUI.py" to launch the application
 
 
-=== 2) Binary package (to come) ===
+=== 2) Binary package (experimental) ===
 
+  * Install dmg (20 Mo zip file):
+    * http://francois.schnell.free.fr/gpicsync/temp/OSX-test/gpicsync-GUI.app.zip
 
-Thanks to Vladimir Vyskocil for his preliminary Mac OS X port.
+  * If you don't have it already install Exiftool and Google Earth:
+    * http://www.sno.phy.queensu.ca/~phil/exiftool/
+    * http://earth.google.com/download-earth.html
+
+Thanks to report any problem you may encounter.  
+
+--
+
+Thanks a lot to Vladimir Vyskocil for his preliminary Mac OS X port.

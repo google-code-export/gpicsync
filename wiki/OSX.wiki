@@ -34,4 +34,4 @@ Thanks to report any problem you may encounter.
 
 --
 
-Thanks a lot to Vladimir Vyskocil for his preliminary Mac OS X port.
+Thanks a lot to Vladimir Vyskocil for his preliminary Mac OS X adaptation.

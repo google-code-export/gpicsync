@@ -1,9 +1,12 @@
 #labels Featured
-If you encounter a problem with GPIcSync or have a feature request thanks to let me know directly at this email: http://francois.schnell.free.fr/fschnellgmail.png (include "gpicsync" in the subject)
+---
 
-The old issues page can be found [http://code.google.com/p/gpicsync/issues/list here] 
+If you encounter a problem with GPIcSync or have a feature request thanks to let me know directly at this email (include "gpicsync" in the subject): http://francois.schnell.free.fr/fschnellgmail.png 
 
----- 
+The old issues page can be found here [http://code.google.com/p/gpicsync/issues/list here] 
+
+---
+
 
 
   * 1)If you have an error MSVCP71.dll and/or MSVCR71.dll was not found (or another dll file).

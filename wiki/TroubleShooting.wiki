@@ -1,4 +1,11 @@
 #labels Featured
+If you encounter a problem with GPIcSync or have a feature request thanks to let me know directly at this email: http://francois.schnell.free.fr/fschnellgmail.png (include "gpicsync" in the subject)
+
+The old issues page can be found [http://code.google.com/p/gpicsync/issues/list here] 
+
+---- 
+
+
   * 1)If you have an error MSVCP71.dll and/or MSVCR71.dll was not found (or another dll file).
   * 2)If GPicSync says geocoding went fine (and Google Earth file is OK) but the position wasn't written in the picture metadata
   * 3)If no indications of localization appears check first your .gpx file 

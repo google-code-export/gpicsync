@@ -3,7 +3,7 @@
 ( [Debuter] ) ( ScreenShots ) ( ChangeLog ) ( [http://code.google.com/p/gpicsync English version] )
 
 
-*29 Octobre 2007*: Version 1.23 disponible (voir ChangeLog)
+*4 avril 2008*: Version 1.26 disponible (voir ChangeLog)
 
 Pour une version la plus à jour du site consultez [http://code.google.com/p/gpicsync/ la version anglaise].
 

@@ -1,3 +1,10 @@
+=== Version 1.27 (upcoming) ===
+
+  * Added preliminary support for Geonames in IPTC
+  * Will now write in EXIF/IPTC even if a minor warning is encountered by ExifTool
+
+[http://francois.schnell.free.fr/gpicsync/temp/latest-build/setup.exe Test 1.7 version (exe)]
+
 === Version 1.26 (april 4th 2008) ===
 
   * 1) Fixed a bug in the interpolation mode: in some cases some interpolated pictures wasn't geolocalized accurately (option especially useful if taking pictures while moving in a car or a plane).

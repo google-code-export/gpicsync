@@ -2,8 +2,9 @@
 
   * Added preliminary support for Geonames in IPTC
   * Will now write in EXIF/IPTC even if a minor warning is encountered by ExifTool
+  * kml output files are now unicode
 
-[http://francois.schnell.free.fr/gpicsync/temp/latest-build/setup.exe Test 1.7 version (exe)]
+[http://francois.schnell.free.fr/gpicsync/temp/latest-build/setup.exe Test 1.7 version (exe)] Thanks to let me know if you encounter any problem with this test version. 
 
 === Version 1.26 (april 4th 2008) ===
 

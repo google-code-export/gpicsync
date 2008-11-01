@@ -11,7 +11,7 @@ _OS X preliminary support (source and binary)_
     * http://www.sno.phy.queensu.ca/~phil/exiftool/
     * http://earth.google.com/download-earth.html
 
-=== 2) From Source ===
+=== 2) or from Source ===
 
  * Install the Python universal installer from Python.org:
    * http://www.python.org/download/

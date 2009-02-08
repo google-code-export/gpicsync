@@ -5,8 +5,6 @@
   * kml output files are now unicode
   * support for waypoints in GPX file (treated like trackpoints)
 
-[http://francois.schnell.free.fr/gpicsync/temp/latest-build/setup.exe Test 1.7 version (exe)] Thanks to let me know if you encounter any problem with this test version. 
-
 === Version 1.26 (april 4th 2008) ===
 
   * 1) Fixed a bug in the interpolation mode: in some cases some interpolated pictures wasn't geolocalized accurately (option especially useful if taking pictures while moving in a car or a plane).

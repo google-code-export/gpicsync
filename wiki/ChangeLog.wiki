@@ -1,4 +1,4 @@
-=== Version 1.27 (febuary 8th) ===
+=== Version 1.27 (febuary 8th 2009) ===
 
   * Added preliminary support for Geonames in IPTC
   * Will now write in EXIF/IPTC even if a minor warning is encountered by ExifTool

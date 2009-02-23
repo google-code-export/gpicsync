@@ -11,6 +11,7 @@ just add the following two lines to /etc/apt/sources.list(alternatively
 you can use GUI tools like synaptic):
 
 deb http://ppa.launchpad.net/tdomhan/ppa/ubuntu jaunty main
+
 deb-src http://ppa.launchpad.net/tdomhan/ppa/ubuntu jaunty main
 
 afterward run "sudo  apt-get update && sudo apt-get install gpicsync"

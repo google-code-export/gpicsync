@@ -15,6 +15,7 @@ deb http://ppa.launchpad.net/tdomhan/ppa/ubuntu jaunty main
 deb-src http://ppa.launchpad.net/tdomhan/ppa/ubuntu jaunty main
 
 afterward run "sudo  apt-get update && sudo apt-get install gpicsync"
+
 you might get warnings because the packages can't be authenticated
 in order to do so you have to import the OpenPGP key the repository is
 signed with, which can be found here:

@@ -21,7 +21,8 @@ Thanks to Tobias Domhan:
  signed with, which can be found here:
 
  https://launchpad.net/~tdomhan/+archive/ppa
- a video how to import the key can be found here:
+ 
+a video how to import the key can be found here:
 
  http://www.youtube.com/watch?v=UUZOQsNo_ws
  after that rerun the above stated command

@@ -2,6 +2,11 @@
 
 [http://blog.mecworks.com/ Marc Christensen] have created RPM packages for many Linux distributions. More [RpmPackages  informations here].
 
+* GPicSync for Ubuntu:*
+
+Thanks to Tobias Domhan (see comments below):
+" ok, did the packaging, it's not yet in the official repository, (needs to be be reviewed first) though it can be installed via my PPA: just add this to /etc/apt/sources.list: deb http://ppa.launchpad.net/tdomhan/ppa/ubuntu jaunty main deb-src http://ppa.launchpad.net/tdomhan/ppa/ubuntu jaunty main "
+
 * GPicSync from Source:*
 
 You can have the latest development version by doing a SVN checkout in a shell:

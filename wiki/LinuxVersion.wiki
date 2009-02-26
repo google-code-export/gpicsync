@@ -4,7 +4,7 @@
 
 * GPicSync for Ubuntu and Debian based Linux distributions:*
 
-Thanks to Tobias Domhan:
+Thanks to [http://devnull.tdomhan.de/ Tobias Domhan]:
 
  "
  just add the following two lines to /etc/apt/sources.list(alternatively

@@ -1,4 +1,4 @@
-=== Version 1.28 (febuary 13th 2009) ===
+=== Version 1.28 (April 13th 2009) ===
 
   * Fixed issue with Google Earth 5 where pictures appeared as blank in the new version of Google Earth
   * Updated third party software Exiftool to version 7.74

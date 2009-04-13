@@ -1,3 +1,9 @@
+=== Version 1.28 (febuary 13th 2009) ===
+
+  * Fixed issue with Google Earth 5 where pictures appeared as blank in the new version of Google Earth
+  * Updated third party software Exiftool to version 7.74
+  * Included contributions from Tobias Domhan: iso naming of languages folders, fix to KMZ thumbnails, universal access to Google Earth on Linux
+
 === Version 1.27 (febuary 8th 2009) ===
 
   * Added preliminary support for Geonames in IPTC

@@ -2,7 +2,7 @@ Thanks to all people contributing feedback, bugs report, patches, suggestions...
 
 Code contributions: 
   
-  * *[http://devnull.tdomhan.de/ Tobias Domhan]* for Ubuntu package, fix to KMZ thumbnails, universal access to Google Earth on Linux and manual GPX paths. 
+  * *[http://devnull.tdomhan.de/ Tobias Domhan]* for Ubuntu package, fix to KMZ thumbnails, universal access to Google Earth on Linux. 
   * *Vladimir Vyskocil* for preliminary Mac OS X support and.xmp sidecar files support for Canon RAW images (.CRW and .CR2) [http://code.google.com/p/gpicsync/source/detail?r=865 r=865] 
   * *Marc Nozell* For his patch on geoexif.py to use EXIFTool with windows and linux. [http://code.google.com/p/gpicsync/source/detail?r=213 r213] http://nozell.com/blog
 

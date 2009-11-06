@@ -28,7 +28,7 @@ GPicSync insère automatiquement les coordonnées latitude/longitude/altitude da
 *Prêt à géocoder vos photos?* 
 
   * [Debuter] avec GPicSync
-  * Une formation réalisée par Nicolas Moyroud de [http://www.teledetection.fr/ la Maison de la télédétection] avec photos et trace GPS: [http://www.teledetection.fr/index2.php?option=com_content&task=view&id=859&pop=1&page=0&Itemid=234 "Formation à la géo-localisation d'images avec GPicSync et Google Earth"] 
+  * Une formation réalisée par Nicolas Moyroud avec photos et trace GPS: [http://tetis.teledetection.fr/index.php?option=com_docman&task=doc_details&gid=327  "Initiation à la géo-localisation d'images avec GPicSync et Google Earth"] 
 
 GPicSync signifie G:GPS Pic:Pictures Sync:Synchronization et est un logiciel libre et Open Source.
 

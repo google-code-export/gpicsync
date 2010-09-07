@@ -1,7 +1,7 @@
 #labels OSX
 _OS X preliminary support (source and binary)_
 
-Warning: currently doesn't work on OS X 10.6
+== Warning: currently doesn't work on OS X 10.6 ==
 
 === 1) Binary package (experimental) ===
 

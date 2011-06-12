@@ -1,4 +1,4 @@
-=== Version 1.29 (June ... 2011) ===
+=== Version 1.29 (upcoming version) ===
   * added drop down timezone selection menu (thanks to Maciek Dems patch and the pytz lib)
   * upgraded Exiftool to version 8.57
 

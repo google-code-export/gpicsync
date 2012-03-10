@@ -51,6 +51,13 @@ except ImportError:
     timezones = []
 else:
     timezones = pytz.common_timezones
+if 0: # tests
+    import pytz
+    timezones = pytz.common_timezones
+    print timezones
+    fzones=open("zones.txt","w")
+    fzones.write(str(timezones))
+    fzones.close()
 
 class GUI(wx.Frame):
     """Main Frame of GPicSync"""
@@ -299,6 +306,7 @@ class GUI(wx.Frame):
         self.utcEntry=wx.TextCtrl(bkg,size=(40,-1))
         self.utcEntry.SetValue(self.utcOffset)
         if timezones:
+            #if 1:
             tzLabel = wx.StaticText(bkg, -1,_("Select time zone:"))
             self.tzButton = wx.Button(bkg, -1, _("Manual UTC offset"), size=(150,-1), style=wx.BU_LEFT)
             if self.timezone:
@@ -557,11 +565,11 @@ class GUI(wx.Frame):
 
     def aboutApp(self,evt):
         """An about message dialog"""
-        text="GPicSync  1.29 - 2011 \n\n"\
+        text="GPicSync  1.29 - 2012 - \n\n"\
         +"GPicSync is Free Software (GPL v2)\n\n"\
         +_("More informations and help:")+"\n\n"+\
         "http://code.google.com/p/gpicsync/"+"\n\n"\
-        +"2011 - francois.schnell@gmail.com"
+        +"2012 - francois.schnell@gmail.com"
         dialog=wx.MessageDialog(self,message=text,
         style=wx.OK|wx.CANCEL|wx.ICON_INFORMATION)
         dialog.ShowModal()
@@ -845,6 +853,7 @@ class GUI(wx.Frame):
                 or fnmatch.fnmatch ( fileName, '*.pef' )\
                 or fnmatch.fnmatch ( fileName, '*.RAW' )\
                 or fnmatch.fnmatch ( fileName, '*.raw' )\
+                or fnmatch.fnmatch ( fileName, '*.rw2' )\
                 or fnmatch.fnmatch ( fileName, '*.ORF' )\
                 or fnmatch.fnmatch ( fileName, '*.orf' )\
                 or fnmatch.fnmatch ( fileName, '*.DNG' )\

@@ -29,6 +29,8 @@ For more options type gpicsync.py --help
 """
 
 import gettext,time,datetime
+#import pytz
+
 try: import pytz
 except ImportError: pass
 

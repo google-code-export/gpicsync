@@ -1,6 +1,8 @@
 === Version 1.29 (upcoming version) ===
   * added drop down timezone selection menu (thanks to Maciek Dems patch and the pytz lib)
   * upgraded Exiftool to version 8.81
+  * added support for raw rw2 files
+  * build created now on Win Seven 64b Python 2.6 32b (many libs changes), tests todo on XP 
 
 === Version 1.28 (April 13th 2009) ===
 

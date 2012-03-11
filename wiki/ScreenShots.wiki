@@ -1,7 +1,7 @@
 #labels Featured
 *Version 1.29
 
-[http://farm8.staticflickr.com/7039/6972748535_82b222a2d2_o.jpg http://farm8.staticflickr.com/7039/6972748535_6d59aaeb1a_z.jpg]
+[http://farm8.staticflickr.com/7039/6972748535_82b222a2d2_o.jpg http://farm8.staticflickr.com/7039/6972748535_6d59aaeb1a.jpg]
 
 *Version 1.07 / 1.08
 

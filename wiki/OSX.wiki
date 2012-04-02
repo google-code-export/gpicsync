@@ -6,7 +6,6 @@ _OS X preliminary support (source and binary)_
 === 1) Binary package (experimental) ===
 
   * Install dmg (20 Mo zip file):
-    * http://www.fxfoo.com/tests/gpicsync/gpicsync-GUI.app.zip
     * or http://francois.schnell.free.fr/gpicsync/temp/OSX-test/gpicsync-GUI.app.zip
 
   * If you don't have it already install Exiftool and Google Earth:

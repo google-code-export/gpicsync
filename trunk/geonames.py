@@ -18,6 +18,8 @@ from geoexif import *
 from urllib2 import urlopen
 import xml.etree.ElementTree as ET, re, decimal
 from math import  *
+import unicodedata #test
+import codecs#test
 
 class Geonames(object):
     
@@ -41,8 +43,9 @@ class Geonames(object):
         
         url= "http://ws.geonames.org/findNearbyPlaceName?lat="+str(self.lat)+"&lng="+str(self.long)+"&style=full"
         print "url= ",url
-        self.page = urlopen(url).read()
-        print self.page
+        #self.page = urlopen(url).read()
+        self.page = codecs.getreader("utf-8")(urlopen(url)).read()
+        print self.page.encode("utf8")
         
     def searchTag(self,tag,page):
         """
@@ -50,12 +53,14 @@ class Geonames(object):
         """
         content=re.search('(<'+tag+'>.*</'+tag+'>)',page).group()
         content=content.split("<"+tag+">")[1].split("</"+tag+">")[0]
-        return content
+        #return content
+        return unicode(content)
         
     def findNearbyPlace(self):
         """ find nearby place at geonames.org"""
         self.nearbyPlace=self.searchTag("name",self.page)
-        print self.nearbyPlace
+        #print self.nearbyPlace
+        #print self.nearbyPlace + " => " + unicodedata.normalize('NFKD', self.nearbyPlace).encode('ascii','ignore')
         return self.nearbyPlace
     
     def findNearbyPlaceLatLon(self):
@@ -130,8 +135,9 @@ class Geonames(object):
     
 if __name__=="__main__":
     #nearby=Geonames(picName="test.jpg")
-    nearby=Geonames(lat="48.138236",long="11.559516")
-    #nearby=Geonames(lat="48.338236",long="11.969516")
+    nearby=Geonames(lat="32.684393300",long="34.962920000") #israel
+    #nearby=Geonames(lat="11.2183076664",long="-85.6129039998") #f patch
+    #nearby=Geonames(lat="48.338236",long="11.969516") #alsace
     nearby.findNearbyPlace()
     nearby.findDistance()
     nearby.findCountry()

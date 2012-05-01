@@ -44,6 +44,10 @@ from geonames import *
 import locale
 codeset = locale.getdefaultlocale()[1]
 
+if 0: # checking wx version installed (for unicde dev)
+    import wxversion
+    print "wxversion", wxversion.getInstalled()
+
 try:
     import pytz
 except ImportError:
@@ -58,7 +62,7 @@ if 0: # tests
     fzones=open("zones.txt","w")
     fzones.write(str(timezones))
     fzones.close()
-
+    
 class GUI(wx.Frame):
     """Main Frame of GPicSync"""
     def __init__(self,parent, title):
@@ -968,12 +972,15 @@ class GUI(wx.Frame):
                             wx.CallAfter(self.consolePrint,gnInfos+_(", writing geonames)")+"\n")
 
                             geonameKeywords="" # create initial geonames string command
-
+                            exiftagOptions = []
+                            exiftagOptions.append(self.exifcmd)
+                            
                             print userdefine
                             if self.gnOptChoice.GetSelection() in [2,3]:
                                 for geoname in [gnPlace,gnRegion,gnCountry,gnSummary,geotag,geotagLat,geotagLon,userdefine]:
                                     if geoname !="":
-                                        geonameKeywords+=' -keywords="%s" ' % geoname
+                                        #geonameKeywords+=' -keywords="%s" ' % geoname
+                                        exiftagOptions.append(u'-keywords="%s" ' % geoname)
 
                             if self.geoname_caption==True:
                                 gnIPTCsummary= self.geoname_IPTCsummary
@@ -981,25 +988,36 @@ class GUI(wx.Frame):
                                 ("{DISTANCETO}",gnDistance),("{NEARBYPLACE}",gnPlace),
                                 ("{REGION}",gnRegion),("{COUNTRY}",gnCountry),("{ORIENTATION}",gnOrientation)]:
                                     gnIPTCsummary=gnIPTCsummary.replace(var[0],var[1])
-                                gnIPTCsummary=' -iptc:caption-abstract="'+gnIPTCsummary+'"'
+                                gnIPTCsummary='-iptc:caption-abstract="'+gnIPTCsummary+'"' #took space out before -iptc
                                 print "=== gnIPTCsummary=== ",gnIPTCsummary, "======"
 
                             if self.gnOptChoice.GetSelection() in [0,1]:
-                                if gnPlace !="": geonameKeywords+=' -iptc:city="'+gnPlace+'"'
-                                if gnRegion !="": geonameKeywords+=' -iptc:province-state="'+gnRegion+'"'
-                                if gnCountry !="": geonameKeywords+=' -iptc:Country-PrimaryLocationName="'+gnCountry+'"'
+                                #if gnPlace !="": geonameKeywords+=' -iptc:city="'+gnPlace+'"'
+                                #if gnRegion !="": geonameKeywords+=' -iptc:province-state="'+gnRegion+'"'
+                                #if gnCountry !="": geonameKeywords+=' -iptc:Country-PrimaryLocationName="'+gnCountry+'"'
+                                if gnPlace !="": exiftagOptions.append(u'-iptc:city="'+gnPlace+'"')
+                                if gnRegion !="": exiftagOptions.append(u'-iptc:province-state="'+gnRegion+'"')
+                                if gnCountry !="": exiftagOptions.append(u'-iptc:Country-PrimaryLocationName="'+gnCountry+'"')
                                 print "*************",gnCountryCode,type(gnCountryCode)
-                                if gnCountryCode !="": geonameKeywords+=' -iptc:Country-PrimaryLocationCode="'+gnCountryCode+'"'
+                                #if gnCountryCode !="": geonameKeywords+=' -iptc:Country-PrimaryLocationCode="'+gnCountryCode+'"'
+                                if gnCountryCode !="": exiftagOptions.append(u'-iptc:Country-PrimaryLocationCode="'+gnCountryCode+'"')
                                 if 1:
-                                    geonameKeywords+=' -iptc:Sub-location="'+gnDistance+" Km "+gnOrientation+" "+gnPlace+'"'
+                                    #geonameKeywords+=' -iptc:Sub-location="'+gnDistance+" Km "+gnOrientation+" "+gnPlace+'"'
+                                    exiftagOptions.append(u'-iptc:Sub-location="'+gnDistance+" Km "+gnOrientation+" "+gnPlace+'"')
                                 #if gnPlace !="": geonameKeywords+=' -iptc:city="'+gnPlace+'"'
 
                             if self.gnOptChoice.GetSelection() in [0,2]:
-                                geonameKeywords+=gnIPTCsummary
+                                #geonameKeywords+=gnIPTCsummary
+                                exiftagOptions.append(gnIPTCsummary)
 
                             print "\n=== geonameKeywords ===\n", geonameKeywords,"\n======"
                             # WRITE GEONAMES
-                            os.popen('%s %s  -overwrite_original "-DateTimeOriginal>FileModifyDate" "%s" '%(self.exifcmd,geonameKeywords,self.picDir+'/'+fileName))
+                            #os.popen('%s %s  -overwrite_original "-DateTimeOriginal>FileModifyDate" "%s" '%(self.exifcmd,geonameKeywords,self.picDir+'/'+fileName))
+                            exiftagOptions.append(u'-overwrite_original')
+                            exiftagOptions.append(u'-DateTimeOriginal>FileModifyDate')
+                            exiftagOptions.append(self.picDir+'/'+fileName)
+                            print(exiftagOptions)
+                            subprocess.call(exiftagOptions)
 
                         #except:
                         if 0:

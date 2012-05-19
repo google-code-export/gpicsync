@@ -849,6 +849,8 @@ class GUI(wx.Frame):
                 or fnmatch.fnmatch ( fileName, '*.jpg' )\
                 or fnmatch.fnmatch ( fileName, '*.CR2' )\
                 or fnmatch.fnmatch ( fileName, '*.cr2' )\
+                or fnmatch.fnmatch ( fileName, '*.arw' )\
+                or fnmatch.fnmatch ( fileName, '*.ARW' )\
                 or fnmatch.fnmatch ( fileName, '*.CRW' )\
                 or fnmatch.fnmatch ( fileName, '*.crw' )\
                 or fnmatch.fnmatch ( fileName, '*.NEF' )\

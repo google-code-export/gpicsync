@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
 ###############################################################################
 #
@@ -54,7 +56,7 @@ class Geonames(object):
         content=re.search('(<'+tag+'>.*</'+tag+'>)',page).group()
         content=content.split("<"+tag+">")[1].split("</"+tag+">")[0]
         #return content
-        return unicode(content, "utf-8")
+        return unicode(content)
         
     def findNearbyPlace(self):
         """ find nearby place at geonames.org"""
@@ -135,8 +137,8 @@ class Geonames(object):
     
 if __name__=="__main__":
     #nearby=Geonames(picName="test.jpg")
-    nearby=Geonames(lat="32.684393300",long="34.962920000") #israel
-    #nearby=Geonames(lat="11.2183076664",long="-85.6129039998") #f patch
+    nearby=Geonames(lat="32.684393300",long="34.962920000") 
+    #nearby=Geonames(lat="11.2183076664",long="-85.6129039998") 
     #nearby=Geonames(lat="48.338236",long="11.969516") #alsace
     nearby.findNearbyPlace()
     nearby.findDistance()

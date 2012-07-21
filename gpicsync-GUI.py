@@ -1032,11 +1032,18 @@ class GUI(wx.Frame):
 
                             print "\n=== geonameKeywords ===\n", geonameKeywords,"\n======"
                             # WRITE GEONAMES
+                            ## I'm stuck at writing the Geonames in utf-8 on Windows 7
+                            ## It works when the script gpicsync-GUI.py is excecuted from the Eclipse but fail when gpicsync-GUI.py is excecuted from the DOS cmd.
+                            ## It seems related to this issue http://bugs.python.org/issue1759845 which apparently is solved but only for Python 3 ??
+                            ## Help would be appreciated !!!  :/
                             if 1:
-                                # try ?  unicode(geonameKeywords).encode(locale.getpreferredencoding())  ??
-                                # unicode(s.decode("utf-8")).encode("utf-8") 
+                                # tried: unicode(geonameKeywords).encode(locale.getpreferredencoding())  ??
+                                # tried: unicode(s.decode("utf-8")).encode("utf-8") 
+                                # tried: -tagsfromfile @ -iptc:all -codedcharacterset=utf8
+                                # tried : geonameKeywords.decode("utf-8")).encode("iso-8859-1")
                                 print geonameKeywords
-                                os.popen('%s %s  -overwrite_original "-DateTimeOriginal>FileModifyDate" "%s" '%(self.exifcmd,repr(geonameKeywords),self.picDir+'/'+fileName))
+                                os.popen('%s -tagsfromfile @ -iptc:all -codedcharacterset=utf8  %s  -overwrite_original "-DateTimeOriginal>FileModifyDate"  "%s"  '%(self.exifcmd,unicode(geonameKeywords.decode("utf-8")).encode("iso-8859-1"),self.picDir+'/'+fileName))
+                                #os.popen('%s -tagsfromfile @ -iptc:all -codedcharacterset=utf8 %s  -overwrite_original "-DateTimeOriginal>FileModifyDate"  "%s"  '%(self.exifcmd,unicode(geonameKeywords).encode("utf-8"),self.picDir+'/'+fileName))
                             
                             if 0:
                                 exiftagOptions.append(u'-overwrite_original')

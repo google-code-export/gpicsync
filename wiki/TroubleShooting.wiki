@@ -5,7 +5,8 @@ If you encounter a problem with GPIcSync or have a feature request thanks to let
 
 The old issues page can be found here [http://code.google.com/p/gpicsync/issues/list here] 
 
-Augut 5th 2012: Geocoding stops if geonames option is used with non Ascii characters in version 1.29. More informations about this issue here: http://code.google.com/p/gpicsync/issues/detail?id=117#c2 
+*Augut 5th 2012:* Geocoding stops if geonames option is used with non Ascii characters in version 1.29. More informations about this issue here: http://code.google.com/p/gpicsync/issues/detail?id=117#c2 
+
 ---
   
   * 1)If you have an error MSVCP71.dll and/or MSVCR71.dll was not found (or another dll file).

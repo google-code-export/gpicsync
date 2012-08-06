@@ -26,6 +26,8 @@ http://code.google.com/p/gpicsync/
 """
 
 # trying wxpython  2.9.3.1 for unicode geonames problems
+from unidecode import unidecode # unicode to ascii (see issue 117 regarding Python 2.x and command line to exiftool containing unicode)
+
 if 0:
     import wxversion
     wxversion.select("2.9")
@@ -584,7 +586,7 @@ class GUI(wx.Frame):
 
     def aboutApp(self,evt):
         """An about message dialog"""
-        text="GPicSync  1.30alpha - 2012 - \n\n"\
+        text="GPicSync  1.30 - 2012 - \n\n"\
         +"GPicSync is Free Software (GPL v2)\n\n"\
         +_("More informations and help:")+"\n\n"+\
         "http://code.google.com/p/gpicsync/"+"\n\n"\
@@ -982,7 +984,7 @@ class GUI(wx.Frame):
                             else:
                                 gnSummary=""
                             gnInfos="Geonames: "+gnDistance+" Km "+gnOrientation +" "+ gnPlace+" "+gnRegion+" "+gnCountry+" "+gnCountryCode
-                            print "gnInfos:",gnInfos
+                            #print "gnInfos:",gnInfos
                             geotag="geotagged"
                             tempLat=str(decimal.Decimal(result[1]).quantize(decimal.Decimal('0.000001')))
                             tempLong=str(decimal.Decimal(result[2]).quantize(decimal.Decimal('0.000001')))
@@ -1018,7 +1020,7 @@ class GUI(wx.Frame):
                                 if gnPlace !="": exiftagOptions.append(('-iptc:city="'+unicode(gnPlace)+'"'))
                                 if gnRegion !="": exiftagOptions.append(('-iptc:province-state="'+unicode(gnRegion)+'"'))
                                 if gnCountry !="": exiftagOptions.append(('-iptc:Country-PrimaryLocationName="'+unicode(gnCountry)+'"'))
-                                print "*************",gnCountryCode,type(gnCountryCode)
+                                #print "*************",gnCountryCode,type(gnCountryCode)
                                 if gnCountryCode !="": geonameKeywords+=' -iptc:Country-PrimaryLocationCode="'+unicode(gnCountryCode)+'"'
                                 if gnCountryCode !="": exiftagOptions.append(('-iptc:Country-PrimaryLocationCode="'+unicode(gnCountryCode)+'"'))
                                 if 1:
@@ -1030,7 +1032,7 @@ class GUI(wx.Frame):
                                 geonameKeywords+=unicode(gnIPTCsummary)
                                 exiftagOptions.append(gnIPTCsummary)
 
-                            print "\n=== geonameKeywords ===\n", geonameKeywords,"\n======"
+                            #print "\n=== geonameKeywords ===\n", geonameKeywords,"\n======"
                             # WRITE GEONAMES
                             ## I'm stuck at writing the Geonames in utf-8 on Windows 7
                             ## It works when the script gpicsync-GUI.py is excecuted from the Eclipse but fail when gpicsync-GUI.py is excecuted from the DOS cmd.
@@ -1041,8 +1043,9 @@ class GUI(wx.Frame):
                                 # tried: unicode(s.decode("utf-8")).encode("utf-8") 
                                 # tried: -tagsfromfile @ -iptc:all -codedcharacterset=utf8
                                 # tried : geonameKeywords.decode("utf-8")).encode("iso-8859-1")
-                                print geonameKeywords
-                                os.popen('%s -tagsfromfile @ -iptc:all -codedcharacterset=utf8  %s  -overwrite_original "-DateTimeOriginal>FileModifyDate"  "%s"  '%(self.exifcmd,unicode(geonameKeywords.decode("utf-8")).encode("iso-8859-1"),self.picDir+'/'+fileName))
+                                # trying lib unidecode see unicode to ascii (see issue 117 regarding Python 2.x and command line to exiftool containing unicode)
+                                #print geonameKeywords
+                                os.popen('%s -tagsfromfile @ -iptc:all -codedcharacterset=utf8  %s  -overwrite_original "-DateTimeOriginal>FileModifyDate"  "%s"  '%(self.exifcmd,unidecode(geonameKeywords),self.picDir+'/'+fileName))
                                 #os.popen('%s -tagsfromfile @ -iptc:all -codedcharacterset=utf8 %s  -overwrite_original "-DateTimeOriginal>FileModifyDate"  "%s"  '%(self.exifcmd,unicode(geonameKeywords).encode("utf-8"),self.picDir+'/'+fileName))
                             
                             if 0:

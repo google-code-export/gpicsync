@@ -1,3 +1,9 @@
+=== Version 1.30 (Upcoming soon in August) ===
+  * Windows issue 117: if you selected Geonames option, geocoding could stop for non-ascii characters. Geonames are now unicode within GPicSync but are now translated to nearest ascii translation when Exiftool is called (see issue 117 to see for raison why; waiting for two Python2 libs to update to Python3 for a full unicode command) 
+  * Windows issue 116: moved the configuration file to %ALLUSERSPROFILE% location (typically ProgrammData folder on Win7) so non-admin multi-users  install can find the configuration (a pop-up appears now if it's not found at launch)  
+  * Updated Exiftool to version 8.99
+  * Linux (from command-line/Source): Vsevolod Shorin contributed support for QR-code for time correction (you will need to install Zbar). Type "python gpicsync.py --help" for usage information.
+
 === Version 1.29 (March 10th 2012) ===
   * added drop down timezone selection menu (thanks to Maciek Dems patch and the pytz lib)
   * upgraded Exiftool to version 8.81

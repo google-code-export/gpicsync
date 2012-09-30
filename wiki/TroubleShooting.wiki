@@ -7,7 +7,7 @@ The "old" issues page can be found here [http://code.google.com/p/gpicsync/issue
 
 *0) GPicSync stops?* 
 
-Verify that your paths/names to the  pictures and gpx files are ASCII (English characters) as Unicode support is not complete. Alternatively you may try [http://sourceforge.net/projects/gpicsync/files/GPicSync/GPicSync1-28/ version 1.28]. More technical infos [http://code.google.com/p/gpicsync/issues/detail?id=117#c2  here] 
+Verify that your paths/names to the  pictures and gpx files are ASCII (English characters) as Unicode support is not complete. Alternatively you may try [http://sourceforge.net/projects/gpicsync/files/GPicSync/GPicSync1-28/ version 1.28]. More technical infos [http://code.google.com/p/gpicsync/issues/detail?id=117#c5  here (comment 5)] 
 
 *1)If you have an error MSVCP71.dll and/or MSVCR71.dll was not found (or another dll file).  *
 

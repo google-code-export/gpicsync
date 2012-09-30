@@ -1,18 +1,13 @@
 #labels Featured
----
+If you encounter a problem with GPIcSync or have a feature request thanks to let me know at this email (include "gpicsync" in the subject): http://francois.schnell.free.fr/fschnellgmail.png
+(If possible join a GPX and one or two pictures so that I can reproduce an eventual problem.) 
 
-If you encounter a problem with GPIcSync or have a feature request thanks to let me know directly at this email (include "gpicsync" in the subject): http://francois.schnell.free.fr/fschnellgmail.png 
+The "old" issues page can be found here [http://code.google.com/p/gpicsync/issues/list here] 
 
-The old issues page can be found here [http://code.google.com/p/gpicsync/issues/list here] 
 
-*Augut 5th 2012:* Geocoding stops if geonames option is used with non Ascii characters in version 1.29. Please revert to GPicSync 1.28 if you need this feature for now. More informations about this issue here: http://code.google.com/p/gpicsync/issues/detail?id=117#c2 
+*0) GPicSync stops?* 
 
----
-
-  * 0)GPicSync stops? Verify that your paths/names to the  pictures and gpx files are ASCII (English characters) as Unicode support is not complete. Alternatively you may try [http://sourceforge.net/projects/gpicsync/files/GPicSync/GPicSync1-28/ version 1.28].  
-  * 1)If you have an error MSVCP71.dll and/or MSVCR71.dll was not found (or another dll file).
-  * 2)If GPicSync says geocoding went fine (and Google Earth file is OK) but the position wasn't written in the picture metadata
-  * 3)If no indications of localization appears check first your .gpx file 
+Verify that your paths/names to the  pictures and gpx files are ASCII (English characters) as Unicode support is not complete. Alternatively you may try [http://sourceforge.net/projects/gpicsync/files/GPicSync/GPicSync1-28/ version 1.28]. More technical infos [http://code.google.com/p/gpicsync/issues/detail?id=117#c2  here] 
 
 *1)If you have an error MSVCP71.dll and/or MSVCR71.dll was not found (or another dll file).  *
 

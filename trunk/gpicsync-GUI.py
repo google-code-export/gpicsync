@@ -1045,7 +1045,10 @@ class GUI(wx.Frame):
                                 # tried : geonameKeywords.decode("utf-8")).encode("iso-8859-1")
                                 # trying lib unidecode see unicode to ascii (see issue 117 regarding Python 2.x and command line to exiftool containing unicode)
                                 #print geonameKeywords
-                                os.popen('%s -tagsfromfile @ -iptc:all -codedcharacterset=utf8  %s  -overwrite_original "-DateTimeOriginal>FileModifyDate"  "%s"  '%(self.exifcmd,unidecode(geonameKeywords),self.picDir+'/'+fileName))
+                                if sys.platform!=("linux2" or "darwin"): # Usage of unidecode for now on windows due to above problem ( https://code.google.com/p/gpicsync/issues/detail?id=117 )
+                                    os.popen('%s -tagsfromfile @ -iptc:all -codedcharacterset=utf8  %s  -overwrite_original "-DateTimeOriginal>FileModifyDate"  "%s"  '%(self.exifcmd,unidecode(geonameKeywords),self.picDir+'/'+fileName))
+                                else: # following line contributed by hsivonen which may work on OSX / Linux ( https://code.google.com/p/gpicsync/issues/detail?id=91 )
+                                    os.popen(('%s %s  -overwrite_original "-DateTimeOriginal>FileModifyDate" "%s" '%(self.exifcmd,geonameKeywords.decode("utf-8"),self.picDir+'/'+fileName)).encode("utf-8"))
                                 #os.popen('%s -tagsfromfile @ -iptc:all -codedcharacterset=utf8 %s  -overwrite_original "-DateTimeOriginal>FileModifyDate"  "%s"  '%(self.exifcmd,unicode(geonameKeywords).encode("utf-8"),self.picDir+'/'+fileName))
                             
                             if 0:

@@ -41,7 +41,7 @@ GPicSync requires:
 GPicSync was successfully on Linux Ubuntu "Feisty Fawn" 
 (Python 2.5 is already installed as a default for this distribution and you can add wxpython and python-imaging from synaptic
 for example). 
-In synaptic install exiftool, python-wgtk2.8 and python-imaging.
+In synaptic install exiftool, python-wxgtk2.8 and python-imaging.
 
 Note: On Mandrive 2007.1 Exiftool is known as perl-Image-ExifTool.
 

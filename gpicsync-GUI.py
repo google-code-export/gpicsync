@@ -860,7 +860,7 @@ class GUI(wx.Frame):
                 f.write(_("Pictures Folder: ")+self.picDir+"\n")
                 f.write(_("GPX file: ")+self.gpxEntry.GetValue()+"\n\n")
 
-            for fileName in os.listdir ( self.picDir ):
+            for fileName in sorted(os.listdir ( self.picDir )):
                 if self.stop==True: break
                 if fnmatch.fnmatch ( fileName, '*.JPG' )\
                 or fnmatch.fnmatch ( fileName, '*.jpg' )\

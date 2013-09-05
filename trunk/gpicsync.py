@@ -212,7 +212,7 @@ class GpicSync(object):
                  +self.shotDate+"-"+self.shotTime,"","",self.picWidth,self.picHeight,elevation]
 
 def getFileList(dir):
-    for fileName in os.listdir ( dir ):
+    for fileName in sorted(os.listdir ( dir )):
         if (fnmatch.fnmatch ( fileName, '*.JPG' )
          or fnmatch.fnmatch ( fileName, '*.jpg' )
          or fnmatch.fnmatch ( fileName, '*.CR2' )

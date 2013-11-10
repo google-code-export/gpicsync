@@ -678,9 +678,13 @@ class GUI(wx.Frame):
             googleEarth =win32com.client.Dispatch("GoogleEarth.ApplicationGE")
         else:
             if sys.platform.find("linux")!=-1:
-                p=subprocess.Popen(['which', 'googleearth'], stdout=subprocess.PIPE)
-                googleEarth=p.stdout.read().rstrip('\n')
-                if(googleEarth==""):
+                p=subprocess.Popen(['which', 'googleearth', 'google-earth'], stdout=subprocess.PIPE)
+
+                googleEarthPaths= p.stdout.read().splitlines()
+                if(len(googleEarthPaths) > 0):
+                    # take first found google earth binary
+                    googleEarth = googleEarthPaths[0]
+                else:
                     googleEarth= os.path.expanduser("~/google-earth/googleearth")
             else:
                 if sys.platform == 'darwin':

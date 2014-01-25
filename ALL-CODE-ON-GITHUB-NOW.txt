@@ -1,0 +1,2 @@
+The code of the project is now maintained on Github (no more code updates on Google code),
+https://github.com/notfrancois/GPicSync 

@@ -45,8 +45,8 @@ class Geonames(object):
         
         url= "http://ws.geonames.org/findNearbyPlaceName?lat="+str(self.lat)+"&lng="+str(self.long)+"&style=full"
         print "url= ",url
-        #self.page = urlopen(url).read()
         self.page = codecs.getreader("utf-8")(urlopen(url)).read()
+        #print self.page
         #print self.page.encode("utf8")
         
     def searchTag(self,tag,page):

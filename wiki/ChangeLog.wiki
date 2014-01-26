@@ -1,3 +1,11 @@
+=== Version 1.31 (January 26th 2014) ===
+  * Addressing Geonames webservice access issue by using a username for the app
+  * Added option for users to use their own Geonames username in the configuration file (highly recommended)
+  * Added Geonames information message if the user don't use its username
+  * Upgraded embedded Exiftool to version 9.48
+  * switched development code to Github https://github.com/notfrancois/GPicSync
+  * windows exe now compiled with python 2.7 and latest libs
+
 === Version 1.30 (August 6th 2012) ===
   * Windows issue 117: if you selected Geonames option, geocoding could stop for non-ascii characters. Geonames are now unicode within GPicSync but are now translated to nearest ascii translation when Exiftool is called (see issue 117 for raison why; waiting for two Python2 libs to update to Python3 for a full unicode command) 
   * Windows issue 116: moved the configuration file to %ALLUSERSPROFILE% location (typically ProgrammData folder on Win7) so non-admin multi-users  install can find the configuration (a pop-up appears now if it's not found at launch)  

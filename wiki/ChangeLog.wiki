@@ -1,6 +1,6 @@
 === Version 1.32 (January 30th 2014) ===
 
-  *Fixing in non-english version, if logfile option was checked the app may stopped.
+  * Fixing in non-english version, if logfile option was checked the app may stopped.
   * "create a logfile" option is now unchecked by default  
 
 === Version 1.31 (January 26th 2014) ===

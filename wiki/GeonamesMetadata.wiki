@@ -2,7 +2,7 @@ GPicSync can automatically retrieve "geonames" from [http://www.geonames.org www
 
 Many software will read those metadata and  Flickr will use them to automatically  to generate tags or description from the picture (IPTC summary).
 
-To use the default settings check "add geonames and geotagged" in the interface and select either "Geonames in EXIF keywords + HTML sumarize in IPTC caption" or "Geonames in Keywords".
+To use the default Geonames settings check "add geonames and geotagged" in the interface and select either "Geonames in EXIF keywords + HTML sumarize in IPTC caption" or "Geonames in Keywords".
 
 For better Geonames disponibility it is highly recommended to get your own free username account at http://www.geonames.org.
 

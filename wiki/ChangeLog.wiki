@@ -4,8 +4,8 @@
   * "create a logfile" option is now unchecked by default  
 
 === Version 1.31 (January 26th 2014) ===
-  * Addressing Geonames webservice access issue by using a username for the app https://code.google.com/p/gpicsync/wiki/GeonamesMetadata
-  * Added option for users to use their own Geonames username in the configuration file (highly recommended)
+  * Addressing Geonames webservice access issue by using a username for the app 
+  * Added option for users to use their own Geonames username in the configuration file (highly recommended): https://code.google.com/p/gpicsync/wiki/GeonamesMetadata
   * Added Geonames information message if the user don't use its username
   * Upgraded embedded Exiftool to version 9.48
   * switched development code to Github https://github.com/notfrancois/GPicSync
